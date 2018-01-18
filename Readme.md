@@ -1,7 +1,7 @@
 # Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Екатерина Боголепова](https://up.htmlacademy.ru/adaptive/13/user/566237).
-* Наставник: Анна Лисененкова [*] (https://htmlacademy.ru/profile/ankhena).
+* Наставник: [Михаил Савотиков] (https://htmlacademy.ru/profile/id98316).
 
 ---
 
