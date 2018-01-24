@@ -9,15 +9,15 @@
   
   <body>
     <header class="header">
-      <p class="logo header__logo"><span class="visually-hidden">Логотип магазина "Мишка"</span></p>
+      <a class="logo header__logo"><span class="visually-hidden">Логотип магазина "Мишка"</span></a>
       <button class="button-menu header__button" type="button"><span class="visually-hidden">Открыть меню</span></button>
-      <ul class="top-menu header__menu"></ul>
+      <ul class="top-menu header__top-menu"></ul>
     </header>
     
-    <main>
+    <main class="page-main">
       <h1 class="visually-hidden">Интернет-магазин товаров ручной работы для дома</h1>
       <section class="menu">
-        <h2>Милые штуки ручной работы для дома</h2>
+        <h2 class="main-title menu__main-title">Милые штуки ручной работы для дома</h2>
         <ul class="menu__list site-list">
           <li class="site-list__item"><a href="#">Предметы интерьера</a></li>
           <li class="site-list__item"><a href="#">Детские игрушки</a></li>
@@ -25,18 +25,24 @@
       </section>
       
       <article class="week-good">
-        <h2>Вязаные корзинки</h2>
-        <h3>товар недели</h3>
-        <p class="description week-good__description">Экологически чистая пряжа, ручная работа. Доступны в шести расцветках и трех размерах.</p>
-        <ul class="good-characters week-good__good-characters">
-          <li class="good-characters__point">Цвет:</li>
-          <li class="good-characters__point">&laquo;Тиффани&raquo;/серый</li>
-          <li class="good-characters__point">Диаметр:</li>
-          <li class="good-characters__point">25 см</li>
-          <li class="good-characters__point">Высота</li>
-          <li class="good-characters__point">15 см</li>        
+        <h2 class="main-title week-good__main-title">Вязаные корзинки</h2>
+        <p class="week-good__addition">товар недели</p>
+        <p class="week-good__description">Экологически чистая пряжа, ручная работа. Доступны в шести расцветках и трех размерах.</p>
+        <ul class="week-good__good-characters">
+          <li class="week-good__good-characters__point">
+            <p class="parameter">Цвет:</p>
+            <p class="meaning">&laquo;Тиффани&raquo;/серый</p>
+          </li>          
+          <li class="week-good__good-characters__point">
+            <p class="parameter">Диаметр:</p>
+            <p class="meaning">25 см</p>
+          </li>          
+          <li class="week-good__good-characters__point">
+            <p class="parameter">Высота</p>
+            <p class="meaning">15 см</p>
+          </li>               
         </ul>
-        <p>Цена: 990 руб.</p>
+        <p class="price">Цена: 990 руб.</p>
         <img src="#" width="" height="" alt="Фотография вязаных корзинок">
         <button class="button-order" type="button">Заказать</button>      
       </article>
@@ -44,19 +50,19 @@
       <div class="modal modal-order"></div>
       
       <section class="about-us">
-        <h2>Коротко о нас:</h2>
-        <ul class="advantages about-us__advantages">
-          <li class="advantage">Экологически чистые материалы</li>
-          <li class="advantage">Скандинавский стиль по российской цене</li>
-          <li class="advantage">Увеличивает лайки на фотографиях</li>
-          <li class="advantage">Связано вручную с любовью и умилением</li>
-          <li class="advantage">Поддержка отечественного производителя</li>
-          <li class="advantage">Поставляется в подарочной упаковке</li>         
+        <h2 class="main-title about-us__main-title">Коротко о нас:</h2>
+        <ul class="about-us__advantages">
+          <li class="about-us__advantage about-us__advantage--ecology">Экологически чистые материалы</li>
+          <li class="about-us__advantage about-us__advantage--style">Скандинавский стиль по российской цене</li>
+          <li class="about-us__advantage about-us__advantage--like">Увеличивает лайки на фотографиях</li>
+          <li class="about-us__advantage about-us__advantage--handle">Связано вручную с любовью и умилением</li>
+          <li class="about-us__advantage about-us__advantage--producer">Поддержка отечественного производителя</li>
+          <li class="about-us__advantage about-us__advantage--wrapper">Поставляется в подарочной упаковке</li>         
         </ul>      
       </section>  
       
       <section class="feedback">
-        <h2>Отзывы</h2>
+        <h2 class="main-title feedback__main-title">Отзывы</h2>
         <div class="slider feedback__slider">
           <input class="visually-hidden toggle-1" type="radio" id="feedback-1" name="toggle" checked>
           <input class="visually-hidden toggle-2" type="radio" id="feedback-2" name="toggle">
@@ -65,10 +71,10 @@
             <label class="slider-controls-item slider-controls-item--2" for="feedback-2">Слайд 2</label>
           </div>
           <ul class="slider-list">
-            <li class="slide first">
-              <p>Я молодая мама, но все равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают больше лайков!</p>
-              <p>Анастасия Красильникова</p>
-              <p>@misssssiskras</p>
+            <li class="slide">
+              <p class="slide_text">Я молодая мама, но все равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают больше лайков!</p>
+              <p class="slide_buyer-name">Анастасия Красильникова</p>
+              <p class="slide_buyer-email">@misssssiskras</p>
               <label class="slider-button slider-button-back" for="product-1">
                 <span class="visually-hidden">Назад</span>            
               </label>
@@ -76,19 +82,23 @@
                 <span class="visually-hidden">Вперед</span>              
               </label>
             </li>
-            <li class="slide second"></li>
+            <li class="slide"></li>
           </ul>
         </div>
         <a class="button feedback__button" href="addfeedback.html" alt="Написать отзыв">Написать</a>      
       </section>
       
       <section class="our-contacts">
-        <h3>Контакты</h3>
-        <ul class="address-list our-contacts__address-list">
-          <li class="address-list__point">e-mail:</li>
-          <li class="address-list__point">info@mimimishkashop.ru</li>
-          <li class="address-list__point">адрес:</li>
-          <li class="address-list__point">г.Санкт-Петербург, ул.Большая Конюшенная, д. 19/8, офис 101</li>               
+        <h3 class="title our-contacts__title">Контакты</h3>
+        <ul class="our-contacts__addresses">
+          <li class="our-contacts__addresses__point">
+            <p class="our-contacts__address">e-mail:</p>
+            <p class="our-contacts__address our-contacts__address--email">info@mimimishkashop.ru</p>            
+          </li>
+          <li class="our-contacts__addresses__point">
+            <p class="our-contacts__address">адрес:</p>
+            <p class="our-contacts__address our-contacts__address--fulladdress">г.Санкт-Петербург, ул.Большая Конюшенная, д. 19/8, офис 101</p>
+          </li>                       
         </ul>
         <a class="small-map" href="https://yandex.ru/maps/2/saint-petersburg/?mode=search&ll=30.323055%2C59.938631&z=16&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fll%3D30.323%252C59.939%26spn%3D0.001%252C0.001%26text%3D%25D0%25A0%25D0%25BE%25D1%2581%25D1%2581%25D0%25B8%25D1%258F%252C%2520%25D0%25A1%25D0%25B0%25D0%25BD%25D0%25BA%25D1%2582-%25D0%259F%25D0%25B5%25D1%2582%25D0%25B5%25D1%2580%25D0%25B1%25D1%2583%25D1%2580%25D0%25B3%252C%2520%25D0%2591%25D0%25BE%25D0%25BB%25D1%258C%25D1%2588%25D0%25B0%25D1%258F%2520%25D0%259A%25D0%25BE%25D0%25BD%25D1%258E%25D1%2588%25D0%25B5%25D0%25BD%25D0%25BD%25D0%25B0%25D1%258F%2520%25D1%2583%25D0%25BB%25D0%25B8%25D1%2586%25D0%25B0%252C%252019%252F8%2520">
           <img src="img/map-small.png" width="" height="" alt="Карта">
@@ -100,19 +110,19 @@
     <footer class="footer">
       <ul class="footer__social-contacts social-contacts">
         <li class="social-contacts__point">
-          <a class="social-contacts__button insta" href="#">
+          <a class="social-contacts__button social-contacts__button--insta" href="#">
             <span class="visually-hidden">Инстаграм</span>
             <svg></svg>
           </a>
         </li>
         <li class="social-contacts__point">
-          <a class="social-contacts__button fb" href="#">
+          <a class="social-contacts__button social-contacts__button--fb" href="#">
             <span class="visually-hidden">Фейсбук</span>
             <svg></svg>
           </a>
         </li>
         <li class="social-contacts__point">
-          <a class="social-contacts__button tw" href="#">
+          <a class="social-contacts__button social-contacts__button--tw" href="#">
             <span class="visually-hidden">Твиттер</span>
             <svg></svg>
           </a>            

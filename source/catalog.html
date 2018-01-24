@@ -11,52 +11,50 @@
     <header class="header">
       <a class="logo header__logo" href="index.html"><span class="visually-hidden">Логотип магазина "Мишка"</span></a>
       <button class="button-menu header__button" type="button"><span class="visually-hidden">Открыть меню</span></button>
-      <ul class="top-menu header__menu"></ul>
+      <ul class="top-menu header__top-menu"></ul>
     </header>
     
-    <main>
-      <h2>Каталог товаров</h2>
+    <main class="page-catalog">
+      <h2 class="main-title page-catalog__main-title">Каталог товаров</h2>
       
       <section class="goods">
-        <ul class="goods__list catalog-list">
-          <li class="catalog-list__item">
-            <a href="card-category.html">
-              <img src="img/...jpg" width="" height="" alt="Фотография зайчика-попрыгайчика">
-              <h3>Зайчик-попрыгайчик</h3>
+        <ul class="goods__list">
+          <li class="catalog-list-item">
+            <a class="catalog-list-item__link" href="card-category.html">
+              <img class="catalog-list-item__link-image" src="img/...jpg" width="" height="" alt="Фотография зайчика-попрыгайчика">
+              <h3 class="title catalog-list-item__link-title">Зайчик-попрыгайчик</h3>
             </a>
-            <p class="catalog-list__item-description">Рост 30 см, вес 200 г</p>
-            <p class="catalog-list__item-price">1 200 руб.</p>
-            <button class="catalog-list__item-button button-buy visually-hidden" type="button">Купить</button>
+            <p class="catalog-list-item__description">Рост 30 см, вес 200 г</p>
+            <p class="catalog-list-item__price">1 200 руб.</p>
+            <button class="catalog-list-item__button button-buy visually-hidden" type="button">Купить</button>
           </li>
-          <li class="catalog-list__item">
-            <a href="card-category.html">
-              <img src="img/...jpg" width="" height="" alt="Фотография корзинки для белья">
-              <h3>Корзинка для белья</h3>
+          <li class="catalog-list-item">
+            <a class="catalog-list-item__link" href="card-category.html">
+              <img class="catalog-list-item__link-image" src="img/...jpg" width="" height="" alt="Фотография корзинки для белья">
+              <h3 class="title catalog-list-item__link-title">Корзинка для белья</h3>
             </a>
-            <p class="catalog-list__item-description">Диаметр 15 см, высота 10 см</p>
-            <p class="catalog-list__item-price">690 руб.</p>
-            <button class="catalog-list__item-button button-buy visually-hidden" type="button">Купить</button>
+            <p class="catalog-list-item__description">Диаметр 15 см, высота 10 см</p>
+            <p class="catalog-list-item__price">690 руб.</p>
+            <button class="catalog-list-item__button button-buy visually-hidden" type="button">Купить</button>
           </li>
-          <li class="catalog-list__item">
-            <a href="card-category.html">
-              <img src="img/...jpg" width="" height="" alt="Фотография большой корзинки для игрушек">
-              <h3>Большая корзинка для игрушек</h3>
+          <li class="catalog-list-item">
+            <a class="catalog-list-item__link" href="card-category.html">
+              <img class="catalog-list-item__link-image" src="img/...jpg" width="" height="" alt="Фотография большой корзинки для игрушек">
+              <h3 class="title catalog-list-item__link-title">Большая корзинка для игрушек</h3>
             </a>
-            <p class="catalog-list__item-description">Диаметр 30 см, высота 30 см</p>
-            <p class="catalog-list__item-price">1 500 руб.</p>
-            <button class="catalog-list__item-button button-buy visually-hidden" type="button">Купить</button>
+            <p class="catalog-list-item__description">Диаметр 30 см, высота 30 см</p>
+            <p class="catalog-list-item__price">1 500 руб.</p>
+            <button class="catalog-list-item__button button-buy visually-hidden" type="button">Купить</button>
           </li>
         </ul>
         
         <div class="goods__video">
-          <h3>Процесс производства</h3>
-          <video class="" width="" height="" poster="poster_image.jpg">
-            <source src="video.mp3" type="video/mp3">
-            <source src="video.mp4" type="video/mp4">
-            <source src="video.ogg" type="video/ogg">
+          <h3 class="title">Процесс производства</h3>
+          <video class="show" width="" height="" poster="poster_image.jpg">            
+            <source src="video.mp4" type="video/mp4">            
             <source src="video.webm" type="video/webm">
           </video>
-          <p>По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
+          <p class="video-description">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
           <button class="button-order" type="button">Сделать заказ</button>
         </div>
       </section>
@@ -67,28 +65,28 @@
     <footer class="footer">
       <ul class="footer__social-contacts social-contacts">
         <li class="social-contacts__point">
-          <a class="social-contacts__button insta" href="#">
+          <a class="social-contacts__button social-contacts__button--insta" href="#">
             <span class="visually-hidden">Инстаграм</span>
             <svg></svg>
           </a>
         </li>
         <li class="social-contacts__point">
-          <a class="social-contacts__button fb" href="#">
+          <a class="social-contacts__button social-contacts__button--fb" href="#">
             <span class="visually-hidden">Фейсбук</span>
             <svg></svg>
           </a>
         </li>
         <li class="social-contacts__point">
-          <a class="social-contacts__button tw" href="#">
+          <a class="social-contacts__button social-contacts__button--tw" href="#">
             <span class="visually-hidden">Твиттер</span>
             <svg></svg>
-          </a>
+          </a>            
         </li>
       </ul>
       <p class="footer__copyright">
-        Разработано
+        Разработано 
         <a href="https://htmlacademy.ru/intensive/adaptive">htmlacademy.ru</a>
-      </p>
+      </p>    
     </footer>
   </body>
 </html>
