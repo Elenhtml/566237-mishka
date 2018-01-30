@@ -1,1 +1,49 @@
-body { background: green; }
+.form { }
+
+.form__wrapper {}
+
+.form__filter {
+  margin-bottom: 32px;
+  border: none;
+  border-top: 1px solid #63d1bb;
+}
+
+.form__filter:last-child {
+  margin-bottom: 16px;
+}
+
+.form__title {
+  display: block;
+  margin: 0;
+  padding: 0;
+  padding-right: 28px;
+
+  font-family: "Open Sans Bold", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: bold;
+  color: #63d1bb;
+  text-transform: uppercase;
+}
+
+.form__filter-list {
+  @include lists;
+
+  font-family: "Open Sans Bold", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: bold;
+}
+
+.form__text {
+  margin: 0;
+  padding: 0;
+}
+
+.form__button {
+  margin: 32px 0 55px 0;
+  padding: 0;
+  padding: 16px 10px;
+  width: 260px;
+  box-sizing: border-box;
+}
