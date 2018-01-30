@@ -1,0 +1,36 @@
+.about-us {
+ padding: 36px 30px 10px 30px;
+}
+
+.about-us__main-title {
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+}
+
+.about-us__advantages {
+  @include lists;
+}
+
+.about-us__advantage {
+  padding: 17px 6px 17px 0;
+  width: 260px;
+  font-family: "Open Sans Bold", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.about-us__advantage--ecology {}
+
+.about-us__advantage--style {}
+
+.about-us__advantage--like {}
+
+.about-us__advantage--handle {}
+
+.about-us__advantage--producer {}
+
+.about-us__advantage--wrapper {}
+
+

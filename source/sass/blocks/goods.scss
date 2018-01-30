@@ -1,0 +1,37 @@
+.goods__list {
+  @include lists;
+  margin-bottom: 30px;
+}
+
+.goods__video {
+  margin-bottom: 58px;
+
+  background-image: url("../img/icon-video1.svg");
+  background-repeat: no-repeat;
+  background-position: 10% 5%;
+  border: 1px solid #f1f1f1;
+}
+
+.goods__title {
+  margin: 0;
+  margin-top: 28px;
+  margin-bottom: 28px;
+  padding-left: 90px;
+  width: 131px;
+}
+
+.goods__video-description {
+  margin: 0;
+  margin-top: 35px;
+  padding: 0;
+  padding-left: 34px;
+  width: 205px;
+}
+
+.goods__button-order {
+  margin: 30px 0 32px 34px;
+  padding: 13px 10px 11px 10px;
+  width: 192px;
+  box-sizing: border-box;
+}
+
