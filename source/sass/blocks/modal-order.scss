@@ -20,8 +20,8 @@
 }
 
 .modal-order__sizes {
-  display: flex;
   @include lists;
+  display: flex;
 }
 
 .modal-order__size {
@@ -31,8 +31,7 @@
   padding: 17px 32px 18px 32px;
   width: 82px;
   box-sizing: border-box;
-
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 17px;
   line-height: 20px;
   font-weight: bold;
@@ -41,7 +40,7 @@
 }
 
 .modal-order__size--L {
-  margin-right: 0px;
+  margin-right: 0;
   border: 3px solid #ececec;
 }
 
