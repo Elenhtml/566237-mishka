@@ -7,17 +7,17 @@
   line-height: 30px;
 }
 
-.slide_buyer-name {
+.slide__buyer-name {
   margin: 0;
   margin-bottom: 15px;
   padding: 0;
-  font-family: "Open Sans Bold", Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   font-size: 17px;
   line-height: 20px;
   font-weight: bold;
 }
 
-slide_buyer-email {
+.slide__buyer-email {
   margin: 0;
   margin-bottom: 36px;
   padding: 0;
@@ -34,5 +34,3 @@ slide_buyer-email {
   border: 1px solid #ececec;
   box-sizing: border-box;
 }
-
-

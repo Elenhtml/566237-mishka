@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Страница формы</title>
-    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
@@ -22,12 +21,12 @@
               <legend class="form__title">Тип</legend>
               <ul class="form__filter-list filter-type-list">
                 <li class="filter-type-list__option">
-                  <input class="visually-hidden filter-input filter-input--radio" type="radio" name="type-good" value="accessoire-type" id="accessoire" checked>
-                  <label for="accessoire">Аксессуар для интерьера</label>
+                  <input class="visually-hidden filter-item filter-item--radio" type="radio" name="type-good" value="accessoire-type" id="accessoire" checked>
+                  <label class="filter-type-list__label" for="accessoire">Аксессуар для интерьера</label>
                 </li>
                 <li class="filter-type-list__option">
-                  <input class="visually-hidden filter-input filter-input--radio" type="radio" name="type-good" value="kinder-type" id="toy">
-                  <label for="toy">Детская игрушка</label>
+                  <input class="visually-hidden filter-item filter-item--radio" type="radio" name="type-good" value="kinder-type" id="toy">
+                  <label class="filter-type-list__label" for="toy">Детская игрушка</label>
                 </li>
               </ul>
             </fieldset>
@@ -37,28 +36,28 @@
               <legend class="form__title">Цвет</legend>
               <ul class="form__filter-list filter-colors-list">
                 <li class="filter-colors-list__option">
-                  <input class="visually-hidden filter-input filter-input--checkbox" type="checkbox" name="Белый" id="white-color" checked>
-                  <label for="white-color">Белый</label>
+                  <input class="visually-hidden filter-item filter-item--checkbox" type="checkbox" name="Белый" id="white-color" checked>
+                  <label class="filter-colors-list__label" for="white-color">Белый</label>
                 </li>
                 <li class="filter-colors-list__option">
-                  <input class="visually-hidden filter-input filter-input--checkbox" type="checkbox" name="Серый" id="grey-color" checked>
-                  <label for="grey-color">Серый</label>
+                  <input class="visually-hidden filter-item filter-item--checkbox" type="checkbox" name="Серый" id="grey-color" checked>
+                  <label class="filter-colors-list__label" for="grey-color">Серый</label>
                 </li>
                 <li class="filter-colors-list__option">
-                  <input class="visually-hidden filter-input filter-input--checkbox" type="checkbox" name="Тиффани" id="tiffany-color">
-                  <label for="tiffany-color">&laquo;Тиффани&raquo;</label>
+                  <input class="visually-hidden filter-item filter-item--checkbox" type="checkbox" name="Тиффани" id="tiffany-color">
+                  <label class="filter-colors-list__label" for="tiffany-color">&laquo;Тиффани&raquo;</label>
                 </li>
                 <li class="filter-colors-list__option">
-                  <input class="visually-hidden filter-input filter-input--checkbox" type="checkbox" name="Черный" id="black-color">
-                  <label for="black-color">Черный</label>
+                  <input class="visually-hidden filter-item filter-item--checkbox" type="checkbox" name="Черный" id="black-color">
+                  <label class="filter-colors-list__label" for="black-color">Черный</label>
                 </li>
                 <li class="filter-colors-list__option">
-                  <input class="visually-hidden filter-input filter-input--checkbox" type="checkbox" name="Розовый" id="pink-color">
-                  <label for="pink-color">Розовый</label>
+                  <input class="visually-hidden filter-item filter-item--checkbox" type="checkbox" name="Розовый" id="pink-color">
+                  <label class="filter-colors-list__label" for="pink-color">Розовый</label>
                 </li>
                 <li class="filter-colors-list__option">
-                  <input class="visually-hidden filter-input filter-input--checkbox" type="checkbox" name="Оранжевый" id="orange-color">
-                  <label for="orange-color">Оранжевый</label>
+                  <input class="visually-hidden filter-item filter-item--checkbox" type="checkbox" name="Оранжевый" id="orange-color">
+                  <label class="filter-colors-list__label" for="orange-color">Оранжевый</label>
                 </li>
               </ul>
             </fieldset>
@@ -92,7 +91,7 @@
             <fieldset class="form__filter">
               <legend class="form__title">доп</legend>
               <label class="visually-hidden" for="extra-info-enter">Дополнительные пожелания к заказу</label>
-              <textarea class="letter" id="extra-info-enter" name="letter" rows="8">Опишите все ваши пожелания к заказу</textarea>
+              <textarea class="form__letter" id="extra-info-enter" name="letter" rows="8">Опишите все ваши пожелания к заказу</textarea>
             </fieldset>
           </div>
           <p class="form__text">*Поля обязательны для заполнения</p>

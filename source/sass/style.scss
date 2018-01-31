@@ -1,99 +1,39 @@
-body {
-  font-family: "Open Sans", Arial, sans-serif;
-  color: #000000;
-  font-size: 15px;
-  line-height: 24px;
-  background-color: #ffffff;
-}
-
-.visually-hidden {
-  position: absolute;
-  clip: rect(0 0 0 0);
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-}
-
+@import "normalize.css";
 @import "fonts.scss";
-
+@import "general.scss";
 @import "mixins.scss";
-
 @import "blocks/header.scss";
-
 @import "blocks/logo.scss";
-
 @import "blocks/button-menu.scss";
-
 @import "blocks/top-menu.scss";
-
 @import "blocks/page-main.scss";
-
 @import "blocks/menu.scss";
-
 @import "blocks/main-title.scss";
-
 @import "blocks/site-list.scss";
-
 @import "blocks/week-good.scss";
-
 @import "blocks/good-characters-point.scss";
-
 @import "blocks/button-order.scss";
-
 @import "blocks/modal-order.scss";
-
 @import "blocks/modal-title.scss";
-
 @import "blocks/modal-button-order.scss";
-
 @import "blocks/about-us.scss";
-
 @import "blocks/feedback.scss";
-
 @import "blocks/slider.scss";
-
 @import "blocks/slider-controls.scss";
-
 @import "blocks/slide.scss";
-
 @import "blocks/button.scss";
-
 @import "blocks/title.scss";
-
 @import "blocks/our-contacts.scss";
-
 @import "blocks/footer.scss";
-
 @import "blocks/social-contacts.scss";
-
-
 @import "blocks/page-catalog.scss";
-
 @import "blocks/goods.scss";
-
 @import "blocks/catalog-list-item.scss";
-
 @import "blocks/button-buy.scss";
-
 @import "blocks/goods.scss";
-
-
 @import "blocks/filters.scss";
-
 @import "blocks/form.scss";
-
 @import "blocks/filter-type-list.scss";
-
 @import "blocks/filter-colors-list.scss";
-
+@import "blocks/filter-item.scss";
 @import "blocks/filter-input.scss";
-
-@import "blocks/letter.scss";
-
-
-
-
-
-
-
-

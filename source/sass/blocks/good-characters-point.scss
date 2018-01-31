@@ -5,7 +5,11 @@
   border-bottom: 1px solid #ececec;
 }
 
-.good-characters-point__parameter,
+.good-characters-point__parameter {
+  margin: 0;
+  padding: 0;
+}
+
 .good-characters-point__meaning {
   margin: 0;
   padding: 0;

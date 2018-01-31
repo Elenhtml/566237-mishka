@@ -1,42 +1,8 @@
-.filter-input { }
-
-.filter-input--radio + label::before {
-  content: "";
-  position: absolute;
-  top: -4px;
-  left: -35px;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-image: url("");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-}
-
-.filter-input--radio:checked + label::before {
-  background-image: url("");
-}
-
-.filter-input--checkbox + label::before {
-  content: "";
-  position: absolute;
-  top: -1px;
-  left: -35px;
-  width: 40px;
-  height: 40px;
-  background-image: url("");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-}
-
-.filter-input--checkbox:checked + label::before {
-  width: 27px;
-  height: 23px;
-  background-image: url("");
+.filter-input {
+  @include input-field;
 }
 
 .filter-input--name {
-  @include input-field;
   margin-bottom: 25px;
 }
 
@@ -45,28 +11,26 @@
 }
 
 .filter-input--name + label {
-  font-family: "Open Sans Bold", Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   font-size: 17px;
   line-height: 18px;
   font-weight: bold;
 }
 
 .filter-input--phone {
-  @include input-field;
   background-image: url("../img/icon-phone.svg");
   background-repeat: no-repeat;
   background-position: right 15px;
 }
 
 .filter-input--email {
-  @include input-field;
   background-image: url("../img/icon-mail.svg");
   background-repeat: no-repeat;
   background-position: right 15px;
 }
 
 .filter-input placeholder {
-  font-family: "Open Sans Bold", Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   font-size: 17px;
   line-height: 18px;
   font-weight: bold;
