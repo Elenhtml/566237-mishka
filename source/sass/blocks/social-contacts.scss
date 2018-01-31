@@ -1,0 +1,18 @@
+.social-contacts {
+  display: flex;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.social-contacts__button {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.social-contacts__button--insta {
+  margin-right: 40px;
+}
+
+.social-contacts__button--fb {
+  margin-right: 36px;
+}

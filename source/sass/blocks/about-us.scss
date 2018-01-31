@@ -1,0 +1,22 @@
+.about-us {
+  padding: 36px 30px 10px 30px;
+}
+
+.about-us__main-title {
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+}
+
+.about-us__advantages {
+  @include lists;
+}
+
+.about-us__advantage {
+  padding: 17px 6px 17px 0;
+  width: 260px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: bold;
+}

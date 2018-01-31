@@ -1,0 +1,34 @@
+.filter-input {
+  @include input-field;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: bold;
+}
+
+.filter-input--name {
+  margin-bottom: 25px;
+}
+
+.filter-input--name:last-child {
+  margin-bottom: 0;
+}
+
+.filter-input--name + label {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: bold;
+}
+
+.filter-input--phone {
+  background-image: url("../img/icon-phone.svg");
+  background-repeat: no-repeat;
+  background-position: right 15px;
+}
+
+.filter-input--email {
+  background-image: url("../img/icon-mail.svg");
+  background-repeat: no-repeat;
+  background-position: right 15px;
+}

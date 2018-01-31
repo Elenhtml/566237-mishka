@@ -1,0 +1,46 @@
+.our-contacts {
+  padding: 40px 30px 40px 30px;
+}
+
+.our-contacts__title {
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+.our-contacts__addresses {
+  @include lists;
+}
+
+.our-contacts__addresses__point {
+  display: flex;
+  padding-bottom: 30px;
+}
+
+.our-contacts__address {
+  margin: 0;
+  margin-right: 30px;
+  padding: 0;
+}
+
+.our-contacts__address--email {
+  margin-right: 0;
+  border-bottom: 1px solid #62d1ba;
+}
+
+.our-contacts__address--fulladdress {
+  margin-right: 0;
+}
+
+.our-contacts__small-map {
+  margin: 0;
+  margin-left: -30px;
+  padding: 0;
+}
+
+.our-contacts__button-write-us {
+  margin: 0;
+  margin-top: 39px;
+  padding: 13px 10px 11px 10px;
+  width: 260px;
+}

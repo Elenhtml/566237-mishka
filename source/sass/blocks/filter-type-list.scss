@@ -1,0 +1,15 @@
+.filter-type-list {
+  @include lists;
+}
+
+.filter-type-list__option {
+  margin: 0;
+  margin-top: 27px;
+  padding: 0;
+  padding-left: 62px;
+}
+
+.filter-type-list__label {
+  position: relative;
+  display: block;
+}

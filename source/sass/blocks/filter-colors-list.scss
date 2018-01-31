@@ -1,0 +1,15 @@
+.filter-colors-list {
+  @include lists;
+}
+
+.filter-colors-list__option {
+  margin: 0;
+  margin-top: 27px;
+  padding: 0;
+  padding-left: 62px;
+}
+
+.filter-colors-list__label {
+  position: relative;
+  display: block;
+}
