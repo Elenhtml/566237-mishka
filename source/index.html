@@ -2,56 +2,83 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
     <title>HTML Academy: Мишка</title>
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="header">
-      <a class="logo header__logo"><span class="visually-hidden">Логотип магазина "Мишка"</span></a>
-      <button class="button-menu header__button" type="button"><span class="visually-hidden">Открыть меню</span></button>
-      <ul class="top-menu header__top-menu"></ul>
+	  <div class="header__top-wrapper">
+	    <div class="header__wrapper">
+          <a class="logo header__logo"><span class="visually-hidden">Логотип магазина "Мишка"</span></a>
+          <button class="button-menu header__button" type="button"><span class="visually-hidden">Открыть меню</span></button>
+	    </div>
+        <ul class="top-menu top-menu--first header__top-menu header__top-menu--first">
+	      <li class="top-menu__item top-menu__item--catalog">Каталог товаров</li>
+		  <li class="top-menu__item top-menu__item--knitting-order">Вязание на заказ</li>
+	    </ul>
+	    <ul class="top-menu top-menu--second header__top-menu header__top-menu--second">
+		  <li class="top-menu__item top-menu__item--search"><span class="top-menu__item--search--noview">Поиск по сайту<span></li>
+		  <li class="top-menu__item top-menu__item--basket">Корзина: пока пуста</li>
+	    </ul>
+	  </div>
+	  <div class="header__bottom-wrapper">
+	    <ul class="top-menu top-menu--tablet header__top-menu header__top-menu--tablet">
+	      <li class="top-menu__item top-menu__item--catalog">Каталог товаров</li>
+		  <li class="top-menu__item top-menu__item--knitting-order">Вязание на заказ</li>
+	    </ul>
+	    <ul class="top-menu top-menu--desktop header__top-menu header__top-menu--desktop">
+	      <li class="top-menu__item top-menu__item--new">Новые поступления</li>
+		  <li class="top-menu__item top-menu__item--sale">Распродажа</li>
+	    </ul>
+	    <ul class="top-menu top-menu--delivery header__top-menu header__top-menu--delivery">
+	      <li class="top-menu__item top-menu__item--delivery">Бесплатная доставка по России</li>
+	    </ul>
+	  </div>
     </header>
     <main class="page-main">
       <h1 class="visually-hidden">Интернет-магазин товаров ручной работы для дома</h1>
-      <section class="menu">
-        <h2 class="main-title menu__main-title">Милые штуки <br> ручной<br> работы для дома</h2>
-        <ul class="menu__list site-list">
-          <li class="site-list__item site-list__item--interier"><a href="#">Предметы интерьера</a></li>
-          <li class="site-list__item site-list__item--toys"><a href="#">Детские игрушки</a></li>
-        </ul>
-      </section>
-      <article class="week-good">
-        <h2 class="main-title week-good__main-title">Вязаные корзинки</h2>
-        <p class="week-good__addition">товар недели</p>
-        <p class="week-good__description">Экологически чистая пряжа,<br> ручная работа. Доступны в шести расцветках и трех размерах.</p>
-        <ul class="week-good__good-characters">
-          <li class="good-characters-point">
-            <p class="good-characters-point__parameter good-characters-point__parameter--color">Цвет:</p>
-            <p class="good-characters-point__meaning">&laquo;Тиффани&raquo;/серый</p>
-          </li>
-          <li class="good-characters-point">
-            <p class="good-characters-point__parameter good-characters-point__parameter--diameter">Диаметр:</p>
-            <p class="good-characters-point__meaning">25 см</p>
-          </li>
-          <li class="good-characters-point">
-            <p class="good-characters-point__parameter good-characters-point__parameter-height">Высота:</p>
-            <p class="good-characters-point__meaning">15 см</p>
-          </li>
-        </ul>
-        <img class="week-good__image" src="img/triple-set-mobile@1x.jpg" width="260" height="315" alt="Фотография вязаных корзинок">
-        <p class="week-good__price">Цена: 990 руб.</p>
-        <button class="button-order week-good__button-order" type="button">Заказать</button>
-      </article>
-      <div class="modal-order">
-        <h2 class="modal-title modal-order__modal-title">Добавить в корзину</h2>
-        <p class="modal-order__choose-size">Выберите размер:</p>
-        <ul class="modal-order__sizes">
-          <li class="modal-order__size">S</li>
-          <li class="modal-order__size">M</li>
-          <li class="modal-order__size modal-order__size--L">L</li>
-        </ul>
-        <button class="modal-button-order modal-order__button-order" type="button">Добавить</button>
-      </div>
+      <div class="page-main__wrapper">
+	    <section class="menu">
+          <h2 class="main-title menu__main-title">Милые штуки <br> ручной<br> работы для дома</h2>
+          <ul class="menu__list site-list">
+            <li class="site-list__item site-list__item--interier"><a href="#">Предметы интерьера</a></li>
+            <li class="site-list__item site-list__item--toys"><a href="#">Детские игрушки</a></li>
+          </ul>
+        </section>
+        <article class="week-good">
+          <h2 class="main-title week-good__main-title">Вязаные корзинки</h2>
+          <p class="week-good__addition">товар недели</p>
+          <p class="week-good__description">Экологически чистая пряжа,<br> ручная работа. Доступны в шести расцветках и трех размерах.</p>
+          <ul class="week-good__good-characters">
+            <li class="good-characters-point">
+              <p class="good-characters-point__parameter good-characters-point__parameter--color">Цвет:</p>
+              <p class="good-characters-point__meaning">&laquo;Тиффани&raquo;/серый</p>
+            </li>
+            <li class="good-characters-point">
+              <p class="good-characters-point__parameter good-characters-point__parameter--diameter">Диаметр:</p>
+              <p class="good-characters-point__meaning">25 см</p>
+            </li>
+            <li class="good-characters-point">
+              <p class="good-characters-point__parameter good-characters-point__parameter-height">Высота:</p>
+              <p class="good-characters-point__meaning">15 см</p>
+            </li>
+          </ul>
+          <img class="week-good__image" src="img/triple-set-mobile@1x.jpg" width="260" height="315" alt="Фотография вязаных корзинок">
+          <p class="week-good__price">Цена: 990 руб.</p>
+          <button class="button-order week-good__button-order" type="button">Заказать</button>
+        </article>
+        <div class="modal-order">
+          <h2 class="modal-title modal-order__modal-title">Добавить в корзину</h2>
+          <p class="modal-order__choose-size">Выберите размер:</p>
+          <ul class="modal-order__sizes">
+            <li class="modal-order__size">S</li>
+            <li class="modal-order__size">M</li>
+            <li class="modal-order__size modal-order__size--L">L</li>
+          </ul>
+          <button class="modal-button-order modal-order__button-order" type="button">Добавить</button>
+        </div>
+	  </div>
       <section class="about-us">
         <h2 class="main-title about-us__main-title">Коротко о нас:</h2>
         <ul class="about-us__advantages">

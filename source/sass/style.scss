@@ -1,6 +1,7 @@
 @import "normalize.css";
 @import "fonts.scss";
 @import "general.scss";
+@import "variables.scss";
 @import "mixins.scss";
 @import "blocks/header.scss";
 @import "blocks/logo.scss";
@@ -19,7 +20,6 @@
 @import "blocks/about-us.scss";
 @import "blocks/feedback.scss";
 @import "blocks/slider.scss";
-@import "blocks/slider-controls.scss";
 @import "blocks/slide.scss";
 @import "blocks/button.scss";
 @import "blocks/title.scss";
