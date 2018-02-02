@@ -52,3 +52,59 @@
   margin: 0;
   padding: 13px 10px 11px 10px;
 }
+
+.week-good__tablet-wrapper {
+ display:none;
+}
+
+@media (min-width: $tablet-width) {
+  
+  .week-good {
+    padding: 0;
+  }
+  
+  .week-good__top-wrapper {
+    display: flex;
+	margin-bottom: 57px;
+  }
+  
+  .week-good__main-title {
+    margin-bottom: 0;
+	padding-top: 59px;
+    padding-left: 0;
+	width: 501px;
+    font-size: 43px;
+  }
+  
+  .week-good__addition {
+    margin-bottom: 0;
+    padding-top: 59px;
+    padding-left: 68px;
+	padding-right: 26px;
+  }
+  
+  .week-good__description {
+    margin-bottom: 17px;
+    width: 252px;
+    font-size: 17px;
+    line-height: 30px;
+  }
+  
+  .week-good__main-wrapper {
+    display: flex;
+	margin-bottom: 57px;
+  }
+  
+  .week-good__inner-wrapper {
+    display: flex;
+	flex-direction: column;
+  }
+  
+  .week-good__image {
+    display: none;
+  }
+  
+  .week-good__tablet-wrapper {
+    display: block;
+  }
+}
