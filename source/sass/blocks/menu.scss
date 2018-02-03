@@ -12,6 +12,10 @@
   text-align: center;
 }
 
+.menu__tablet-main-title {
+  display: none;
+}
+
 .menu__list {
   @include lists;
 }
@@ -25,11 +29,28 @@
   }
   
   .menu__main-title {
-	margin-bottom: 378px;
-	padding-top: 101px;
+    display: none;
   }
   
+  .menu__tablet-main-title {
+    display: block;
+	margin-bottom: 378px;
+	margin-left: 87px;
+	padding-top: 101px;
+	width: 504px;
+	text-align: center;
+  }
   .menu__list {
     display: flex;
+  }
+}
+
+@media (min-width: $desktop-width) {
+
+  .menu__tablet-main-title {
+    margin-left: 220px;
+	margin-bottom: 364px;
+	padding-top: 109px;
+	width: 667px;
   }
 }

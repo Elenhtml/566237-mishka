@@ -75,3 +75,32 @@
     margin-top: -8px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  
+  .footer {
+    padding: 58px 100px 53px 100px;
+  }
+  
+  .footer__logo {
+	width: 450px;
+    height: 34px;
+  }
+  
+  .footer__social-contacts {
+    width: 415px;
+	padding-right: 269px;
+  }
+  
+  .footer__wrapper-bottom {
+	width: 185px;
+  }
+  
+  .footer__copyright {
+	padding-right: 38px;
+  }
+  
+  .footer__email {
+    margin-top: -8px;
+  }
+}

@@ -6,3 +6,11 @@
   background-repeat: no-repeat;
   background-position: 0 0;
 }
+
+@media (min-width: $desktop-width) {
+
+  .logo {
+    width: 149px;
+	height: 72px;
+  }
+}

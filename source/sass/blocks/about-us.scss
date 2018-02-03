@@ -45,3 +45,23 @@
     line-height: 22px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  
+  .about-us {
+    padding: 74px 10px 86px 175px;
+  }
+  
+  .about-us__main-title {
+    font-size: 53px;
+  }
+  
+  .about-us__advantages {
+	height: 514px;
+  }
+  
+  .about-us__advantage {
+    padding: 59px 6px 60px 0;
+    width: 337px;
+  }
+}

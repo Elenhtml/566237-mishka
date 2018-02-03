@@ -48,3 +48,23 @@
     line-height: 30px;
   }
 }
+
+@media (min-width: $desktop-width) {
+
+  .site-list__item {
+    padding-right: 371px;
+  }
+  
+  .site-list__item--interier {
+    background-position: 446px 30px;
+  }
+  
+  .site-list__item--toys {
+    background-position: 429px 30px;
+  }
+  
+  .site-list__item a {
+    margin-left: 36px;
+    width: 119px;
+  }
+}

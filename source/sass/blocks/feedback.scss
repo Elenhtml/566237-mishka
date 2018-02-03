@@ -35,6 +35,26 @@
 	top: 80px;
 	right: 50px;
     margin: 0;
-    padding: 17px 40px 17px 40px;
+    padding: 17px 40px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+
+  .feedback {
+    padding: 80px 100px 67px 275px;
+	background-image: url("../img/review@1x.jpg");
+	background-repeat: no-repeat;
+	background-position: 100px 0;
+  }
+  
+  .feedback__main-title {
+    margin-bottom: 64px;
+    font-size: 57px;
+  }
+  
+  .feedback__button {
+	right: 100px;
+    padding: 17px 40px;
   }
 }

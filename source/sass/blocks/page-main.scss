@@ -15,3 +15,11 @@
 	box-sizing: border-box;
   }
 }
+
+@media (min-width: $desktop-width) {
+
+  .page-main__wrapper {
+	padding: 0 100px;
+	width: 1250px;
+  }
+}

@@ -91,3 +91,54 @@
 	box-sizing: border-box;
   }
 }
+
+@media (min-width: $desktop-width) {
+
+  .top-menu--first {
+    width: 380px;
+  }
+  
+  .top-menu__item--catalog {
+    padding: 35px 23px 35px 13px;
+    width: 186px;
+	font-size: 17px;
+	border-right: 1px solid #ececec;
+  }
+  
+  .top-menu__item--knitting-order {
+    padding: 35px 0 35px 34px;
+    font-size: 17px;
+  }
+  
+  .top-menu--second {
+    width: 350px;
+  }
+  
+  .top-menu__item--search {
+    padding: 34px 31px;
+  }
+  
+  .top-menu__item--basket {
+    padding-left: 83px;
+	width: 266px;
+  }
+  
+  .top-menu--desktop {
+    width: 350px;
+  }
+  
+  .top-menu__item--new {
+    padding: 22px 13px 22px 0;
+	width: 175px;
+  }
+  
+  .top-menu__item--sale {
+    padding: 22px 33px 22px 45px;
+	width: 175px;
+  }
+  
+  .top-menu__item--delivery {
+	padding: 22px 0;
+	width: 235px;
+  }
+}

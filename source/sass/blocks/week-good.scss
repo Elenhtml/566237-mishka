@@ -120,3 +120,42 @@
     display: block;
   }
 }
+
+@media (min-width: $desktop-width) {
+  
+  .week-good {
+    padding-top: 73px;
+	background-image: url("../img/triple-set-desktop.jpg");
+	background-repeat: no-repeat;
+	background-position: right 73px;
+  }
+  
+  .week-good__desktop-image {
+    display: block;
+  }
+  
+  .week-good__top-wrapper {
+	justify-content: flex-start;
+	margin-bottom: 72px;
+  }
+  
+  .week-good__main-title {
+    order: 2;
+	padding-top: 67px;
+	font-size: 53px;
+  }
+  
+  .week-good__addition {
+    padding-top: 69px;
+    padding-left: 46px;
+	padding-right: 53px;
+	width: 75px;
+  }
+  .week-good__inner-wrapper {
+    margin-left: 175px;
+  }
+  
+  .week-good__tablet-wrapper {
+    display: none;
+  }
+}
