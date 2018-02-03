@@ -65,15 +65,17 @@
   
   .week-good__top-wrapper {
     display: flex;
+	justify-content: space-between;
 	margin-bottom: 57px;
   }
   
   .week-good__main-title {
     margin-bottom: 0;
 	padding-top: 59px;
+	padding-right: 73px;
     padding-left: 0;
-	width: 501px;
-    font-size: 43px;
+	font-size: 43px;
+	box-sizing: border-box;
   }
   
   .week-good__addition {
@@ -81,27 +83,37 @@
     padding-top: 59px;
     padding-left: 68px;
 	padding-right: 26px;
+	width: 73px;
   }
   
   .week-good__description {
-    margin-bottom: 17px;
-    width: 252px;
+    margin: 0;
+    margin-bottom: 25px;
+    width: 284px;
     font-size: 17px;
     line-height: 30px;
   }
   
   .week-good__main-wrapper {
     display: flex;
+	justify-content: space-between;
 	margin-bottom: 57px;
   }
   
   .week-good__inner-wrapper {
     display: flex;
 	flex-direction: column;
+	width: 291px;
   }
   
   .week-good__image {
     display: none;
+  }
+  
+  .week-good__price {
+    margin-top: 58px;
+    margin-bottom: 37px;
+	font-size: 20px;
   }
   
   .week-good__tablet-wrapper {

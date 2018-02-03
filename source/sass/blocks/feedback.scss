@@ -12,3 +12,29 @@
   margin-top: 37px;
   padding: 13px 10px 11px 10px;
 }
+
+@media (min-width: $tablet-width) {
+
+  .feedback {
+    position: relative;
+	margin-bottom: 70px;
+    padding: 80px 50px 52px 50px;
+	background-image: url("../img/review@1x.jpg");
+	background-repeat: no-repeat;
+	background-position: left 0;
+  }
+  
+  .feedback__main-title {
+    margin: 0;
+    margin-bottom: 50px;
+    font-size: 43px;
+  }
+  
+  .feedback__button {
+    position: absolute;
+	top: 80px;
+	right: 50px;
+    margin: 0;
+    padding: 17px 40px 17px 40px;
+  }
+}

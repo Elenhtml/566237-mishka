@@ -6,3 +6,12 @@
   font-weight: bold;
   text-transform: uppercase;
 }
+
+@media (min-width: $tablet-width) {
+  
+  .modal-title {
+    min-width: 360px;
+    font-size: 30px;
+    line-height: 57px;
+  }
+}

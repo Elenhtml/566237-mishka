@@ -16,3 +16,10 @@
 .social-contacts__button--fb {
   margin-right: 36px;
 }
+
+@media (min-width: $tablet-width) {
+  
+  .social-contacts {
+    border-bottom: none;
+  }
+}
