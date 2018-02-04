@@ -45,15 +45,16 @@
 
   .header {
     margin-bottom: -64px;
+	padding: 0 50px;
     width: 768px;
 	border-bottom: none;
+	box-sizing: border-box;
   }
   
   .header__top-wrapper {
     display: flex;
 	margin: 0 auto;
-	padding: 0 50px;
-	width: 768px;
+	width: 668px;
 	border-bottom: 1px solid #ececec;
 	box-sizing: border-box;
   }
@@ -83,10 +84,13 @@
     display: flex;
 	flex-wrap: wrap;
 	margin: 0 auto;
-	padding: 0 50px;
-	width: 768px;
+	width: 668px;
 	background-color: #f9f9f9;
 	box-sizing: border-box;
+  }
+  
+  .header__bottom-wrapper--catalog-page {
+    background-color: #f1f1f1;
   }
   
   .header__top-menu--desktop {
