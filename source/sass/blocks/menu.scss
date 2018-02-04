@@ -34,9 +34,10 @@
   
   .menu__tablet-main-title {
     display: block;
-	margin-bottom: 378px;
-	margin-left: 87px;
-	padding-top: 101px;
+	margin: 0;
+	padding-bottom: 378px;
+	padding-left: 87px;
+	padding-top: 160px;
 	width: 504px;
 	text-align: center;
   }
@@ -48,9 +49,9 @@
 @media (min-width: $desktop-width) {
 
   .menu__tablet-main-title {
-    margin-left: 220px;
-	margin-bottom: 364px;
-	padding-top: 109px;
+	padding-bottom: 364px;
+	padding-left: 220px;
+	padding-top: 170px;
 	width: 667px;
   }
 }

@@ -106,29 +106,26 @@
   }
   
   .our-contacts__button-write-us {
-  margin-left: 270px;
-  padding: 16px 10px 15px 10px;
-  width: 230px;
+    margin-left: 270px;
+    padding: 16px 10px 15px 10px;
+    width: 230px;
   }
 }
 
 @media (min-width: $desktop-width) {
 
   .our-contacts {
+    position: relative;
     display: flex;
 	justify-content: flex-end;
-    padding: 71px 100px 106px 175px;
-  }
-  
-  .our-contacts__left-wrapper {
-    position: relative;
+    padding: 71px 100px 106px 100px;
   }
   
   .our-contacts__title {
     margin-top: 90px;
     margin-bottom: 61px;
 	margin-left: 0;
-	padding-right: 89px;
+	padding-right: 78px;
   }
   
   .our-contacts__addresses {
@@ -162,8 +159,8 @@
   
   .our-contacts__button-write-us {
     position: absolute;
-	bottom: 10px;
-	left: 0;
+	bottom: 116px;
+	left: 265px;
     margin-left: 0;
   }
 }

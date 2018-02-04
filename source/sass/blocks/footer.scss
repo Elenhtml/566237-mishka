@@ -1,5 +1,7 @@
 .footer {
   padding: 24px 30px 21px 30px;
+  width: 320px;
+  box-sizing: border-box;
   background-color: #f1f1f1;
 }
 .footer__logo {
@@ -39,6 +41,7 @@
   
   .footer {
     padding: 50px 50px 60px 50px;
+	width: 768px;
   }
   .footer__wrapper {
     display: flex;
@@ -80,6 +83,7 @@
   
   .footer {
     padding: 58px 100px 53px 100px;
+	width: 1250px;
   }
   
   .footer__logo {

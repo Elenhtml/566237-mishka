@@ -99,14 +99,15 @@
   }
   
   .top-menu__item--catalog {
-    padding: 35px 23px 35px 13px;
-    width: 186px;
+    padding: 35px 23px 35px 0;
+    width: 185px;
 	font-size: 17px;
 	border-right: 1px solid #ececec;
   }
   
   .top-menu__item--knitting-order {
     padding: 35px 0 35px 34px;
+	width: 195px;
     font-size: 17px;
   }
   
@@ -128,17 +129,20 @@
   }
   
   .top-menu__item--new {
-    padding: 22px 13px 22px 0;
+    padding: 22px 0 22px 0;
 	width: 175px;
+	font-size: 15px;
   }
   
   .top-menu__item--sale {
     padding: 22px 33px 22px 45px;
 	width: 175px;
+	font-size: 15px;
   }
   
   .top-menu__item--delivery {
 	padding: 22px 0;
 	width: 235px;
+	font-size: 15px;
   }
 }
