@@ -34,3 +34,21 @@
 	box-sizing: border-box;
   }
 }
+
+@media (min-width: $desktop-width) {
+  
+  .page-catalog {
+    padding: 0 50px;
+	width: 1150px;
+  }
+  
+  .page-catalog__main-title {
+    margin-bottom: 130px;
+    padding: 89px 0;
+    width: 1150px;
+  }
+  
+  .page-catalog__wrapper {
+	width: 1050px;
+  }
+}

@@ -44,7 +44,7 @@
 @media (min-width: $tablet-width) {
 
   .header {
-    margin-bottom: -64px;
+    margin-bottom: -68px;
 	padding: 0 50px;
     width: 768px;
 	border-bottom: none;
@@ -126,6 +126,10 @@
     justify-content: space-between;
 	padding: 0 50px;
 	width: 1050px;
+  }
+  
+  .header__bottom-wrapper--page-catalog {
+    background-color: #f1f1f1;
   }
   
   .header__top-menu--tablet {
