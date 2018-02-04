@@ -89,7 +89,7 @@
 	box-sizing: border-box;
   }
   
-  .header__bottom-wrapper--catalog-page {
+  .header__bottom-wrapper--page-catalog {
     background-color: #f1f1f1;
   }
   
@@ -101,13 +101,13 @@
 @media (min-width: $desktop-width) {
 
   .header {
-    width: 1250px;
+    width: 1150px;
   }
   
   .header__top-wrapper {
     justify-content: space-between;
-    padding: 0 100px;
-	width: 1250px;
+    padding: 0 50px;
+	width: 1050px;
   }
   
   .header__logo-desktop {
@@ -124,8 +124,8 @@
   
   .header__bottom-wrapper {
     justify-content: space-between;
-	padding: 0 100px;
-	width: 1250px;
+	padding: 0 50px;
+	width: 1050px;
   }
   
   .header__top-menu--tablet {
