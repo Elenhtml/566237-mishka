@@ -97,6 +97,8 @@
 @media (min-width: $desktop-width) {
   
   .goods__list {
+    display: flex;
+	flex-wrap: wrap;
     margin-bottom: 56px;
   }
   
