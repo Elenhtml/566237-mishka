@@ -1,5 +1,7 @@
 .form__filter {
+  margin: 0;
   margin-bottom: 32px;
+  padding: 0;
   border: none;
   border-top: 1px solid #63d1bb;
 }
@@ -32,12 +34,15 @@
 .form__text {
   margin: 0;
   padding: 0;
+  font-size: 14px;
+  line-height: 16px;
 }
 
 .form__letter {
   margin: 0;
   margin-top: 25px;
-  width: 260px;
+  padding: 0;
+  width: 256px;
   font-size: 17px;
   line-height: 18px;
   font-weight: bold;
