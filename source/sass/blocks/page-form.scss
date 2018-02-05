@@ -1,0 +1,21 @@
+.page-form {
+  width: 320px;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+@media (min-width: $tablet-width) {
+  
+  .page-form {
+    padding: 0 50px;
+	width: 768px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  
+  .page-form  {
+    padding: 0 50px;
+	width: 1150px;
+  }
+}

@@ -6,7 +6,7 @@
   border-top: 1px solid #63d1bb;
 }
 
-.form__filter:last-child {
+.form__filter--extra {
   margin-bottom: 16px;
 }
 
@@ -25,6 +25,13 @@
 
 .form__filter-list {
   @include lists;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: bold;
+}
+
+.form__name-label {
   font-family: "Open Sans", "Arial", sans-serif;
   font-size: 17px;
   line-height: 18px;
@@ -55,4 +62,56 @@
   padding: 16px 10px;
   width: 260px;
   box-sizing: border-box;
+}
+
+@media (min-width: $tablet-width) {
+  
+  .form__filter {
+    margin-bottom: 0;
+	padding-bottom: 50px;
+    border-top: none;
+  }
+
+  .form__filter--extra {
+    margin-bottom: 0;
+  }
+
+  .form__title {
+    padding-top: 66px;
+    padding-right: 105px;
+  }
+  
+  .form__filter-wrapper {
+    margin-top: -46px;
+    margin-left: auto;
+    width: 501px;
+  }
+  
+  .form__name-label {
+    font-size: 19px;
+    line-height: 22px;
+  }
+  
+  .form__letter {
+    @include input-special-field;
+	padding: 15px 16px;
+	box-sizing: border-box;
+  }
+  
+  .form__bootom-wrapper {
+    display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+  }
+  
+  .form__text {
+    margin-top: 14px;
+    font-size: 17px;
+    line-height: 30px;
+  }
+  .form__button {
+    margin: 0;
+	margin-bottom: 50px;
+    width: 229px;
+  }
 }

@@ -19,3 +19,8 @@
   color: #000000;
   text-decoration: none;
 }
+
+@mixin input-special-field {
+  margin-left: 0;
+  width: 501px;
+}
