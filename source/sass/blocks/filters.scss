@@ -42,3 +42,22 @@
 	line-height: 30px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  
+  .filters {
+    width: 1050px;
+  }
+
+  .filters__main-title {
+    margin-bottom: 124px;
+    margin-left: -50px;
+    padding: 108px 38px 90px 30px;
+    width: 1150px;
+  }
+  
+  .filters__text {
+    margin-left: 175px;
+	width: 700px;
+  }
+}

@@ -44,9 +44,9 @@
 @media (min-width: $tablet-width) {
 
   .header {
-    margin-bottom: -68px;
+    margin: 0 auto -68px auto;
 	padding: 0 50px;
-    width: 768px;
+    width: 100%;
 	border-bottom: none;
 	box-sizing: border-box;
   }

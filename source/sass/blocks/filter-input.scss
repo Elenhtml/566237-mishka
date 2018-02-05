@@ -60,3 +60,25 @@
     @include input-special-field;
   }
 }
+
+@media (min-width: $desktop-width) {
+  
+  .filter-input {
+    margin-left: 23px;
+    width: 575px;
+  }
+  
+  .filter-input--first-name {
+    width: 625px;
+  }
+  
+  .filter-input--phone {
+    margin-left: 0px;
+    width: 700px;
+  }
+  
+  .filter-input--email {
+    margin-left: 0px;
+    width: 700px;
+  }
+}

@@ -36,3 +36,22 @@
 	line-height: 22px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  
+  .filter-colors-list {
+    margin-right: auto;
+	margin-left: 175px;
+    width: 875px;
+  }
+  
+  .filter-colors-list__option {
+    margin-right: 21px;
+	width: 210px;
+  }
+  
+  .filter-colors-list__label {
+    font-size: 19px;
+	line-height: 22px;
+  }
+}

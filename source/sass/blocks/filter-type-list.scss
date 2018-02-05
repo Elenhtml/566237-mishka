@@ -35,3 +35,22 @@
 	line-height: 22px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  
+  .filter-type-list {
+    margin-right: auto;
+	margin-left: 175px;
+	padding-right: 10px;
+    width: 350px;
+  }
+  
+  .filter-type-list__option {
+	width: 350px;
+  }
+  
+  .filter-type-list__label {
+    font-size: 19px;
+	line-height: 22px;
+  }
+}

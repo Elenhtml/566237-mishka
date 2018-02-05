@@ -87,6 +87,10 @@
     width: 501px;
   }
   
+  .form__wrapper--not-white {
+    background-color: #f1f1f1;
+  }
+  
   .form__name-label {
     font-size: 19px;
     line-height: 22px;
@@ -96,6 +100,7 @@
     @include input-special-field;
 	padding: 15px 16px;
 	box-sizing: border-box;
+	background: #ffffff;
   }
   
   .form__bootom-wrapper {
@@ -113,5 +118,33 @@
     margin: 0;
 	margin-bottom: 50px;
     width: 229px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  
+  .form__title {
+    padding-top: 62px;
+	padding-left: 60px;
+    padding-right: 65px;
+  }
+  
+  .form__filter-list {
+    font-size: 19px;
+    line-height: 22px;
+  }
+  
+  .form__filter-wrapper {
+    margin-right: auto;
+	margin-left: 175px;
+    width: 703px;
+  }
+  
+  .form__letter {
+    width: 700px;
+  }
+  
+  .form__bootom-wrapper {
+    padding: 0 175px;
   }
 }

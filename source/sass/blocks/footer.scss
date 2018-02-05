@@ -40,8 +40,9 @@
 @media (min-width: $tablet-width) {
   
   .footer {
+    margin: 0 auto;
     padding: 50px 50px 60px 50px;
-	width: 778px;
+	width: 100%;
 	}
 	
   .footer__wrapper {
