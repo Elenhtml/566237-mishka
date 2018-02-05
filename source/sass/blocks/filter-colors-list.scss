@@ -15,43 +15,41 @@
 }
 
 @media (min-width: $tablet-width) {
-
   .filter-colors-list {
     display: flex;
-	flex-wrap: wrap;
+    flex-wrap: wrap;
     margin-top: -46px;
     margin-left: auto;
     width: 501px;
   }
-  
+
   .filter-colors-list__option {
     margin-top: 24px;
     padding-left: 79px;
-	width: 225px;
-	box-sizing: border-box;
+    width: 225px;
+    box-sizing: border-box;
   }
-  
+
   .filter-colors-list__label {
     font-size: 19px;
-	line-height: 22px;
+    line-height: 22px;
   }
 }
 
 @media (min-width: $desktop-width) {
-  
   .filter-colors-list {
     margin-right: auto;
-	margin-left: 175px;
+    margin-left: 175px;
     width: 875px;
   }
-  
+
   .filter-colors-list__option {
     margin-right: 21px;
-	width: 210px;
+    width: 210px;
   }
-  
+
   .filter-colors-list__label {
     font-size: 19px;
-	line-height: 22px;
+    line-height: 22px;
   }
 }

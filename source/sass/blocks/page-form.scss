@@ -5,18 +5,16 @@
 }
 
 @media (min-width: $tablet-width) {
-  
   .page-form {
     margin: 0 auto;
     padding: 0 50px;
-	width: 768px;
+    width: 768px;
   }
 }
 
 @media (min-width: $desktop-width) {
-  
-  .page-form  {
+  .page-form {
     padding: 0 50px;
-	width: 1150px;
+    width: 1150px;
   }
 }

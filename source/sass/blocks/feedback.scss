@@ -14,47 +14,45 @@
 }
 
 @media (min-width: $tablet-width) {
-
   .feedback {
     position: relative;
-	margin-bottom: 70px;
+    margin-bottom: 70px;
     padding: 80px 50px 52px 50px;
-	background-image: url("../img/review@1x.jpg");
-	background-repeat: no-repeat;
-	background-position: left 0;
+    background-image: url("../img/review@1x.jpg");
+    background-repeat: no-repeat;
+    background-position: left 0;
   }
-  
+
   .feedback__main-title {
     margin: 0;
     margin-bottom: 50px;
     font-size: 43px;
   }
-  
+
   .feedback__button {
     position: absolute;
-	top: 80px;
-	right: 50px;
+    top: 80px;
+    right: 50px;
     margin: 0;
     padding: 17px 40px;
   }
 }
 
 @media (min-width: $desktop-width) {
-
   .feedback {
     padding: 80px 50px 67px 225px;
-	background-image: url("../img/review@1x.jpg");
-	background-repeat: no-repeat;
-	background-position: 50px 0;
+    background-image: url("../img/review@1x.jpg");
+    background-repeat: no-repeat;
+    background-position: 50px 0;
   }
-  
+
   .feedback__main-title {
     margin-bottom: 64px;
     font-size: 57px;
   }
-  
+
   .feedback__button {
-	right: 50px;
+    right: 50px;
     padding: 17px 40px;
   }
 }

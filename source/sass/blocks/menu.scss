@@ -21,37 +21,36 @@
 }
 
 @media (min-width: $tablet-width) {
-
   .menu {
     width: 100%;
     background-color: #f9f9f9;
     background-size: cover;
   }
-  
+
   .menu__main-title {
     display: none;
   }
-  
+
   .menu__tablet-main-title {
     display: block;
-	margin: 0;
-	padding-bottom: 378px;
-	padding-left: 87px;
-	padding-top: 160px;
-	width: 504px;
-	text-align: center;
+    margin: 0;
+    padding-bottom: 378px;
+    padding-left: 87px;
+    padding-top: 160px;
+    width: 504px;
+    text-align: center;
   }
+
   .menu__list {
     display: flex;
   }
 }
 
 @media (min-width: $desktop-width) {
-
   .menu__tablet-main-title {
-	padding-bottom: 364px;
-	padding-left: 220px;
-	padding-top: 170px;
-	width: 667px;
+    padding-bottom: 364px;
+    padding-left: 220px;
+    padding-top: 170px;
+    width: 667px;
   }
 }

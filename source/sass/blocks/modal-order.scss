@@ -50,24 +50,23 @@
 }
 
 @media (min-width: $tablet-width) {
-  
   .modal-order {
     width: 566px;
     padding: 43px 106px 46px 106px;
-	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
   }
-  
+
   .modal-order__modal-title {
     padding: 0;
   }
-  
+
   .modal-order__choose-size {
     margin-bottom: 16px;
     padding: 0 96px 0 100px;
     width: 154px;
     font-size: 17px;
   }
-  
+
   .modal-order__size {
     padding: 16px 46px 17px 45px;
     width: 112px;

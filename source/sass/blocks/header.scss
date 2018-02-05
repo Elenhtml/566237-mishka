@@ -9,7 +9,7 @@
 .header__wrapper {
   display: flex;
   justify-content: flex-end;
- }
+}
 
 .header__logo {
   margin: 21px 66px 20px 116px;
@@ -42,104 +42,101 @@
 }
 
 @media (min-width: $tablet-width) {
-
   .header {
     margin: 0 auto -68px auto;
-	padding: 0 50px;
+    padding: 0 50px;
     width: 100%;
-	border-bottom: none;
-	box-sizing: border-box;
+    border-bottom: none;
+    box-sizing: border-box;
   }
-  
+
   .header__top-wrapper {
     display: flex;
-	margin: 0 auto;
-	width: 668px;
-	border-bottom: 1px solid #ececec;
-	box-sizing: border-box;
+    margin: 0 auto;
+    width: 668px;
+    border-bottom: 1px solid #ececec;
+    box-sizing: border-box;
   }
-  
+
   .header__wrapper {
     display: none;
   }
-  
+
   .header__logo-desktop {
     display: block;
-	margin: 21px 207px 20px 0;
+    margin: 21px 207px 20px 0;
   }
-  
+
   .header__top-menu {
     display: flex;
   }
-  
+
   .header__top-menu--first {
     display: none;
   }
-  
+
   .header__top-menu--second {
     display: flex;
   }
-  
+
   .header__bottom-wrapper {
     display: flex;
-	flex-wrap: wrap;
-	margin: 0 auto;
-	width: 668px;
-	background-color: #f9f9f9;
-	box-sizing: border-box;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 668px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
   }
-  
+
   .header__bottom-wrapper--page-catalog {
     background-color: #f1f1f1;
   }
-  
+
   .header__top-menu--desktop {
     display: none;
   }
 }
 
 @media (min-width: $desktop-width) {
-
   .header {
     width: 1150px;
   }
-  
+
   .header__top-wrapper {
     justify-content: space-between;
-	width: 1050px;
+    width: 1050px;
   }
-  
+
   .header__logo-desktop {
     margin: 5px 0;
   }
-  
+
   .header__top-menu {
     display: flex;
   }
-  
+
   .header__top-menu--first {
     display: flex;
   }
-  
+
   .header__bottom-wrapper {
     justify-content: space-between;
-	width: 1050px;
+    width: 1050px;
   }
-  
+
   .header__bottom-wrapper--page-catalog {
     background-color: #f1f1f1;
   }
-  
+
   .header__top-menu--tablet {
     display: none;
   }
-  
+
   .header__top-menu--desktop {
     display: flex;
   }
-  
+
   .header__top-menu--delivery {
     margin-left: auto;
   }
 }
-  

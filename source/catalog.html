@@ -2,55 +2,57 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>HTML Academy: Страница каталога</title>
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="header">
-	  <div class="header__top-wrapper">
-	    <div class="header__wrapper">
+      <div class="header__top-wrapper">
+        <div class="header__wrapper">
           <a class="logo header__logo" href="index.html"><span class="visually-hidden">Логотип магазина "Мишка"</span></a>
           <button class="button-menu header__button" type="button"><span class="visually-hidden">Открыть меню</span></button>
-	    </div>
+        </div>
         <ul class="top-menu top-menu--first header__top-menu header__top-menu--first">
-	      <li class="top-menu__item top-menu__item--catalog">Каталог товаров</li>
-		  <li class="top-menu__item top-menu__item--knitting-order">Вязание на заказ</li>
-	    </ul>
-		<a class="logo-desktop header__logo-desktop" href="index.html"><span class="visually-hidden">Логотип магазина "Мишка"</span></a>
-	    <ul class="top-menu top-menu--second header__top-menu header__top-menu--second">
-		  <li class="top-menu__item top-menu__item--search"><span class="top-menu__item--search--noview">Поиск по сайту<span></li>
-		  <li class="top-menu__item top-menu__item--basket">Корзина: пока пуста</li>
-	    </ul>
-	  </div>
-	  <div class="header__bottom-wrapper header__bottom-wrapper--page-catalog">
-	    <ul class="top-menu top-menu--tablet header__top-menu header__top-menu--tablet">
-	      <li class="top-menu__item top-menu__item--catalog">Каталог товаров</li>
-		  <li class="top-menu__item top-menu__item--knitting-order">Вязание на заказ</li>
-	    </ul>
-	    <ul class="top-menu top-menu--desktop header__top-menu header__top-menu--desktop">
-	      <li class="top-menu__item top-menu__item--new">Новые поступления</li>
-		  <li class="top-menu__item top-menu__item--sale">Распродажа</li>
-	    </ul>
-	    <ul class="top-menu top-menu--delivery header__top-menu header__top-menu--delivery">
-	      <li class="top-menu__item top-menu__item--delivery">Бесплатная доставка по России</li>
-	    </ul>
-	  </div>
+          <li class="top-menu__item top-menu__item--catalog">Каталог товаров</li>
+          <li class="top-menu__item top-menu__item--knitting-order">Вязание на заказ</li>
+        </ul>
+        <a class="logo-desktop header__logo-desktop" href="index.html">
+          <span class="visually-hidden">Логотип магазина "Мишка"</span>
+        </a>
+        <ul class="top-menu top-menu--second header__top-menu header__top-menu--second">
+           <li class="top-menu__item top-menu__item--search"><span class="top-menu__search-noview">Поиск по сайту<span></li>
+           <li class="top-menu__item top-menu__item--basket">Корзина: пока пуста</li>
+        </ul>
+      </div>
+      <div class="header__bottom-wrapper header__bottom-wrapper--page-catalog">
+        <ul class="top-menu top-menu--tablet header__top-menu header__top-menu--tablet">
+          <li class="top-menu__item top-menu__item--catalog">Каталог товаров</li>
+          <li class="top-menu__item top-menu__item--knitting-order">Вязание на заказ</li>
+        </ul>
+        <ul class="top-menu top-menu--desktop header__top-menu header__top-menu--desktop">
+          <li class="top-menu__item top-menu__item--new">Новые поступления</li>
+          <li class="top-menu__item top-menu__item--sale">Распродажа</li>
+        </ul>
+        <ul class="top-menu top-menu--delivery header__top-menu header__top-menu--delivery">
+          <li class="top-menu__item top-menu__item--delivery">Бесплатная доставка по России</li>
+        </ul>
+      </div>
     </header>
     <main class="page-catalog">
       <h2 class="main-title page-catalog__main-title">Каталог товаров</h2>
-	  <div class="page-catalog__wrapper">
+      <div class="page-catalog__wrapper">
         <section class="goods">
           <ul class="goods__list">
             <li class="catalog-list-item">
               <a class="catalog-list-item__link" href="card-category.html">
                 <img class="catalog-list-item__link-image-mobile" src="img/photo-hare-mobile@1x.jpg" width="260" height="195" alt="Фотография зайчика-попрыгайчика">
                 <img class="catalog-list-item__link-image-tablet" src="img/photo-hare-tablet.jpg" width="334" height="334" alt="Фотография зайчика-попрыгайчика">
-				<img class="catalog-list-item__link-image-desktop" src="img/photo-hare-desktop.jpg" width="316" height="462" alt="Фотография зайчика-попрыгайчика">
-				<h3 class="catalog-title catalog-list-item__link-title catalog-list-item__link-title--no-view">Зайчик-попрыгайчик</h3>
+                <img class="catalog-list-item__link-image-desktop" src="img/photo-hare-desktop.jpg" width="316" height="462" alt="Фотография зайчика-попрыгайчика">
+                <h3 class="catalog-title catalog-list-item__link-title catalog-list-item__link-title--no-view">Зайчик-попрыгайчик</h3>
               </a>
-			  <div class="catalog-list-item__wrapper">
-			    <a class="catalog-list-item__link-tablet" href="card-category.html">
+              <div class="catalog-list-item__wrapper">
+                <a class="catalog-list-item__link-tablet" href="card-category.html">
                   <h3 class="catalog-title catalog-list-item__link-title">Зайчик-попрыгайчик</h3>
                 </a>
                 <p class="catalog-list-item__description">Рост 30 см, вес 200 г</p>
@@ -61,17 +63,17 @@
                     <path fill="#231F20" d="M283.75,378.19h-3.151l-3.407-6.814c-0.185-0.37-0.634-0.52-1.006-0.335 c-0.371,0.186-0.521,0.636-0.335,1.006l3.071,6.143h-9.138l3.072-6.143c0.185-0.371,0.035-0.821-0.335-1.006 c-0.37-0.185-0.821-0.035-1.006,0.335l-3.407,6.814h-3.151c-0.414,0-0.75,0.336-0.75,0.75s0.336,0.75,0.75,0.75h0.157l0.855,2.991 c-0.187,0.137-0.316,0.347-0.316,0.595c0,0.396,0.309,0.71,0.697,0.739l1.656,5.795h12.697l1.656-5.795 c0.388-0.028,0.698-0.344,0.698-0.739c0-0.249-0.129-0.459-0.316-0.596l0.854-2.991h0.157c0.414,0,0.75-0.336,0.75-0.75 S284.164,378.19,283.75,378.19z M279.569,388.311h-10.433l-1.224-4.284h12.881L279.569,388.311z M281.222,382.526h-13.739 l-0.81-2.836h15.359L281.222,382.526z"/>
                   </svg>
                 </button>
-			  </div>
+              </div>
             </li>
             <li class="catalog-list-item">
               <a class="catalog-list-item__link" href="card-category.html">
                 <img class="catalog-list-item__link-image-mobile" src="img/photo-bowl-mobile@1x.jpg" width="260" height="195" alt="Фотография корзинки для белья">
-				<img class="catalog-list-item__link-image-tablet" src="img/photo-basket-tablet.jpg" width="334" height="334" alt="Фотография корзинки для белья">
-				<img class="catalog-list-item__link-image-desktop" src="img/photo-basket-desktop.jpg" width="316" height="462" alt="Фотография корзинки для белья">
+                <img class="catalog-list-item__link-image-tablet" src="img/photo-basket-tablet.jpg" width="334" height="334" alt="Фотография корзинки для белья">
+                <img class="catalog-list-item__link-image-desktop" src="img/photo-basket-desktop.jpg" width="316" height="462" alt="Фотография корзинки для белья">
                 <h3 class="catalog-title catalog-list-item__link-title catalog-list-item__link-title--no-view">Корзинка для белья</h3>
               </a>
-			  <div class="catalog-list-item__wrapper">
-			    <a class="catalog-list-item__link-tablet" href="card-category.html">
+              <div class="catalog-list-item__wrapper">
+                <a class="catalog-list-item__link-tablet" href="card-category.html">
                   <h3 class="catalog-title catalog-list-item__link-title">Корзинка для белья</h3>
                 </a>
                 <p class="catalog-list-item__description">Диаметр 15 см, высота 10 см</p>
@@ -82,17 +84,17 @@
                     <path fill="#231F20" d="M283.75,378.19h-3.151l-3.407-6.814c-0.185-0.37-0.634-0.52-1.006-0.335 c-0.371,0.186-0.521,0.636-0.335,1.006l3.071,6.143h-9.138l3.072-6.143c0.185-0.371,0.035-0.821-0.335-1.006 c-0.37-0.185-0.821-0.035-1.006,0.335l-3.407,6.814h-3.151c-0.414,0-0.75,0.336-0.75,0.75s0.336,0.75,0.75,0.75h0.157l0.855,2.991 c-0.187,0.137-0.316,0.347-0.316,0.595c0,0.396,0.309,0.71,0.697,0.739l1.656,5.795h12.697l1.656-5.795 c0.388-0.028,0.698-0.344,0.698-0.739c0-0.249-0.129-0.459-0.316-0.596l0.854-2.991h0.157c0.414,0,0.75-0.336,0.75-0.75 S284.164,378.19,283.75,378.19z M279.569,388.311h-10.433l-1.224-4.284h12.881L279.569,388.311z M281.222,382.526h-13.739 l-0.81-2.836h15.359L281.222,382.526z"/>
                   </svg>
                 </button>
-			  </div>
+              </div>
             </li>
             <li class="catalog-list-item">
               <a class="catalog-list-item__link" href="card-category.html">
                 <img class="catalog-list-item__link-image-mobile" src="img/photo-toys-mobile@1x.jpg" width="260" height="195" alt="Фотография большой корзинки для игрушек">
                 <img class="catalog-list-item__link-image-tablet" src="img/photo-toys-tablet.jpg" width="334" height="334" alt="Фотография большой корзинки для игрушек">
-				<img class="catalog-list-item__link-image-desktop" src="img/photo-toys-desktop.jpg" width="316" height="462" alt="Фотография большой корзинки для игрушек">
-				<h3 class="catalog-title catalog-list-item__link-title catalog-list-item__link-title--no-view">Большая корзинка для игрушек</h3>
+                <img class="catalog-list-item__link-image-desktop" src="img/photo-toys-desktop.jpg" width="316" height="462" alt="Фотография большой корзинки для игрушек">
+                <h3 class="catalog-title catalog-list-item__link-title catalog-list-item__link-title--no-view">Большая корзинка для игрушек</h3>
               </a>
-			  <div class="catalog-list-item__wrapper">
-			    <a class="catalog-list-item__link-tablet" href="card-category.html">
+              <div class="catalog-list-item__wrapper">
+                <a class="catalog-list-item__link-tablet" href="card-category.html">
                   <h3 class="catalog-title catalog-list-item__link-title">Большая корзинка для игрушек</h3>
                 </a>
                 <p class="catalog-list-item__description catalog-list-item__description--toys">Диаметр 30 см, высота 30 см</p>
@@ -103,7 +105,7 @@
                     <path fill="#231F20" d="M283.75,378.19h-3.151l-3.407-6.814c-0.185-0.37-0.634-0.52-1.006-0.335 c-0.371,0.186-0.521,0.636-0.335,1.006l3.071,6.143h-9.138l3.072-6.143c0.185-0.371,0.035-0.821-0.335-1.006 c-0.37-0.185-0.821-0.035-1.006,0.335l-3.407,6.814h-3.151c-0.414,0-0.75,0.336-0.75,0.75s0.336,0.75,0.75,0.75h0.157l0.855,2.991 c-0.187,0.137-0.316,0.347-0.316,0.595c0,0.396,0.309,0.71,0.697,0.739l1.656,5.795h12.697l1.656-5.795 c0.388-0.028,0.698-0.344,0.698-0.739c0-0.249-0.129-0.459-0.316-0.596l0.854-2.991h0.157c0.414,0,0.75-0.336,0.75-0.75 S284.164,378.19,283.75,378.19z M279.569,388.311h-10.433l-1.224-4.284h12.881L279.569,388.311z M281.222,382.526h-13.739 l-0.81-2.836h15.359L281.222,382.526z"/>
                   </svg>
                 </button>
-			  </div>
+              </div>
             </li>
           </ul>
           <div class="goods__video">
@@ -113,16 +115,16 @@
               <source src="video.webm" type="video/webm">
             </video>
             <img class="goods__image-mobile" src="img/video-mobile@1x.jpg" width="260" height="150" alt="Фотография первого кадра видеоролика">
-			<img class="goods__image-tablet" src="img/video-tablet.jpg" width="668" height="455" alt="Фотография первого кадра видеоролика">
+            <img class="goods__image-tablet" src="img/video-tablet.jpg" width="668" height="455" alt="Фотография первого кадра видеоролика">
             <img class="goods__image-desktop" src="img/video-desktop.jpg" width="682" height="455" alt="Фотография первого кадра видеоролика">
-			<div class="goods__wrapper">
-			  <h3 class="title title--video goods__title goods__title--view">Процесс производства</h3>
-			  <p class="goods__video-description">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
+            <div class="goods__wrapper">
+              <h3 class="title title--video goods__title goods__title--view">Процесс производства</h3>
+              <p class="goods__video-description">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
               <button class="button-order goods__button-order" type="button">Сделать заказ</button>
-			</div>
+            </div>
           </div>
         </section>
-	  </div>
+      </div>
       <div class="modal-order">
         <h2 class="modal-title modal-order__modal-title">Добавить в корзину</h2>
         <p class="modal-order__choose-size">Выберите размер:</p>
@@ -135,8 +137,8 @@
       </div>
     </main>
     <footer class="footer">
-	  <div class="footer__wrapper">
-	    <a class="footer__logo"><span class="visually-hidden">Логотип магазина "Мишка"</span></a>
+      <div class="footer__wrapper">
+        <a class="footer__logo"><span class="visually-hidden">Логотип магазина "Мишка"</span></a>
         <ul class="footer__social-contacts social-contacts">
           <li class="social-contacts__point">
             <a class="social-contacts__button social-contacts__button--insta" href="#">
@@ -182,7 +184,7 @@
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60"  width="46" height="49"><path fill="#63d1bb" d="M30.2 5h-.2l-19.7 2.1v36.2l19.7 11.7 19.7-11.7v-36.2l-19.5-2.1zm17 36.8l-17.2 10.2-17.2-10.2v-14.8l17.1 10.2v1.8l-11.7-7v1.8l11.8 7.1v1.9l-11.8-7v1.8l11.8 7 11.9-7.1v-7.6l5.3-3.2v15.1zm-.1-17l-4.7 2.8-2.2 1.3-10.3-6.1v1.8l8.8 5.3h-.1l-.2.1-1.3.7-7.3-4.3v1.8l5.8 3.4-1.4.9-4.3-2.6v1.8l2.9 1.7-2.9 1.7-17-10.1 17-10.2 17.2 10zm.1-1.8l-17.3-10.2-17.1 10.2v-13.6l17.2-1.8 17.2 1.8v13.6z"/></svg>
           </a>
         </div>
-	  </div>
+      </div>
     </footer>
   </body>
 </html>

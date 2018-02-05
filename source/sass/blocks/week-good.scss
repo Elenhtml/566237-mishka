@@ -54,38 +54,37 @@
 }
 
 .week-good__tablet-wrapper {
- display:none;
+  display: none;
 }
 
 @media (min-width: $tablet-width) {
-  
   .week-good {
     padding: 0;
   }
-  
+
   .week-good__top-wrapper {
     display: flex;
-	justify-content: space-between;
-	margin-bottom: 57px;
+    justify-content: space-between;
+    margin-bottom: 57px;
   }
-  
+
   .week-good__main-title {
     margin-bottom: 0;
-	padding-top: 59px;
-	padding-right: 73px;
+    padding-top: 59px;
+    padding-right: 73px;
     padding-left: 0;
-	font-size: 43px;
-	box-sizing: border-box;
+    font-size: 43px;
+    box-sizing: border-box;
   }
-  
+
   .week-good__addition {
     margin-bottom: 0;
     padding-top: 59px;
     padding-left: 68px;
-	padding-right: 26px;
-	width: 73px;
+    padding-right: 26px;
+    width: 73px;
   }
-  
+
   .week-good__description {
     margin: 0;
     margin-bottom: 25px;
@@ -93,68 +92,68 @@
     font-size: 17px;
     line-height: 30px;
   }
-  
+
   .week-good__main-wrapper {
     display: flex;
-	justify-content: space-between;
-	margin-bottom: 57px;
+    justify-content: space-between;
+    margin-bottom: 57px;
   }
-  
+
   .week-good__inner-wrapper {
     display: flex;
-	flex-direction: column;
-	width: 291px;
+    flex-direction: column;
+    width: 291px;
   }
-  
+
   .week-good__image {
     display: none;
   }
-  
+
   .week-good__price {
     margin-top: 58px;
     margin-bottom: 37px;
-	font-size: 20px;
+    font-size: 20px;
   }
-  
+
   .week-good__tablet-wrapper {
     display: block;
   }
 }
 
 @media (min-width: $desktop-width) {
-  
   .week-good {
     padding-top: 73px;
-	background-image: url("../img/triple-set-desktop.jpg");
-	background-repeat: no-repeat;
-	background-position: right 73px;
+    background-image: url("../img/triple-set-desktop.jpg");
+    background-repeat: no-repeat;
+    background-position: right 73px;
   }
-  
+
   .week-good__desktop-image {
     display: block;
   }
-  
+
   .week-good__top-wrapper {
-	justify-content: flex-start;
-	margin-bottom: 72px;
+    justify-content: flex-start;
+    margin-bottom: 72px;
   }
-  
+
   .week-good__main-title {
     order: 2;
-	padding-top: 67px;
-	font-size: 53px;
+    padding-top: 67px;
+    font-size: 53px;
   }
-  
+
   .week-good__addition {
     padding-top: 69px;
     padding-left: 46px;
-	padding-right: 53px;
-	width: 75px;
+    padding-right: 53px;
+    width: 75px;
   }
+
   .week-good__inner-wrapper {
     margin-left: 125px;
   }
-  
+
   .week-good__tablet-wrapper {
     display: none;
   }

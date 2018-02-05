@@ -22,7 +22,6 @@
 }
 
 @media (min-width: $tablet-width) {
-  
   .filters {
     width: 678px;
   }
@@ -33,18 +32,17 @@
     padding: 108px 38px 75px 30px;
     width: 768px;
   }
-  
+
   .filters__text {
     margin-top: 0;
     margin-bottom: 0;
-	width: 630px;
-	font-size: 17px;
-	line-height: 30px;
+    width: 630px;
+    font-size: 17px;
+    line-height: 30px;
   }
 }
 
 @media (min-width: $desktop-width) {
-  
   .filters {
     width: 1050px;
   }
@@ -55,9 +53,9 @@
     padding: 108px 38px 90px 30px;
     width: 1150px;
   }
-  
+
   .filters__text {
     margin-left: 175px;
-	width: 700px;
+    width: 700px;
   }
 }

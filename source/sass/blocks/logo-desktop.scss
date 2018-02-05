@@ -1,5 +1,4 @@
 @media (min-width: $tablet-width) {
-  
   .logo-desktop {
     display: block;
     width: 86px;
@@ -11,13 +10,12 @@
 }
 
 @media (min-width: $desktop-width) {
-  
   .logo-desktop {
     padding-left: 68px;
     width: 252px;
-	height: 72px;
-	background-image: url("../img/logo-mobile.svg");
-	background-repeat: no-repeat;
-	background-position: 68px 0;
+    height: 72px;
+    background-image: url("../img/logo-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: 68px 0;
   }
 }
