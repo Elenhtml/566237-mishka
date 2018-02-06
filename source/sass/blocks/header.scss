@@ -4,20 +4,24 @@
   width: 320px;
   border-top: 1px solid #ececec;
   border-bottom: 1px solid #ececec;
+  box-sizing: border-box;
 }
 
 .header__wrapper {
   display: flex;
   justify-content: flex-end;
+  padding: 0 30px;
+  width: 320px;
+  box-sizing: border-box;
 }
 
 .header__logo {
-  margin: 21px 66px 20px 116px;
+  margin: 21px 60px 20px 80px;
   padding: 0;
 }
 
 .header__button {
-  margin: 30px 30px 30px 0;
+  margin: 30px 0 30px 0;
   padding: 0;
 }
 
@@ -43,18 +47,18 @@
 
 @media (min-width: $tablet-width) {
   .header {
-    margin: 0 auto -68px auto;
+    margin-bottom: -65px;
     padding: 0 50px;
     width: 100%;
     border-bottom: none;
-    box-sizing: border-box;
   }
 
   .header__top-wrapper {
     display: flex;
+    justify-content: space-between;
     margin: 0 auto;
     width: 668px;
-    border-bottom: 1px solid #ececec;
+    border-bottom: 1px solid #e7e7e7;
     box-sizing: border-box;
   }
 
@@ -64,7 +68,7 @@
 
   .header__logo-desktop {
     display: block;
-    margin: 21px 207px 20px 0;
+    margin: 21px 20px 20px 0;
   }
 
   .header__top-menu {
@@ -99,11 +103,12 @@
 
 @media (min-width: $desktop-width) {
   .header {
+    margin-bottom: -69px;
     width: 1150px;
   }
 
   .header__top-wrapper {
-    justify-content: space-between;
+    justify-content: flex-start;
     width: 1050px;
   }
 

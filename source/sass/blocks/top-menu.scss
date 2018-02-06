@@ -67,12 +67,14 @@
 
   .top-menu__item--catalog {
     padding: 20px 27px 20px 0;
+    width: 167px;
     font-size: 15px;
     border: none;
   }
 
   .top-menu__item--knitting-order {
     padding: 20px 27px 20px 0;
+    width: 167px;
     font-size: 15px;
     border-bottom: none;
   }
@@ -138,9 +140,14 @@
     font-size: 15px;
   }
 
+  .top-menu--delivery {
+    width: 350px;
+  }
+
   .top-menu__item--delivery {
-    padding: 22px 0;
-    width: 235px;
+    padding: 22px 0 22px 15px;
+    width: 350px;
     font-size: 15px;
+    text-align: end;
   }
 }

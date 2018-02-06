@@ -13,11 +13,22 @@
     width: 768px;
     box-sizing: border-box;
   }
+
+  .page-main__upper {
+    margin: 0 auto;
+    padding-right: 50px;
+    width: 768px;
+    box-sizing: border-box;
+  }
 }
 
 @media (min-width: $desktop-width) {
   .page-main__wrapper {
     padding: 0 50px;
+    width: 1150px;
+  }
+
+  .page-main__upper {
     width: 1150px;
   }
 }

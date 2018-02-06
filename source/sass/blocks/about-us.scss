@@ -19,6 +19,7 @@
   font-size: 17px;
   line-height: 20px;
   font-weight: bold;
+  box-sizing: border-box;
 }
 
 @media (min-width: $tablet-width) {
@@ -39,7 +40,7 @@
 
   .about-us__advantage {
     padding: 66px 6px 27px 0;
-    width: 300px;
+    width: 334px;
     font-size: 20px;
     line-height: 22px;
   }
@@ -60,6 +61,6 @@
 
   .about-us__advantage {
     padding: 59px 6px 60px 0;
-    width: 337px;
+    width: 350px;
   }
 }

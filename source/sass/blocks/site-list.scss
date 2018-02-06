@@ -51,6 +51,8 @@
 @media (min-width: $desktop-width) {
   .site-list__item {
     padding-right: 371px;
+    width: 525px;
+    box-sizing: border-box;
   }
 
   .site-list__item--interier {
