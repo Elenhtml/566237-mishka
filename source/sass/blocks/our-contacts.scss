@@ -116,7 +116,7 @@
     position: relative;
     display: flex;
     justify-content: flex-end;
-    padding: 71px 50px 106px 50px;
+    padding: 71px 0 106px 0;
   }
 
   .our-contacts__title {
@@ -157,8 +157,8 @@
 
   .our-contacts__button-write-us {
     position: absolute;
-    bottom: 116px;
-    left: 270px;
+    bottom: 105px;
+    left: 175px;
     margin-left: 0;
   }
 }
