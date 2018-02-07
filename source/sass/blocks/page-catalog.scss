@@ -26,17 +26,17 @@
     background-color: #f1f1f1;
   }
 
-  .page-catalog__main-title {
-    margin-left: 0;
-    padding: 108px 0;
-    width: 668px;
-  }
-
   .page-catalog__wrapper {
     margin: 0 auto;
     padding: 0 50px;
     width: 768px;
     box-sizing: border-box;
+  }
+
+  .page-catalog__main-title {
+    margin-left: 0;
+    padding: 108px 0;
+    width: 668px;
   }
 }
 
@@ -45,12 +45,12 @@
     margin-bottom: 130px;
   }
 
+  .page-catalog__wrapper {
+    width: 1150px;
+  }
+
   .page-catalog__main-title {
     padding: 89px 0;
     width: 1050px;
-  }
-
-  .page-catalog__wrapper {
-    width: 1150px;
   }
 }

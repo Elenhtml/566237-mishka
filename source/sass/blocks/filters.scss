@@ -4,16 +4,6 @@
   box-sizing: border-box;
 }
 
-.filters__main-title {
-  margin: 0;
-  margin-left: -30px;
-  padding: 77px 38px 77px 30px;
-  width: 320px;
-  text-align: center;
-  background-color: #f1f1f1;
-  box-sizing: border-box;
-}
-
 .filters__text {
   margin: 0;
   margin-top: 24px;
@@ -23,14 +13,7 @@
 
 @media (min-width: $tablet-width) {
   .filters {
-    width: 678px;
-  }
-
-  .filters__main-title {
-    margin-bottom: 80px;
-    margin-left: -50px;
-    padding: 108px 38px 75px 30px;
-    width: 768px;
+    width: 100%;
   }
 
   .filters__text {
@@ -43,17 +26,6 @@
 }
 
 @media (min-width: $desktop-width) {
-  .filters {
-    width: 1050px;
-  }
-
-  .filters__main-title {
-    margin-bottom: 124px;
-    margin-left: -50px;
-    padding: 108px 38px 90px 30px;
-    width: 1150px;
-  }
-
   .filters__text {
     margin-left: 175px;
     width: 700px;
