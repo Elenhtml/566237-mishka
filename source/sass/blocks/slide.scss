@@ -1,4 +1,4 @@
-.slide_text {
+.slide__text {
   margin: 0;
   padding: 0;
   margin-bottom: 40px;
@@ -25,6 +25,11 @@
   line-height: 20px;
 }
 
+.slide__buttons {
+  @include lists;
+  display: flex;
+}
+
 .slide__button {
   display: block;
   margin: 0;
@@ -33,4 +38,53 @@
   text-align: center;
   border: 1px solid #ececec;
   box-sizing: border-box;
+}
+
+@media (min-width: $tablet-width) {
+  .slide {
+    position: relative;
+  }
+
+  .slide__text {
+    margin: 0;
+    margin-bottom: 57px;
+    width: 646px;
+    font-size: 17px;
+  }
+
+  .slide__buyer-name {
+    margin-bottom: 10px;
+  }
+
+  .slide__buyer-email {
+    margin-bottom: 0;
+  }
+
+  .slide__buttons {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .slide__button {
+    padding: 11px 18px;
+    width: 88px;
+    text-align: center;
+    border: none;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .slide__text {
+    margin-bottom: 50px;
+    width: 772px;
+  }
+
+  .slide__buyer-name {
+    width: 350px;
+  }
+
+  .slide__buyer-email {
+    width: 350px;
+  }
 }

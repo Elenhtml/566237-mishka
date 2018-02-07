@@ -26,3 +26,11 @@
 .good-characters-point__parameter-height {
   margin-right: 42px;
 }
+
+@media (min-width: $tablet-width) {
+  .good-characters-point {
+    padding-top: 10px;
+    padding-bottom: 9px;
+    line-height: 20px;
+  }
+}

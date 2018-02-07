@@ -1,15 +1,6 @@
 .filters {
-  width: 320px;
-  padding: 0 30px 0 30px;
-  box-sizing: border-box;
-}
-
-.filters__main-title {
-  margin: 0;
-  margin-left: -30px;
-  padding: 77px 43px 77px 41px;
-  width: 320px;
-  background-color: #f1f1f1;
+  margin: 0 auto;
+  width: 260px;
   box-sizing: border-box;
 }
 
@@ -18,4 +9,25 @@
   margin-top: 24px;
   margin-bottom: 24px;
   padding: 0;
+}
+
+@media (min-width: $tablet-width) {
+  .filters {
+    width: 100%;
+  }
+
+  .filters__text {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 630px;
+    font-size: 17px;
+    line-height: 30px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .filters__text {
+    margin-left: 175px;
+    width: 700px;
+  }
 }

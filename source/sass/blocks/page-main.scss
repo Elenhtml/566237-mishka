@@ -1,3 +1,41 @@
 .page-main {
   width: 320px;
 }
+
+@media (min-width: $tablet-width) {
+  .page-main {
+    width: 100%;
+  }
+
+  .page-main__wrapper {
+    margin: 0 auto;
+    padding: 0 50px;
+    width: 768px;
+    box-sizing: border-box;
+  }
+
+  .page-main__upper {
+    margin: 0 auto;
+    padding-right: 50px;
+    width: 768px;
+    box-sizing: border-box;
+  }
+
+  .page-main__upper--our-contacts {
+    padding-right: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-main__wrapper {
+    width: 1150px;
+  }
+
+  .page-main__upper {
+    width: 1150px;
+  }
+
+  .page-main__upper--our-contacts {
+    padding: 0 50px;
+  }
+}

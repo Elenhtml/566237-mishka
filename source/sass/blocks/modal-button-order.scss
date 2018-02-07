@@ -1,7 +1,6 @@
 .modal-button-order {
   display: block;
   width: 260px;
-
   font-family: "Open Sans", "Arial", sans-serif;
   font-size: 17px;
   line-height: 20px;
@@ -11,4 +10,10 @@
   text-align: center;
   background-color: #63d1bb;
   border: none;
+}
+
+@media (min-width: $tablet-width) {
+  .modal-button-order {
+    min-width: 350px;
+  }
 }

@@ -32,3 +32,51 @@
   background-repeat: no-repeat;
   background-position: right 15px;
 }
+
+@media (min-width: $tablet-width) {
+  .filter-input {
+    margin-left: 21px;
+    padding-right: 0;
+    width: 375px;
+    font-size: 19px;
+    line-height: 22px;
+  }
+
+  .filter-input--name + label {
+    font-size: 19px;
+    line-height: 22px;
+  }
+
+  .filter-input--first-name {
+    width: 427px;
+  }
+
+  .filter-input--phone {
+    @include input-special-field;
+  }
+
+  .filter-input--email {
+    @include input-special-field;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .filter-input {
+    margin-left: 23px;
+    width: 575px;
+  }
+
+  .filter-input--first-name {
+    width: 625px;
+  }
+
+  .filter-input--phone {
+    margin-left: 0;
+    width: 700px;
+  }
+
+  .filter-input--email {
+    margin-left: 0;
+    width: 700px;
+  }
+}

@@ -1,7 +1,6 @@
 .button {
   display: block;
   width: 255px;
-
   font-family: "Open Sans", "Arial", sans-serif;
   font-size: 18px;
   line-height: 20px;
@@ -13,4 +12,11 @@
   background-color: #ffffff;
   border: 2px solid #000000;
   box-sizing: border-box;
+}
+
+@media (min-width: $tablet-width) {
+  .button {
+    width: 175px;
+    font-size: 17px;
+  }
 }
