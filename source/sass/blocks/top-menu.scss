@@ -13,20 +13,67 @@
   box-sizing: border-box;
 }
 
+.top-menu__item a {
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  text-decoration: none;
+
+  &:hover {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  &:active {
+    color: rgba(0, 0, 0, 0.3);
+  }
+}
+
 .top-menu__item--catalog {
   border-top: 1px solid #ececec;
 }
 
 .top-menu__item--search {
-  background-image: url("../img/icon-search-mobile.svg");
-  background-repeat: no-repeat;
-  background-position: 30px 30px;
+  padding-right: 50px;
+  padding-left: 30px;
+}
+
+.top-menu__link-search {
+  padding-left: 32px;
+
+  &:hover path {
+    fill: #63d1bb;
+  }
+
+  &:active path {
+    fill: rgba(99, 209, 187, 0.3);
+  }
+}
+
+.top-menu__item--search svg {
+  margin-right: 21px;
+  margin-bottom: -5px;
 }
 
 .top-menu__item--basket {
-  background-image: url("../img/icon-cart-mobile.svg");
-  background-repeat: no-repeat;
-  background-position: 30px 30px;
+  padding-right: 50px;
+  padding-left: 30px;
+}
+
+.top-menu__link-basket {
+  padding-left: 45px;
+
+  &:hover path {
+    fill: #63d1bb;
+  }
+
+  &:active path {
+    fill: rgba(99, 209, 187, 0.3);
+  }
+}
+
+.top-menu__item--basket svg {
+  margin-right: 21px;
+  margin-bottom: -5px;
 }
 
 @media (min-width: $tablet-width) {
@@ -51,10 +98,27 @@
     border-left: 1px solid #ececec;
   }
 
+  .top-menu__item--search {
+    padding-right: 50px;
+    padding-left: 30px;
+  }
+
+  .top-menu__link-search {
+    padding-left: 0;
+  }
+
   .top-menu__item--basket {
-    padding: 33px 0 33px 81px;
+    padding: 32px 0 32px 30px;
     width: 264px;
-    background-position: 31px 35px;
+  }
+
+  .top-menu__link-basket {
+    padding-left: 29px;
+    box-sizing: border-box;
+  }
+
+  .top-menu__item--basket svg {
+    margin-right: 27px;
   }
 
   .top-menu__item {
@@ -99,14 +163,14 @@
   }
 
   .top-menu__item--catalog {
-    padding: 35px 23px 35px 0;
+    padding: 32px 23px 32px 0;
     width: 185px;
     font-size: 17px;
     border-right: 1px solid #ececec;
   }
 
   .top-menu__item--knitting-order {
-    padding: 35px 0 35px 34px;
+    padding: 32px 0 32px 34px;
     width: 195px;
     font-size: 17px;
   }
@@ -116,12 +180,19 @@
   }
 
   .top-menu__item--search {
-    padding: 34px 31px;
+    padding: 32px 31px;
   }
 
   .top-menu__item--basket {
-    padding-left: 83px;
     width: 266px;
+  }
+
+  .top-menu__link-basket {
+    padding-left: 31px;
+  }
+
+  .top-menu__item--basket svg {
+    margin-right: 29px;
   }
 
   .top-menu--desktop {

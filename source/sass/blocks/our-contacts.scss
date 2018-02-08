@@ -31,7 +31,17 @@
 
 .our-contacts__address--email {
   margin-right: 0;
+  color: #000000;
+  text-decoration: none;
   border-bottom: 1px solid #62d1ba;
+
+  &:hover {
+    color: #46c1ae;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 .our-contacts__address--fulladdress {
@@ -55,13 +65,16 @@
 .our-contacts__button-write-us {
   margin: 0;
   margin-top: 39px;
-  padding: 13px 10px 11px 10px;
+  padding: 15px 10px 13px 10px;
   width: 260px;
 }
 
 @media (min-width: $tablet-width) {
   .our-contacts {
     padding: 46px 0 57px 0;
+    background-image: url("../img/icon-flag.svg");
+    background-repeat: no-repeat;
+    background-position: 664px 0;
   }
 
   .our-contacts__title {
@@ -83,9 +96,19 @@
   }
 
   .our-contacts__address--email {
+    position: relative;
     width: 211px;
-    text-decoration: underline;
     border-bottom: none;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 24px;
+      left: 0;
+      width: 180px;
+      height: 1px;
+      background-color: #62d1ba;
+    }
   }
 
   .our-contacts__address--fulladdress {
@@ -117,6 +140,7 @@
     display: flex;
     justify-content: flex-end;
     padding: 71px 0 106px 0;
+    background-position: 62px 131px;
   }
 
   .our-contacts__title {
@@ -141,6 +165,13 @@
 
   .our-contacts__address--email {
     width: 205px;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 24px;
+      width: 181px;
+    }
   }
 
   .our-contacts__small-map {

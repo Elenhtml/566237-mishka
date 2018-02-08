@@ -1,9 +1,10 @@
 .about-us {
-  padding: 36px 30px 10px 30px;
+  padding: 36px 30px 0 30px;
 }
 
 .about-us__main-title {
   margin: 0;
+  margin-bottom: 33px;
   padding: 0;
   font-size: 25px;
 }
@@ -13,13 +14,44 @@
 }
 
 .about-us__advantage {
-  padding: 17px 6px 17px 0;
+  padding: 57px 6px 36px 0;
   width: 260px;
+  box-sizing: border-box;
   font-family: "Open Sans", "Arial", sans-serif;
   font-size: 17px;
   line-height: 20px;
   font-weight: bold;
-  box-sizing: border-box;
+  background-repeat: no-repeat;
+}
+
+.about-us__advantage--ecology {
+  background-image: url("../img/icon-feature-flower.svg");
+  background-position: 5px 0;
+}
+
+.about-us__advantage--style {
+  background-image: url("../img/icon-feature-money.svg");
+  background-position: 0 0;
+}
+
+.about-us__advantage--like {
+  background-image: url("../img/icon-feature-heart.svg");
+  background-position: 5px 0;
+}
+
+.about-us__advantage--handle {
+  background-image: url("../img/icon-feature-ball.svg");
+  background-position: 2px 0;
+}
+
+.about-us__advantage--producer {
+  background-image: url("../img/icon-feature-rocket.svg");
+  background-position: -3px 0;
+}
+
+.about-us__advantage--wrapper {
+  background-image: url("../img/icon-feature-gift.svg");
+  background-position: 2px 0;
 }
 
 @media (min-width: $tablet-width) {
@@ -28,6 +60,7 @@
   }
 
   .about-us__main-title {
+    margin-bottom: 50px;
     font-size: 43px;
   }
 
@@ -35,11 +68,11 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 419px;
+    height: 480px;
   }
 
   .about-us__advantage {
-    padding: 66px 6px 27px 0;
+    padding: 57px 6px 57px 0;
     width: 334px;
     font-size: 20px;
     line-height: 22px;
@@ -48,7 +81,7 @@
 
 @media (min-width: $desktop-width) {
   .about-us {
-    padding: 74px 10px 86px 175px;
+    padding: 74px 10px 35px 175px;
   }
 
   .about-us__main-title {
@@ -56,11 +89,10 @@
   }
 
   .about-us__advantages {
-    height: 514px;
+    height: 475px;
   }
 
   .about-us__advantage {
-    padding: 59px 6px 60px 0;
     width: 350px;
   }
 }

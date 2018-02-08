@@ -30,14 +30,25 @@
   display: flex;
 }
 
+.slide__button-item {
+  border: 1px solid #ececec;
+}
+
 .slide__button {
   display: block;
   margin: 0;
   padding: 11px 37px 11px 37px;
   width: 130px;
   text-align: center;
-  border: 1px solid #ececec;
   box-sizing: border-box;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 @media (min-width: $tablet-width) {
@@ -66,11 +77,14 @@
     bottom: 0;
   }
 
+  .slide__button-item {
+    border: none;
+  }
+
   .slide__button {
     padding: 11px 18px;
     width: 88px;
     text-align: center;
-    border: none;
   }
 }
 
