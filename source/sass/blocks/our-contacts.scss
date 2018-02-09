@@ -100,7 +100,7 @@
     width: 211px;
     border-bottom: none;
 
-    &:before {
+    &::before {
       content: "";
       position: absolute;
       top: 24px;
@@ -166,7 +166,7 @@
   .our-contacts__address--email {
     width: 205px;
 
-    &:before {
+    &::before {
       content: "";
       position: absolute;
       top: 24px;

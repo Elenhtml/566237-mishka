@@ -11,26 +11,26 @@
   background-position: 10% 5%;
   border: 1px solid #f1f1f1;
 
-    &::before {
-      content: "";
-      position: absolute;
-      top: 132px;
-      left: 79px;
-      width: 101px;
-      height: 77px;
-      background-image: url("../../img/play.png");
-      background-repeat: no-repeat;
-      background-position: 0 0;
-   }
+  &::before {
+    content: "";
+    position: absolute;
+    top: 132px;
+    left: 79px;
+    width: 101px;
+    height: 77px;
+    background-image: url("../../img/play.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
 
-   &:hover {
-     &::before {
-       top: 122px;
-       left: 72px;
-       width: 121px;
-       height: 92px;
-       background-size: cover;
-     }
+  :hover {
+    &::before {
+      top: 122px;
+      left: 72px;
+      width: 121px;
+      height: 92px;
+      background-size: cover;
+    }
   }
 
   &:active {
@@ -101,33 +101,33 @@
     margin-bottom: 63px;
     background-position: 5% 69%;
 
-     &::before {
+    &::before {
       top: 189px;
       left: 283px;
       width: 102px;
       height: 78px;
-   }
+    }
 
-   &:hover {
-     &::before {
-       top: 179px;
-       left: 275px;
-       width: 122px;
-       height: 94px;
-       background-size: cover;
-     }
-  }
+    &:hover {
+      &::before {
+        top: 179px;
+        left: 275px;
+        width: 122px;
+        height: 94px;
+        background-size: cover;
+      }
+    }
 
-  &:active {
-    &::before {
-      top: 201px;
-      left: 291px;
-      width: 81px;
-      height: 62px;
-      opacity: 0.4;
+    &:active {
+      &::before {
+        top: 201px;
+        left: 291px;
+        width: 81px;
+        height: 62px;
+        opacity: 0.4;
+      }
     }
   }
-}
 
   .goods__wrapper {
     padding-top: 0;
@@ -193,28 +193,28 @@
       left: 290px;
       width: 102px;
       height: 78px;
-   }
+    }
 
-   &:hover {
-     &::before {
-       top: 179px;
-       left: 282px;
-       width: 122px;
-       height: 94px;
-       background-size: cover;
-     }
-  }
+    &:hover {
+      &::before {
+        top: 179px;
+        left: 282px;
+        width: 122px;
+        height: 94px;
+        background-size: cover;
+      }
+    }
 
-  &:active {
-    &::before {
-      top: 179px;
-      left: 298px;
-      width: 82px;
-      height: 62px;
-      opacity: 0.4;
+    &:active {
+      &::before {
+        top: 179px;
+        left: 298px;
+        width: 82px;
+        height: 62px;
+        opacity: 0.4;
+      }
     }
   }
-}
 
   .goods__image-tablet {
     display: none;
