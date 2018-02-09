@@ -8,7 +8,7 @@
   margin-bottom: 58px;
   background-image: url("../img/icon-video1.svg");
   background-repeat: no-repeat;
-  background-position: 10% 5%;
+  background-position: 15% 6%;
   border: 1px solid #f1f1f1;
 
   &::before {
@@ -46,7 +46,8 @@
 
 .goods__title {
   margin: 0;
-  margin-bottom: 28px;
+  margin-bottom: 25px;
+  padding-top: 22px;
   padding-left: 90px;
   width: 131px;
 }
@@ -56,7 +57,7 @@
 }
 
 .goods__wrapper {
-  padding-top: 35px;
+  padding-top: 20px;
   padding-bottom: 31px;
 
   &:hover {
@@ -80,12 +81,13 @@
   margin: 0;
   padding: 0;
   padding-left: 34px;
-  width: 205px;
+  width: 190px;/*205px;*/
+  font-size: 13px;
 }
 
 .goods__button-order {
-  margin: 30px 0 0 34px;
-  padding: 13px 10px 11px 10px;
+  margin: 25px 0 0 34px;
+  padding: 13px 10px 15px 10px;
   width: 192px;
   box-sizing: border-box;
 }
