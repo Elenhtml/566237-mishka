@@ -76,6 +76,7 @@
 
   .footer__social-contacts {
     width: 226px;
+    padding-top: 5px;
     padding-right: 80px;
     padding-left: 0;
     padding-bottom: 0;
@@ -96,7 +97,7 @@
   }
 
   .footer__email svg {
-    margin-left: 0;
+    margin-left: 2px;/*0;*/
   }
 }
 

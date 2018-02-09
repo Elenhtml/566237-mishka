@@ -21,7 +21,7 @@
   }
 
   .page-catalog__title-wrapper {
-    margin-bottom: 26px;
+    margin-bottom: 0; /*26px;*/
     width: 100%;
     background-color: #f1f1f1;
   }
@@ -35,7 +35,7 @@
 
   .page-catalog__main-title {
     margin-left: 0;
-    padding: 108px 0;
+    padding: 98px 0 77px 0;
     width: 668px;
   }
 }
