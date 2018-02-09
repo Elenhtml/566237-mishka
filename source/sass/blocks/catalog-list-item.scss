@@ -156,7 +156,7 @@
 
   .catalog-list-item__link-image-desktop {
     display: block;
-    margin-bottom: 28px;
+    margin-bottom: 25px;
   }
 
   .catalog-list-item__link-title--no-view {
@@ -180,5 +180,9 @@
 
   .catalog-list-item__description--toys {
     padding-bottom: 13px;
+  }
+
+  .catalog-list-item__price {
+    padding-bottom: 24px;
   }
 }
