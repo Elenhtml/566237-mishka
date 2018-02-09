@@ -81,7 +81,7 @@
 
 @media (min-width: $desktop-width) {
   .about-us {
-    padding: 74px 10px 35px 175px;
+    padding: 98px 10px 23px 175px;
   }
 
   .about-us__main-title {
@@ -89,10 +89,15 @@
   }
 
   .about-us__advantages {
+    width: 700px;
     height: 475px;
   }
 
   .about-us__advantage {
     width: 350px;
+  }
+
+  .about-us__advantage--like {
+    background-position: 7px 5px;
   }
 }
