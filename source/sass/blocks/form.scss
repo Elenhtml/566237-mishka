@@ -111,11 +111,11 @@
 
   .form__filter--telephone {
     padding-bottom: 0;
-}
+  }
 
   .form__filter--email {
     padding-bottom: 53px;
-}
+  }
 
   .form__filter--extra {
     padding-bottom: 50px;
@@ -178,13 +178,25 @@
 
 @media (min-width: $desktop-width) {
   .form__filter {
-    padding-bottom: 66px;
+    padding-bottom: 64px;
   }
 
   .form__title {
-    padding-top: 62px;
+    padding-top: 70px;
     padding-left: 60px;
     padding-right: 65px;
+  }
+
+  .form__filter--fullname {
+    padding-bottom: 52px;
+  }
+
+  .form__title--fullname {
+    padding-top: 65px;
+  }
+
+  .form__filter-wrapper--fullname {
+    padding-top: 0;
   }
 
   .form__filter-list {
@@ -192,10 +204,30 @@
     line-height: 22px;
   }
 
+  .form__filter--telephone {
+    padding-bottom: 0;
+  }
+
   .form__filter-wrapper {
     margin-right: auto;
     margin-left: 175px;
     width: 703px;
+  }
+
+  .form__filter--email {
+    padding-bottom: 50px;
+  }
+
+  .form__title--email {
+    padding-top: 40px;
+  }
+
+  .form__filter--extra {
+    padding-bottom: 45px;
+  }
+
+  .form__title--extra {
+    padding-top: 59px;
   }
 
   .form__letter {
