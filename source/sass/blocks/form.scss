@@ -1,14 +1,26 @@
 .form__filter {
   margin: 0;
   padding: 0;
-  padding-bottom: 50px;
+  padding-bottom: 47px;
   border: none;
   border-top: 1px solid #63d1bb;
 }
 
+.form__filter--fullname {
+  padding-bottom: 29px;
+}
+
+.form__filter--telephone {
+  padding-bottom: 35px;
+}
+
+.form__filter--email {
+  padding-bottom: 33px;
+}
+
 .form__filter--extra {
   padding-bottom: 0;
-  margin-bottom: 16px;
+  margin-bottom: 15px;
 }
 
 .form__title {
@@ -33,7 +45,7 @@
 }
 
 .form__filter-wrapper--fullname {
-  padding-top: 33px;
+  padding-top: 23px;
 }
 
 .form__name-label {
@@ -76,8 +88,8 @@
 }
 
 .form__button {
-  margin: 32px 0 55px 0;
-  padding: 16px 10px;
+  margin: 28px 0 53px 0;
+  padding: 14px 10px 15px 10px;
   width: 260px;
   box-sizing: border-box;
 }

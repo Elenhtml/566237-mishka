@@ -17,7 +17,7 @@
 }
 
 .filter-input--name {
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .filter-input--name:last-child {
@@ -32,9 +32,10 @@
 }
 
 .filter-input--phone {
+  padding: 18px 29px 17px 0;
   background-image: url("../img/icon-phone.svg");
   background-repeat: no-repeat;
-  background-position: right 15px;
+  background-position: right 14px;
 
   &:hover {
     background-image: url("../img/icon-phoneh.svg");
