@@ -1,5 +1,5 @@
 .about-us {
-  padding: 36px 30px 0 30px;
+  padding: 30px 30px 0 30px;
 }
 
 .about-us__main-title {
@@ -14,7 +14,7 @@
 }
 
 .about-us__advantage {
-  padding: 57px 6px 36px 0;
+  padding: 50px 6px 33px 0;
   width: 260px;
   box-sizing: border-box;
   font-family: "Open Sans", "Arial", sans-serif;
@@ -56,7 +56,7 @@
 
 @media (min-width: $tablet-width) {
   .about-us {
-    padding: 60px 0 54px 0;
+    padding: 60px 0 5px 0;
   }
 
   .about-us__main-title {
@@ -72,7 +72,7 @@
   }
 
   .about-us__advantage {
-    padding: 57px 6px 57px 0;
+    padding: 50px 6px 60px 0;
     width: 334px;
     font-size: 20px;
     line-height: 22px;

@@ -5,7 +5,7 @@
 .site-list__link {
   display: block;
   margin: 0;
-  padding: 30px 184px 29px 30px;
+  padding: 25px 184px 29px 30px;
   width: 106px;
   font-family: "Open Sans", "Arial", sans-serif;
   font-size: 19px;
@@ -17,7 +17,7 @@
 
   &:hover {
     position: relative;
-    padding-top: 25px;
+    padding-top: 20px;
     padding-bottom: 34px;
 
     &::before {
@@ -38,12 +38,12 @@
 .site-list__link--interier {
   background-color: #63d1bb;
   background-image: url("../img/icon-interior1.svg");
-  background-position: 256px 30px;
+  background-position: 245px 22px;
 
   &:hover {
     background-color: #59d5bc;
     background-image: url("../img/icon-interior1h.svg");
-    background-position: 256px 25px;
+    background-position: 245px 27px;
 
     &::before {
       background-color: #59d5bc;
@@ -58,12 +58,12 @@
 .site-list__link--toys {
   background-color: #56c3b2;
   background-image: url("../img/icon-toy1.svg");
-  background-position: 240px 30px;
+  background-position: 230px 20px;
 
   &:hover {
     background-color: #46c1ae;
     background-image: url("../img/icon-toy1h.svg");
-    background-position: 240px 25px;
+    background-position: 230px 25px;
 
     &::before {
       background-color: #46c1ae;
@@ -91,6 +91,22 @@
       &::before {
         width: 334px;
       }
+    }
+  }
+
+  .site-list__link--interier {
+    background-position: 255px 27px;
+
+    &:hover {
+     background-position: 255px 32px;
+    }
+  }
+
+  .site-list__link--toys {
+    background-position: 240px 27px;
+
+    &:hover {
+      background-position: 240px 32px;
     }
   }
 }
