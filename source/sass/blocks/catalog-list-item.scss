@@ -3,11 +3,23 @@
   margin-top: 30px;
   border: 1px solid #f1f1f1;
   box-sizing: border-box;
+
+  &:hover {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+  }
+
+  &:active {
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.3);
+  }
 }
 
 .catalog-list-item__link {
   @include catalog-link;
   display: block;
+}
+
+.catalog-list-item__link img {
+  background-color: #ffffff;
 }
 
 .catalog-list-item__link-tablet {
@@ -34,6 +46,14 @@
   width: 212px;
   font-size: 18px;
   line-height: 30px;
+
+  &:hover {
+   color: rgba(0, 0, 0, 0.6);
+  }
+
+  &:active {
+    color: rgba(0, 0, 0, 0.3);
+  }
 }
 
 .catalog-list-item__description {
@@ -61,6 +81,8 @@
   position: absolute;
   right: 26px;
   bottom: 30px;
+  margin: 0;
+  padding: 0;
 }
 
 @media (min-width: $tablet-width) {
