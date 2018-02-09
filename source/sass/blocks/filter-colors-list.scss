@@ -62,9 +62,9 @@
   }
 
   .filter-colors-list__option {
-    margin-top: 62px;
+    margin-top: 58px;
     padding-left: 79px;
-    width: 225px;
+    width: 249px;
     box-sizing: border-box;
   }
 
@@ -75,15 +75,16 @@
 
   .filter-colors-list__item + .filter-colors-list__label {
     &::before {
-      top: -15px;
+      top: -14px;
       left: -79px;
-      width: 53px;
-      height: 53px;
+      width: 49px;
+      height: 49px;
     }
   }
 
   .filter-colors-list__item:checked + .filter-colors-list__label {
     &::after {
+      top: -4px;
       left: -66px;
     }
   }

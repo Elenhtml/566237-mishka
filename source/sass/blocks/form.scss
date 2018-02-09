@@ -101,9 +101,21 @@
 
   .form__filter {
     margin-bottom: 0;
-    padding-bottom: 70px;
+    padding-bottom: 64px;
     border-top: none;
   }
+
+  .form__filter--fullname {
+    padding-bottom: 60px;
+  }
+
+  .form__filter--telephone {
+    padding-bottom: 0;
+}
+
+  .form__filter--email {
+    padding-bottom: 53px;
+}
 
   .form__filter--extra {
     padding-bottom: 50px;
@@ -115,6 +127,14 @@
     padding-right: 105px;
   }
 
+  .form__title--email {
+    padding-top: 40px;
+  }
+
+  .form__title--extra {
+    padding-top: 60px;
+  }
+
   .form__filter-wrapper {
     margin-top: -46px;
     margin-left: auto;
@@ -122,7 +142,7 @@
   }
 
   .form__filter-wrapper--fullname {
-    padding-top: 33px;
+    padding-top: 10px;
   }
 
   .form__name-label {
@@ -130,10 +150,17 @@
     line-height: 22px;
   }
 
+  .form__filter-wrapper--extra {
+    margin-top: -55px;
+  }
+
   .form__letter {
     @include input-special-field;
     padding: 15px 16px;
+    font-size: 19px;
+    line-height: 22px;
     background: #ffffff;
+    rows: 10;
   }
 
   .form__text {
