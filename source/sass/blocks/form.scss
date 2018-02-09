@@ -1,12 +1,13 @@
 .form__filter {
   margin: 0;
-  margin-bottom: 32px;
   padding: 0;
+  padding-bottom: 50px;
   border: none;
   border-top: 1px solid #63d1bb;
 }
 
 .form__filter--extra {
+  padding-bottom: 0;
   margin-bottom: 16px;
 }
 
@@ -31,6 +32,10 @@
   font-weight: bold;
 }
 
+.form__filter-wrapper--fullname {
+  padding-top: 33px;
+}
+
 .form__name-label {
   font-family: "Open Sans", "Arial", sans-serif;
   font-size: 17px;
@@ -43,18 +48,31 @@
   padding: 0;
   font-size: 14px;
   line-height: 16px;
+  color: #a8a8a8;
 }
 
 .form__letter {
+  display: block;
   margin: 0;
   margin-top: 25px;
-  padding: 0;
+  padding: 18px 19px;
   width: 256px;
   font-size: 17px;
   line-height: 18px;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.3);
   border: 2px solid #000000;
+  box-sizing: border-box;
+
+  &:hover {
+    border: 2px solid #62d1ba;
+  }
+
+  &:active {
+    color: #444444;
+    font-style: normal;
+    border: 2px solid #62d1ba;
+  }
 }
 
 .form__button {
@@ -71,11 +89,12 @@
 
   .form__filter {
     margin-bottom: 0;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
     border-top: none;
   }
 
   .form__filter--extra {
+    padding-bottom: 50px;
     margin-bottom: 0;
   }
 
@@ -90,6 +109,10 @@
     width: 501px;
   }
 
+  .form__filter-wrapper--fullname {
+    padding-top: 33px;
+  }
+
   .form__name-label {
     font-size: 19px;
     line-height: 22px;
@@ -98,7 +121,6 @@
   .form__letter {
     @include input-special-field;
     padding: 15px 16px;
-    box-sizing: border-box;
     background: #ffffff;
   }
 
@@ -116,6 +138,10 @@
 }
 
 @media (min-width: $desktop-width) {
+  .form__filter {
+    padding-bottom: 66px;
+  }
+
   .form__title {
     padding-top: 62px;
     padding-left: 60px;

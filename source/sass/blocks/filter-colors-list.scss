@@ -4,7 +4,7 @@
 
 .filter-colors-list__option {
   margin: 0;
-  margin-top: 27px;
+  margin-top: 43px;
   padding: 0;
   padding-left: 62px;
 }
@@ -14,17 +14,55 @@
   display: block;
 }
 
+.filter-colors-list__item + .filter-colors-list__label {
+  &::before {
+    content: "";
+    position: absolute;
+    top: -12px;
+    left: -62px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #000000;
+  }
+
+  &:hover {
+    &::before {
+      border: 2px solid #51c4b2;
+    }
+  }
+
+  &:active {
+    &::before {
+      border: 2px solid rgba(0, 0, 0, 0.3);
+    }
+  }
+}
+
+.filter-colors-list__item:checked + .filter-colors-list__label {
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -56px;
+    width: 33px;
+    height: 22px;
+    background-image: url("../../img/icon-tick.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+}
+
 @media (min-width: $tablet-width) {
   .filter-colors-list {
     display: flex;
     flex-wrap: wrap;
-    margin-top: -46px;
+    margin-top: -86px;
     margin-left: auto;
     width: 501px;
   }
 
   .filter-colors-list__option {
-    margin-top: 24px;
+    margin-top: 62px;
     padding-left: 79px;
     width: 225px;
     box-sizing: border-box;
@@ -34,10 +72,26 @@
     font-size: 19px;
     line-height: 22px;
   }
+
+  .filter-colors-list__item + .filter-colors-list__label {
+    &::before {
+      top: -15px;
+      left: -79px;
+      width: 53px;
+      height: 53px;
+    }
+  }
+
+  .filter-colors-list__item:checked + .filter-colors-list__label {
+    &::after {
+      left: -66px;
+    }
+  }
 }
 
 @media (min-width: $desktop-width) {
   .filter-colors-list {
+    margin-top: -84px;
     margin-right: auto;
     margin-left: 175px;
     width: 875px;
