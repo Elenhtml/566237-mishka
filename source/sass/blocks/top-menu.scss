@@ -18,7 +18,9 @@
   padding: 0;
   color: #000000;
   text-decoration: none;
+}
 
+.top-menu__item a[href] {
   &:hover {
     color: rgba(0, 0, 0, 0.6);
   }
