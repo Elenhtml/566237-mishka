@@ -14,7 +14,7 @@ body {
   height: 1px;
   border: 0;
   white-space: nowrap;
-  clip-path: inst(100%);
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }

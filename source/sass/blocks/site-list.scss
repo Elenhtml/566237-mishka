@@ -37,12 +37,12 @@
 
 .site-list__link--interier {
   background-color: #63d1bb;
-  background-image: url("../img/icon-interior1.svg");
+  background-image: url("../img/icons/icon-interior1.svg");
   background-position: 245px 22px;
 
   &:hover {
     background-color: #59d5bc;
-    background-image: url("../img/icon-interior1h.svg");
+    background-image: url("../img/icons/icon-interior1h.svg");
     background-position: 245px 17px;
   }
 
@@ -51,18 +51,18 @@
   }
 
   &:active {
-    background-image: url("../img/icon-interior1a.svg");
+    background-image: url("../img/icons/icon-interior1a.svg");
   }
 }
 
 .site-list__link--toys {
   background-color: #56c3b2;
-  background-image: url("../img/icon-toy1.svg");
+  background-image: url("../img/icons/icon-toy1.svg");
   background-position: 230px 20px;
 
   &:hover {
     background-color: #46c1ae;
-    background-image: url("../img/icon-toy1h.svg");
+    background-image: url("../img/icons/icon-toy1h.svg");
     background-position: 230px 15px;
   }
 
@@ -71,7 +71,7 @@
   }
 
   &:active {
-    background-image: url("../img/icon-toy1a.svg");
+    background-image: url("../img/icons/icon-toy1a.svg");
   }
 }
 

@@ -30,7 +30,7 @@
   }
 
   &:active::before {
-      border: 2px solid rgba(0, 0, 0, 0.3);
+    border: 2px solid rgba(0, 0, 0, 0.3);
   }
 }
 
@@ -42,7 +42,7 @@
     left: -57px;
     width: 28px;
     height: 22px;
-    background-image: url("../../img/icon-tick.svg");
+    background-image: url("../../img/icons/icon-tick.svg");
     background-repeat: no-repeat;
     background-position: 0 0;
   }
