@@ -6,3 +6,17 @@
   background-repeat: no-repeat;
   background-position: 0 0;
 }
+
+@media (min-width: $tablet-width) {
+  .logo {
+    height: 50px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .logo {
+    height: 75px;
+    background-position: center 0;
+    text-align: center;
+  }
+}

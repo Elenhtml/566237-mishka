@@ -19,15 +19,15 @@
     position: relative;
     padding-top: 20px;
     padding-bottom: 34px;
+  }
 
-    &::before {
-      content: "";
-      position: absolute;
-      top: -5px;
-      left: 0;
-      width: 320px;
-      height: 5px;
-    }
+  &:hover::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: 0;
+    width: 320px;
+    height: 5px;
   }
 
   &:active {
@@ -44,10 +44,10 @@
     background-color: #59d5bc;
     background-image: url("../img/icon-interior1h.svg");
     background-position: 245px 17px;
+  }
 
-    &::before {
-      background-color: #59d5bc;
-    }
+  &:hover::before {
+    background-color: #59d5bc;
   }
 
   &:active {
@@ -64,10 +64,10 @@
     background-color: #46c1ae;
     background-image: url("../img/icon-toy1h.svg");
     background-position: 230px 15px;
+  }
 
-    &::before {
-      background-color: #46c1ae;
-    }
+  &:hover::before {
+    background-color: #46c1ae;
   }
 
   &:active {
@@ -87,10 +87,8 @@
     font-size: 20px;
     line-height: 30px;
 
-    &:hover {
-      &::before {
-        width: 334px;
-      }
+    &:hover::before {
+      width: 334px;
     }
   }
 
@@ -120,10 +118,8 @@
     padding-right: 350px;
     width: 140px;
 
-    &:hover {
-      &::before {
-        width: 525px;
-      }
+    &:hover::before {
+      width: 525px;
     }
   }
 

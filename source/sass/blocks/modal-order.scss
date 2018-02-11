@@ -1,8 +1,18 @@
 .modal-order {
   display: none;
+  position: fixed;
+  top: 50%;
+  left: 0;
+  margin-top: -168px;
   width: 320px;
   padding: 34px 30px 46px 30px;
+  border: 1px solid #c7c7c7;
   box-sizing: border-box;
+  z-index: 10;
+}
+
+.modal-order-show {
+  display: block;
 }
 
 .modal-order__modal-title {
@@ -62,6 +72,9 @@
 
 @media (min-width: $tablet-width) {
   .modal-order {
+    left: 50%;
+    margin-top: -168px;
+    margin-left: -283px;
     width: 566px;
     padding: 43px 106px 46px 106px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);

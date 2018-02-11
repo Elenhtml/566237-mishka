@@ -157,10 +157,10 @@
   .form__letter {
     @include input-special-field;
     padding: 15px 16px;
+    height: 142px;
     font-size: 19px;
     line-height: 22px;
     background: #ffffff;
-    rows: 10;
   }
 
   .form__text {

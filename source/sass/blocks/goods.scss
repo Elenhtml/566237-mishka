@@ -23,24 +23,20 @@
     background-position: 0 0;
   }
 
-  :hover {
-    &::before {
-      top: 122px;
-      left: 72px;
-      width: 121px;
-      height: 92px;
-      background-size: cover;
-    }
+  &:hover::before {
+    top: 122px;
+    left: 72px;
+    width: 121px;
+    height: 92px;
+    background-size: cover;
   }
 
-  &:active {
-    &::before {
-      top: 142px;
-      left: 87px;
-      width: 80px;
-      height: 61px;
-      opacity: 0.3;
-    }
+  &:active::before {
+    top: 142px;
+    left: 87px;
+    width: 80px;
+    height: 61px;
+    opacity: 0.3;
   }
 }
 
@@ -114,24 +110,20 @@
       height: 78px;
     }
 
-    &:hover {
-      &::before {
-        top: 179px;
-        left: 275px;
-        width: 122px;
-        height: 94px;
-        background-size: cover;
-      }
+    &:hover::before {
+      top: 179px;
+      left: 275px;
+      width: 122px;
+      height: 94px;
+      background-size: cover;
     }
 
-    &:active {
-      &::before {
-        top: 201px;
-        left: 291px;
-        width: 81px;
-        height: 62px;
-        opacity: 0.4;
-      }
+    &:active::before {
+      top: 201px;
+      left: 291px;
+      width: 81px;
+      height: 62px;
+      opacity: 0.4;
     }
   }
 
@@ -202,24 +194,20 @@
       height: 78px;
     }
 
-    &:hover {
-      &::before {
-        top: 179px;
-        left: 282px;
-        width: 122px;
-        height: 94px;
-        background-size: cover;
-      }
+    &:hover::before {
+      top: 179px;
+      left: 282px;
+      width: 122px;
+      height: 94px;
+      background-size: cover;
     }
 
-    &:active {
-      &::before {
-        top: 179px;
-        left: 298px;
-        width: 82px;
-        height: 62px;
-        opacity: 0.4;
-      }
+    &:active::before {
+      top: 179px;
+      left: 298px;
+      width: 82px;
+      height: 62px;
+      opacity: 0.4;
     }
   }
 
