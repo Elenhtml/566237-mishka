@@ -1,5 +1,15 @@
 .button-buy {
   display: block;
+  width: 21px;
+  height: 19px;
   background-color: #ffffff;
   border: none;
+
+  &:hover path {
+    fill: #63d1bb;
+  }
+
+  &:active path {
+    fill: rgba(99, 209, 187, 0.3);
+  }
 }

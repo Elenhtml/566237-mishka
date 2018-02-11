@@ -1,13 +1,26 @@
 .form__filter {
   margin: 0;
-  margin-bottom: 32px;
   padding: 0;
+  padding-bottom: 47px;
   border: none;
   border-top: 1px solid #63d1bb;
 }
 
+.form__filter--fullname {
+  padding-bottom: 29px;
+}
+
+.form__filter--telephone {
+  padding-bottom: 35px;
+}
+
+.form__filter--email {
+  padding-bottom: 33px;
+}
+
 .form__filter--extra {
-  margin-bottom: 16px;
+  padding-bottom: 0;
+  margin-bottom: 15px;
 }
 
 .form__title {
@@ -31,6 +44,10 @@
   font-weight: bold;
 }
 
+.form__filter-wrapper--fullname {
+  padding-top: 23px;
+}
+
 .form__name-label {
   font-family: "Open Sans", "Arial", sans-serif;
   font-size: 17px;
@@ -43,23 +60,36 @@
   padding: 0;
   font-size: 14px;
   line-height: 16px;
+  color: #a8a8a8;
 }
 
 .form__letter {
+  display: block;
   margin: 0;
   margin-top: 25px;
-  padding: 0;
+  padding: 18px 19px;
   width: 256px;
   font-size: 17px;
   line-height: 18px;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.3);
   border: 2px solid #000000;
+  box-sizing: border-box;
+
+  &:hover {
+    border: 2px solid #62d1ba;
+  }
+
+  &:active {
+    color: #444444;
+    font-style: normal;
+    border: 2px solid #62d1ba;
+  }
 }
 
 .form__button {
-  margin: 32px 0 55px 0;
-  padding: 16px 10px;
+  margin: 28px 0 53px 0;
+  padding: 14px 10px 15px 10px;
   width: 260px;
   box-sizing: border-box;
 }
@@ -71,11 +101,24 @@
 
   .form__filter {
     margin-bottom: 0;
-    padding-bottom: 50px;
+    padding-bottom: 64px;
     border-top: none;
   }
 
+  .form__filter--fullname {
+    padding-bottom: 60px;
+  }
+
+  .form__filter--telephone {
+    padding-bottom: 0;
+  }
+
+  .form__filter--email {
+    padding-bottom: 53px;
+  }
+
   .form__filter--extra {
+    padding-bottom: 50px;
     margin-bottom: 0;
   }
 
@@ -84,10 +127,22 @@
     padding-right: 105px;
   }
 
+  .form__title--email {
+    padding-top: 40px;
+  }
+
+  .form__title--extra {
+    padding-top: 60px;
+  }
+
   .form__filter-wrapper {
     margin-top: -46px;
     margin-left: auto;
     width: 501px;
+  }
+
+  .form__filter-wrapper--fullname {
+    padding-top: 10px;
   }
 
   .form__name-label {
@@ -95,10 +150,16 @@
     line-height: 22px;
   }
 
+  .form__filter-wrapper--extra {
+    margin-top: -55px;
+  }
+
   .form__letter {
     @include input-special-field;
     padding: 15px 16px;
-    box-sizing: border-box;
+    height: 142px;
+    font-size: 19px;
+    line-height: 22px;
     background: #ffffff;
   }
 
@@ -116,10 +177,26 @@
 }
 
 @media (min-width: $desktop-width) {
+  .form__filter {
+    padding-bottom: 64px;
+  }
+
   .form__title {
-    padding-top: 62px;
+    padding-top: 70px;
     padding-left: 60px;
     padding-right: 65px;
+  }
+
+  .form__filter--fullname {
+    padding-bottom: 52px;
+  }
+
+  .form__title--fullname {
+    padding-top: 65px;
+  }
+
+  .form__filter-wrapper--fullname {
+    padding-top: 0;
   }
 
   .form__filter-list {
@@ -127,10 +204,30 @@
     line-height: 22px;
   }
 
+  .form__filter--telephone {
+    padding-bottom: 0;
+  }
+
   .form__filter-wrapper {
     margin-right: auto;
     margin-left: 175px;
     width: 703px;
+  }
+
+  .form__filter--email {
+    padding-bottom: 50px;
+  }
+
+  .form__title--email {
+    padding-top: 40px;
+  }
+
+  .form__filter--extra {
+    padding-bottom: 45px;
+  }
+
+  .form__title--extra {
+    padding-top: 59px;
   }
 
   .form__letter {

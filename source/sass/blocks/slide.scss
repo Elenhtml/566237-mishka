@@ -1,7 +1,7 @@
 .slide__text {
   margin: 0;
   padding: 0;
-  margin-bottom: 40px;
+  margin-bottom: 35px;
   width: 260px;
   font-size: 15px;
   line-height: 30px;
@@ -9,7 +9,7 @@
 
 .slide__buyer-name {
   margin: 0;
-  margin-bottom: 15px;
+  margin-bottom: 8px;
   padding: 0;
   font-family: "Open Sans", "Arial", sans-serif;
   font-size: 17px;
@@ -19,7 +19,7 @@
 
 .slide__buyer-email {
   margin: 0;
-  margin-bottom: 36px;
+  margin-bottom: 34px;
   padding: 0;
   font-size: 17px;
   line-height: 20px;
@@ -30,14 +30,25 @@
   display: flex;
 }
 
+.slide__button-item {
+  border: 1px solid #ececec;
+}
+
 .slide__button {
   display: block;
   margin: 0;
-  padding: 11px 37px 11px 37px;
+  padding: 10px 39px 9px 35px;
   width: 130px;
   text-align: center;
-  border: 1px solid #ececec;
   box-sizing: border-box;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 @media (min-width: $tablet-width) {
@@ -66,17 +77,20 @@
     bottom: 0;
   }
 
+  .slide__button-item {
+    border: none;
+  }
+
   .slide__button {
-    padding: 11px 18px;
+    padding: 15px 10px;
     width: 88px;
     text-align: center;
-    border: none;
   }
 }
 
 @media (min-width: $desktop-width) {
   .slide__text {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     width: 772px;
   }
 

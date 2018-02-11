@@ -1,5 +1,5 @@
 .our-contacts {
-  padding: 40px 30px 40px 30px;
+  padding: 40px 30px 38px 30px;
 }
 
 .our-contacts__title {
@@ -14,7 +14,7 @@
 
 .our-contacts__addresses__point {
   display: flex;
-  padding-bottom: 30px;
+  padding-bottom: 35px;
 }
 
 .our-contacts__email {
@@ -31,11 +31,22 @@
 
 .our-contacts__address--email {
   margin-right: 0;
+  color: #000000;
+  text-decoration: none;
   border-bottom: 1px solid #62d1ba;
+
+  &:hover {
+    color: #46c1ae;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 .our-contacts__address--fulladdress {
   margin-right: 0;
+  line-height: 30px;
 }
 
 .our-contacts__small-map {
@@ -54,14 +65,17 @@
 
 .our-contacts__button-write-us {
   margin: 0;
-  margin-top: 39px;
-  padding: 13px 10px 11px 10px;
+  margin-top: 34px;
+  padding: 15px 10px 13px 10px;
   width: 260px;
 }
 
 @media (min-width: $tablet-width) {
   .our-contacts {
-    padding: 46px 0 57px 0;
+    padding: 78px 0 57px 0;
+    background-image: url("../img/icons/icon-flag.svg");
+    background-repeat: no-repeat;
+    background-position: 665px 60px;
   }
 
   .our-contacts__title {
@@ -78,14 +92,29 @@
     width: 334px;
   }
 
+  .our-contacts__address {
+    font-size: 17px;
+  }
+
   .our-contacts__email {
     width: 56px;
+    font-size: 17px;
   }
 
   .our-contacts__address--email {
+    position: relative;
     width: 211px;
-    text-decoration: underline;
     border-bottom: none;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 24px;
+      left: 0;
+      width: 204px;
+      height: 1px;
+      background-color: #62d1ba;
+    }
   }
 
   .our-contacts__address--fulladdress {
@@ -105,8 +134,9 @@
   }
 
   .our-contacts__button-write-us {
+    margin-top: 25px;
     margin-left: 270px;
-    padding: 16px 10px 15px 10px;
+    padding: 15px 10px 15px 10px;
     width: 230px;
   }
 }
@@ -116,12 +146,13 @@
     position: relative;
     display: flex;
     justify-content: flex-end;
-    padding: 71px 0 106px 0;
+    padding: 90px 0 136px 0;
+    background-position: 62px 150px;
   }
 
   .our-contacts__title {
-    margin-top: 90px;
-    margin-bottom: 61px;
+    margin-top: 70px;
+    margin-bottom: 55px;
     margin-left: 0;
     padding-right: 78px;
   }
@@ -141,6 +172,12 @@
 
   .our-contacts__address--email {
     width: 205px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 24px;
+    }
   }
 
   .our-contacts__small-map {
@@ -159,6 +196,7 @@
     position: absolute;
     bottom: 105px;
     left: 175px;
+    margin-top: 0;
     margin-left: 0;
   }
 }

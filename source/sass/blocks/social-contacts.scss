@@ -6,6 +6,14 @@
   display: block;
   margin: 0;
   padding: 0;
+
+  &:hover path {
+    fill: #63d1bb;
+  }
+
+  &:focus path {
+    fill: rgba(99, 209, 187, 0.3);
+  }
 }
 
 .social-contacts__button--insta {

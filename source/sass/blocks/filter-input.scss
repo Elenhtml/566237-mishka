@@ -4,10 +4,20 @@
   font-size: 17px;
   line-height: 18px;
   font-weight: bold;
+
+  &:hover {
+    border-bottom: 2px solid #62d1ba;
+  }
+
+  &:active {
+    color: #444444;
+    font-style: normal;
+    border-bottom: 2px solid #62d1ba;
+  }
 }
 
 .filter-input--name {
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .filter-input--name:last-child {
@@ -22,15 +32,24 @@
 }
 
 .filter-input--phone {
-  background-image: url("../img/icon-phone.svg");
+  padding: 18px 29px 17px 0;
+  background-image: url("../img/icons/icon-phone.svg");
   background-repeat: no-repeat;
-  background-position: right 15px;
+  background-position: right 14px;
+
+  &:hover {
+    background-image: url("../img/icon-phoneh.svg");
+  }
 }
 
 .filter-input--email {
   background-image: url("../img/icon-mail.svg");
   background-repeat: no-repeat;
   background-position: right 15px;
+
+  &:hover {
+    background-image: url("../img/icon-mailh.svg");
+  }
 }
 
 @media (min-width: $tablet-width) {
@@ -53,10 +72,13 @@
 
   .filter-input--phone {
     @include input-special-field;
+    background-position: 95% 55%;
   }
 
   .filter-input--email {
     @include input-special-field;
+    padding: 20px 10px 19px 10px;
+    background-position: 95% 60%;
   }
 }
 
@@ -66,17 +88,25 @@
     width: 575px;
   }
 
+  .filter-input--name {
+    margin-bottom: 20px;
+  }
+
   .filter-input--first-name {
+    padding-top: 18px;
+    padding-bottom: 19px;
     width: 625px;
   }
 
   .filter-input--phone {
     margin-left: 0;
     width: 700px;
+    background-position: 98% 55%;
   }
 
   .filter-input--email {
     margin-left: 0;
     width: 700px;
+    background-position: 99% 60%;
   }
 }

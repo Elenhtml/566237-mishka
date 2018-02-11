@@ -10,4 +10,21 @@
   text-align: center;
   background-color: #ffffff;
   border: 2px solid #000000;
+
+  &:hover {
+    color: #ffffff;
+    background-color: #444444;
+    border: 2px solid #444444;
+  }
+
+  &:active {
+    color: rgba(255, 255, 255, 0.3);
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .button-order--index-page {
+    width: 292px;
+    box-sizing: border-box;
+  }
 }
