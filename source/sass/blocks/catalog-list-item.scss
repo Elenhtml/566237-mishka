@@ -83,6 +83,10 @@
     margin-top: 54px;
   }
 
+  .catalog-list-item__link {
+    width: 334px;
+  }
+
   .catalog-list-item__link-title--no-view {
     display: none;
   }
@@ -138,6 +142,10 @@
     margin-right: 0;
   }
 
+  .catalog-list-item__link {
+    width: 316px;
+  }
+
   .catalog-list-item__link-image {
     margin-bottom: 25px;
   }
@@ -156,12 +164,13 @@
   }
 
   .catalog-list-item__description {
-    margin-bottom: 24px;
+    margin-top: 24px;
     padding-bottom: 37px;
     width: 250px;
   }
 
   .catalog-list-item__description--toys {
+    margin-top: 0;
     padding-bottom: 13px;
   }
 

@@ -7,7 +7,7 @@
   margin-bottom: 58px;
   background-image: url("../img/icons/icon-video1.svg");
   background-repeat: no-repeat;
-  background-position: 15% 6%;
+  background-position: 35px 34px;
   border: 1px solid #f1f1f1;
 }
 
@@ -100,6 +100,8 @@
   }
 
   .goods__video-wrapper {
+    width: 668px;
+
     &::before {
       top: 189px;
       left: 283px;
@@ -174,10 +176,12 @@
   .goods__video {
     flex-direction: row;
     margin-bottom: 103px;
-    background-position: 5% 69%;
+    background-position: 761px 47px;
   }
 
   .goods__video-wrapper {
+    width: 682px;
+
     &::before {
       top: 189px;
       left: 290px;
