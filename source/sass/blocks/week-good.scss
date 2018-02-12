@@ -34,6 +34,8 @@
 
 .week-good__image {
   margin-top: 27px;
+  width: 260px;
+  height: 315px;
 }
 
 .week-good__price {
@@ -117,15 +119,22 @@
 
   .week-good__tablet-wrapper {
     display: block;
+    width: 333px;
+    height: 404px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .week-good {
     padding-top: 73px;
-    background-image: url("../img/index/triple-set-desktop.jpg");
+    background-image: url("../img/index/triple-set-desktop@1x.jpg");
     background-repeat: no-repeat;
     background-position: right 73px;
+    background-size: 525px;
+
+   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+     background-image: url("../img/index/triple-set-desktop@2x.jpg");
+    }
   }
 
   .week-good__desktop-image {

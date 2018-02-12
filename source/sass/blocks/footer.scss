@@ -61,7 +61,7 @@
   .footer__wrapper {
     display: flex;
     margin: 0 auto;
-    padding: 50px 50px 60px 50px;
+    padding: 50px 50px 56px 50px;
     width: 768px;
   }
 
@@ -69,9 +69,15 @@
     display: block;
     width: 260px;
     height: 34px;
-    background-image: url("../img/logo-mobile.svg");
-    background-repeat: no-repeat;
-    background-position: 0 0;
+
+    &[href]:hover path {
+      fill: #46c1ae;
+    }
+
+    &[href]:active path {
+      fill: #46c1ae;
+      opacity: 0.3;
+    }
   }
 
   .footer__social-contacts {
@@ -103,7 +109,7 @@
 
 @media (min-width: $desktop-width) {
   .footer__wrapper {
-    padding: 58px 50px 53px 50px;
+    padding: 51px 50px 53px 50px;
     width: 1150px;
   }
 
