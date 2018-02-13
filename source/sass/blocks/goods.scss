@@ -13,9 +13,9 @@
 
 .goods__video-wrapper {
   position: relative;
+  width: 258px;
 
   &::before {
-    display: block;
     content: "";
     position: absolute;
     top: 37px;
