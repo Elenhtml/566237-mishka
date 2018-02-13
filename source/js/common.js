@@ -12,42 +12,42 @@ navButtonMenu.addEventListener("click", function() {
   }
 });
 
-var button_order = document.querySelector(".week-good__button-order");
-var modal_message = document.querySelector(".modal-order");
-if (modal_message) {
-  button_order.addEventListener("click", function (evt) {
+var buttonOrder = document.querySelector(".week-good__button-order");
+var modalMessage = document.querySelector(".modal-order");
+if (modalMessage) {
+  buttonOrder.addEventListener("click", function (evt) {
     evt.preventDefault();
-    modal_message.classList.add("modal-order-show");
-  });
+    modalMessage.classList.add("modal-order-show");
+});
 
   window.addEventListener("keydown", function (evt) {
     if (evt.keyCode === 27) {
-      if (modal_message.classList.contains("modal-order-show")) {
-        modal_map.classList.remove("modal-order-show");
+      if (modalMessage.classList.contains("modal-order-show")) {
+        modalMap.classList.remove("modal-order-show");
       }
     }
   });
 }
 
-var buttons_buy = document.querySelectorAll(".button-buy");
-var modal_message = document.querySelector(".modal-order");
-if (modal_message) {
-buttons_buy.forEach(function(button) {
-  button.addEventListener("click", function(evt) {
-    evt.preventDefault();
-    modal_message.classList.add("modal-order-show");
+var buttonsBuy = document.querySelectorAll(".button-buy");
+var modalMessage = document.querySelector(".modal-order");
+if (modalMessage) {
+  buttons_buy.forEach(function(button) {
+    button.addEventListener("click", function(evt) {
+      evt.preventDefault();
+      modalMessage.classList.add("modal-order-show");
   });
 });
 
-modal_message_close.addEventListener("click", function() {
-  modal_message.classList.remove("modal-order-show");
-});
+  modalMessage_close.addEventListener("click", function() {
+    modalMessage.classList.remove("modal-order-show");
+  });
 
-window.addEventListener("keydown", function (evt) {
-  if (evt.keyCode === 27) {
-    if (modal_message.classList.contains("modal-order-show")) {
-      modal_message.classList.remove("modal-order-show");
+  window.addEventListener("keydown", function (evt) {
+    if (evt.keyCode === 27) {
+      if (modalMessage.classList.contains("modal-order-show")) {
+        modalMessage.classList.remove("modal-order-show");
+      }
     }
-  }
-});
+  });
 }
