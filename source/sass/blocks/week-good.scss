@@ -32,15 +32,13 @@
   @include lists;
 }
 
-.week-good__image-wrapper {/**/
+.week-good__image-wrapper {
   width: 260px;
 }
 
 .week-good__image {
-  display: block; /**/
+  display: block;
   margin-top: 27px;
-  /*width: 260px;*/
-  /*height: 315px;*/
 }
 
 .week-good__price {
