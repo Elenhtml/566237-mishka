@@ -15,19 +15,20 @@
   position: relative;
 
   &::before {
+    display: block;
     content: "";
     position: absolute;
-    top: 132px;
+    top: 37px;
     left: 79px;
     width: 101px;
     height: 77px;
-    background-image: url("../../img/catalog/play.png");
+    background-image: url("../img/catalog/play.png");
     background-repeat: no-repeat;
     background-position: 0 0;
   }
 
   &:hover::before {
-    top: 122px;
+    top: 27px;
     left: 72px;
     width: 121px;
     height: 92px;
