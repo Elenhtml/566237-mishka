@@ -21,23 +21,21 @@
   }
 
   .page-form__title-wrapper {
-    display: block;
     position: relative;
     margin-bottom: 77px;
     width: 100%;
     background-color: #f1f1f1;
 
     &::after {
+      content: "";
       position: absolute;
-      bottom: 0;
+      bottom: -10px;
       left: 0;
       width: 100%;
       height: 24px;
-      background-color: #ffffff;
       background-image: url("../img/bg-zigzag-fill.svg");
       background-repeat: repeat-x;
-      background-position: 0 0;
-      background-size: 100% 24px;
+      background-size: 768px 24px;
     }
   }
 
@@ -69,6 +67,12 @@
 @media (min-width: $desktop-width) {
   .page-form__title-wrapper {
     margin-bottom: 124px;
+
+    &::after {
+      bottom: -20px;
+      height: 34px;
+      background-size: 1150px 34px;
+    }
   }
 
   .page-form__wrapper {

@@ -64,7 +64,20 @@
 
 @media (min-width: $tablet-width) {
   .week-good {
+    position: relative;
     padding: 0;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -75px;
+      left: -50px;
+      width: 768px;
+      height: 24px;
+      background-image: url("../img/bg-zigzag-line.svg");
+      background-repeat: no-repeat;
+      background-size: 768px 24px;
+    }
   }
 
   .week-good__top-wrapper {
@@ -137,6 +150,16 @@
 @media (min-width: $desktop-width) {
   .week-good {
     padding-top: 70px;
+
+    &::after {
+      bottom: -95px;
+      left: 0;
+      width: 1050px;
+      height: 24px;
+      background-image: url("../img/bg-zigzag-line.svg");
+      background-repeat: no-repeat;
+      background-size: 1050px 24px;
+    }
   }
 
   .week-good__top-wrapper {
