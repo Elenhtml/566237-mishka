@@ -119,8 +119,9 @@
   }
 
   .footer__social-contacts {
-    width: 415px;
+    padding-top: 12px;
     padding-right: 269px;
+    width: 415px;
   }
 
   .footer__wrapper-bottom {
@@ -133,6 +134,6 @@
 
   .footer__email {
     margin-left: 3px;
-    margin-top: -6px;
+   /* margin-top: -6px;*/
   }
 }

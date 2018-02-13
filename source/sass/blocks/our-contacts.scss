@@ -73,7 +73,7 @@
 
 .our-contacts__small-map-image {
   width: 320px;
-  height: 457px;
+  /*height: 457px;*/
 }
 
 .our-contacts__button-write-us {
@@ -85,14 +85,14 @@
 
 @media (min-width: $tablet-width) {
   .our-contacts {
-    padding: 78px 0 57px 0;
+    padding: 77px 0 57px 0;
     background-image: url("../img/icons/icon-flag.svg");
     background-repeat: no-repeat;
     background-position: 665px 60px;
   }
 
   .our-contacts__title {
-    margin-bottom: 54px;
+    margin-bottom: 48px;
     margin-left: 50px;
   }
 
@@ -136,7 +136,7 @@
 
   .our-contacts__right-wrapper {
     &::before {
-      top: 139px;
+      top: 160px;
       left: 363px;
     }
   }
@@ -146,11 +146,12 @@
   }
 
   .our-contacts__small-map-image {
+    display: block;
     width: 768px;
   }
 
   .our-contacts__button-write-us {
-    margin-top: 25px;
+    margin-top: 30px;
     margin-left: 270px;
     padding: 15px 10px 15px 10px;
     width: 230px;
@@ -162,7 +163,7 @@
     position: relative;
     display: flex;
     justify-content: flex-end;
-    padding: 90px 0 136px 0;
+    padding: 92px 0 105px 0;
     background-position: 62px 150px;
   }
 

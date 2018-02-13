@@ -19,15 +19,12 @@
 }
 
 .catalog-list-item__link img {
+  display: block;
   background-color: #ffffff;
 }
 
-.catalog-list-item__link-tablet {
-  display: none;
-}
-
-.catalog-list-item__link-image {
-  margin-bottom: 16px; /*31px;*/
+.catalog-list-item__link--block-image {
+  margin-bottom: 16px;
 }
 
 .catalog-list-item__link-title {
@@ -80,28 +77,19 @@
 @media (min-width: $tablet-width) {
   .catalog-list-item {
     display: flex;
-    margin-top: 54px;
+    margin-top: 53px;
   }
 
   .catalog-list-item__link {
     width: 334px;
   }
 
-  .catalog-list-item__link-title--no-view {
-    display: none;
-  }
-
   .catalog-list-item__wrapper {
     padding-top: 25px;
   }
 
-  .catalog-list-item__link-image {
+  .catalog-list-item__link--block-image {
     margin-bottom: 0;
-  }
-
-  .catalog-list-item__link-tablet {
-    @include catalog-link;
-    display: block;
   }
 
   .catalog-list-item__link-title {
@@ -119,7 +107,7 @@
   }
 
   .catalog-list-item__description--toys {
-    padding-bottom: 112px;
+    padding-bottom: 152px;
   }
 
   .catalog-list-item__price {
@@ -143,28 +131,23 @@
   }
 
   .catalog-list-item__link {
-    width: 316px;
-  }
-
-  .catalog-list-item__link-image {
-    margin-bottom: 25px;
-  }
-
-  .catalog-list-item__link-title--no-view {
-    display: block;
     width: 250px;
+  }
+
+  .catalog-list-item__link--block-image {
+    margin-bottom: 25px;
+    width: 316px;
   }
 
   .catalog-list-item__wrapper {
     padding-top: 0;
   }
 
-  .catalog-list-item__link-tablet {
-    display: none;
+  .catalog-list-item__link-title {
+    margin-bottom: 8px;
   }
 
   .catalog-list-item__description {
-    margin-top: 24px;
     padding-bottom: 37px;
     width: 250px;
   }
