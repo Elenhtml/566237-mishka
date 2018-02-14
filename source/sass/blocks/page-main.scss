@@ -22,7 +22,21 @@
   }
 
   .page-main__upper--our-contacts {
+    position: relative;
     padding-right: 0;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: -5px;
+      left: 0;
+      width: 768px;
+      height: 24px;
+      background-image: url("../img/bg-zigzag-line.svg");
+      background-repeat: no-repeat;
+      background-size: 768px 24px;
+      transform: rotate(180deg);
+    }
   }
 }
 
@@ -37,5 +51,15 @@
 
   .page-main__upper--our-contacts {
     padding: 0 50px;
+
+    &::before {
+      top: 0;
+      left: 50px;
+      width: 1050px;
+      height: 24px;
+      background-image: url("../img/bg-zigzag-line.svg");
+      background-repeat: no-repeat;
+      background-size: 1050px 24px;
+    }
   }
 }

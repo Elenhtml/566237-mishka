@@ -100,7 +100,7 @@
   }
 
   .top-menu__item--logo {
-    padding: 22px 53px 22px 0;
+    padding: 21px 53px 21px 0;
   }
 
   .top-menu__item--search {
@@ -140,6 +140,7 @@
     font-size: 15px;
     border: none;
     order: 4;
+    z-index: 2;
   }
 
   .top-menu__item--knitting-order {
@@ -148,6 +149,7 @@
     font-size: 15px;
     border-bottom: none;
     order: 5;
+    z-index: 2;
   }
 
   .top-menu__item--delivery {
@@ -159,12 +161,13 @@
     color: #444444;
     box-sizing: border-box;
     order: 6;
+    z-index: 2;
   }
 }
 
 @media (min-width: $desktop-width) {
   .top-menu__item--logo {
-    padding: 5px 53px 5px 50px;
+    padding: 6px 53px 3px 65px;
     order: 3;
   }
 
@@ -207,6 +210,7 @@
     width: 175px;
     font-size: 15px;
     order: 6;
+    z-index: 2;
   }
 
   .top-menu__item--sale {
@@ -215,6 +219,7 @@
     width: 175px;
     font-size: 15px;
     order: 7;
+    z-index: 2;
   }
 
   .top-menu__item--delivery {
