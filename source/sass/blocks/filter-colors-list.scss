@@ -41,7 +41,7 @@
     top: -10px;
     left: -57px;
     width: 28px;
-    height: 22px;
+    height: 23px;
     background-image: url("../img/icons/icon-tick.svg");
     background-repeat: no-repeat;
     background-position: 0 0;
@@ -80,7 +80,7 @@
 
   .filter-colors-list__item:checked + .filter-colors-list__label {
     &::after {
-      top: -4px;
+      top: -3px;
       left: -66px;
     }
   }
