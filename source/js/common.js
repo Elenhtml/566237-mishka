@@ -18,7 +18,7 @@ if (modalMessage) {
   buttonOrder.addEventListener("click", function (evt) {
     evt.preventDefault();
     modalMessage.classList.add("modal-order-show");
-});
+  });
 
   window.addEventListener("keydown", function (evt) {
     if (evt.keyCode === 27) {
@@ -36,8 +36,8 @@ if (modalMessage) {
     button.addEventListener("click", function(evt) {
       evt.preventDefault();
       modalMessage.classList.add("modal-order-show");
+    });
   });
-});
 
   modalMessage_close.addEventListener("click", function() {
     modalMessage.classList.remove("modal-order-show");
