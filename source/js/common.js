@@ -15,24 +15,24 @@ navButtonMenu.addEventListener("click", function () {
 var buttonOrder = document.querySelector(".week-good__button-order");
 if (buttonOrder) {
   var modalMessage = document.querySelector(".modal-order");
-  var close = document.querySelector(".modal-overlay");
+  var overlay = document.querySelector(".modal-overlay");
   buttonOrder.addEventListener("click", function (evt) {
     evt.preventDefault();
-    close.classList.add("modal-order-show");
+    overlay.classList.add("modal-order-show");
     modalMessage.classList.add("modal-order-show");
   });
 
-  close.addEventListener("click", function (evt) {
+  overlay.addEventListener("click", function (evt) {
     evt.preventDefault();
     modalMessage.classList.remove("modal-order-show");
-    close.classList.remove("modal-order-show");
+    overlay.classList.remove("modal-order-show");
   });
 
   window.addEventListener("keydown", function (evt) {
     if (evt.keyCode === 27) {
       if (modalMessage.classList.contains("modal-order-show")) {
         modalMap.classList.remove("modal-order-show");
-        close.classList.remove("modal-order-show");
+        overlay.classList.remove("modal-order-show");
       }
     }
   });
@@ -41,26 +41,26 @@ if (buttonOrder) {
 var buttonsBuy = document.querySelectorAll(".button-buy");
 if (buttonsBuy) {
   var modalMessage = document.querySelector(".modal-order");
-  var close = document.querySelector(".modal-overlay");
+  var overlay = document.querySelector(".modal-overlay");
   buttonsBuy.forEach(function(button) {
     button.addEventListener("click", function (evt) {
       evt.preventDefault();
       modalMessage.classList.add("modal-order-show");
-      close.classList.add("modal-order-show");
+      overlay.classList.add("modal-order-show");
     });
   });
 
-  close.addEventListener("click", function (evt) {
+  overlay.addEventListener("click", function (evt) {
     evt.preventDefault();
     modalMessage.classList.remove("modal-order-show");
-    close.classList.remove("modal-order-show");
+    overlay.classList.remove("modal-order-show");
   });
 
   window.addEventListener("keydown", function (evt) {
     if (evt.keyCode === 27) {
       if (modalMessage.classList.contains("modal-order-show")) {
         modalMessage.classList.remove("modal-order-show");
-        close.classList.remove("modal-order-show");
+        overlay.classList.remove("modal-order-show");
       }
     }
   });
