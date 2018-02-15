@@ -22,12 +22,10 @@ if (buttonOrder) {
     modalMessage.classList.add("modal-order-show");
   });
 
-  close.addEventListener("click", function (evt) {
-    if (close && !modalMessage) {
+  close.addEventListener("click", function (evt) {    
     evt.preventDefault();
     modalMessage.classList.remove("modal-order-show");
     close.classList.remove("modal-order-show");
-    }
   });
 
   window.addEventListener("keydown", function (evt) {
@@ -42,20 +40,20 @@ if (buttonOrder) {
 
 var buttonsBuy = document.querySelectorAll(".button-buy");
 if (buttonsBuy) {
-  var modalMessages = document.querySelector(".modal-order");
+  var modalMessage = document.querySelector(".modal-order");
   var close = document.querySelector(".modal-overlay");
   buttonsBuy.forEach(function(button) {
     button.addEventListener("click", function (evt) {
       evt.preventDefault();
-      modalMessages.classList.add("modal-order-show");
+      modalMessage.classList.add("modal-order-show");
       close.classList.add("modal-order-show");
     });
   });
 
   window.addEventListener("keydown", function (evt) {
     if (evt.keyCode === 27) {
-      if (modalMessages.classList.contains("modal-order-show")) {
-        modalMessages.classList.remove("modal-order-show");
+      if (modalMessage.classList.contains("modal-order-show")) {
+        modalMessage.classList.remove("modal-order-show");
         close.classList.remove("modal-order-show");
       }
     }
