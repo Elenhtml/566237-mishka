@@ -159,6 +159,7 @@
     font-size: 15px;
     font-weight: normal;
     color: #444444;
+    text-align: right;
     box-sizing: border-box;
     order: 6;
     z-index: 2;
@@ -227,7 +228,6 @@
     padding: 19px 0 21px 15px;
     flex-basis: 350px;
     font-size: 15px;
-    text-align: end;
     order: 8;
   }
 }
