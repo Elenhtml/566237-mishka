@@ -13,6 +13,7 @@ var imagemin = require("gulp-imagemin");
 var webp = require("gulp-webp");
 var posthtml = require("gulp-posthtml");
 var include = require("posthtml-include");
+var svgstore = require("gulp-svgstore");
 var server = require("browser-sync").create();
 
 gulp.task("copy", function()  {
@@ -66,6 +67,15 @@ gulp.task("webp", function()  {
   return gulp.src("source/img/**/*.{png, jpg}")
     .pipe(webp({quality: 90}))
     .pipe(gulp.dest("build/img"));
+});
+
+gulp.task("sprite", function () {
+  return gulp.src("source/img/icon-*.svg")
+    .pipe(svgstore({
+      inlineSvg: true
+    }))
+    .pipe(rename("sprite.svg"))
+    .pipe(gulp.dest("source/img"));
 });
 
 gulp.task("serve", function() {
