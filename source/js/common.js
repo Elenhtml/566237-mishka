@@ -49,7 +49,7 @@ if (buttonsBuy) {
       close.classList.add("modal-order-show");
     });
   });
-  
+
   close.addEventListener("click", function (evt) {
     evt.preventDefault();
     modalMessage.classList.remove("modal-order-show");
