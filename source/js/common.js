@@ -18,7 +18,7 @@ if (buttonOrder) {
   var close = document.querySelector(".modal-overlay");
   buttonOrder.addEventListener("click", function (evt) {
     evt.preventDefault();
-    close.classList.add("modal-order-show"); 
+    close.classList.add("modal-order-show");
     modalMessage.classList.add("modal-order-show");
   });
 
@@ -32,7 +32,7 @@ if (buttonOrder) {
     if (evt.keyCode === 27) {
       if (modalMessage.classList.contains("modal-order-show")) {
         modalMap.classList.remove("modal-order-show");
-        close.classList.remove("modal-order-show"); 
+        close.classList.remove("modal-order-show");
       }
     }
   });
@@ -46,7 +46,7 @@ if (buttonsBuy) {
     button.addEventListener("click", function (evt) {
       evt.preventDefault();
       modalMessages.classList.add("modal-order-show");
-      close.classList.add("modal-order-show"); 
+      close.classList.add("modal-order-show");
     });
   });
 
@@ -54,7 +54,7 @@ if (buttonsBuy) {
     if (evt.keyCode === 27) {
       if (modalMessages.classList.contains("modal-order-show")) {
         modalMessages.classList.remove("modal-order-show");
-        close.classList.remove("modal-order-show"); 
+        close.classList.remove("modal-order-show");
       }
     }
   });
