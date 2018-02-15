@@ -6,7 +6,7 @@ var plumber = require("gulp-plumber");
 var postcss = require("gulp-postcss");
 var autoprefixer = require("autoprefixer");
 var run = require("run-sequence");
-var deletion = require("del");
+var del = require("del");
 var minify = require("gulp-csso");
 var rename = require("gulp-rename");
 var imagemin = require("gulp-imagemin");
@@ -17,9 +17,9 @@ var server = require("browser-sync").create();
 
 gulp.task("copy", function()  {
   return gulp.src([
-    "source/fonts/*.{woff, woff2}";
-    "source/img/**";
-    "source/js/**";
+    "source/fonts/*.{woff, woff2}",
+    "source/img/**",
+    "source/js/**"
   ], {
     base: "source"
   })
@@ -82,5 +82,5 @@ gulp.task("serve", function() {
 });
 
 gulp.task("build", function(done)  {
-  run("clean", "copy", "style", "html", "images", "webp", done);
+  run("clean", "copy", "style", "html", done);
 });
