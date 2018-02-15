@@ -5,11 +5,15 @@
   background-color: #ffffff;
   border: none;
 
-  &:hover path {
+  &:hover .button-buy__icon-basket {
     fill: #63d1bb;
   }
 
-  &:active path {
+  &:active .button-buy__icon-basket {
     fill: rgba(99, 209, 187, 0.3);
+  }
+
+  .button-buy__icon-basket {
+    fill: #d3d2d2;
   }
 }
