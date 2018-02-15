@@ -23,9 +23,11 @@ if (buttonOrder) {
   });
 
   close.addEventListener("click", function (evt) {
+    if (close && !modalMessage) {
     evt.preventDefault();
-    modalMessage.classList.remove("modal-show");
+    modalMessage.classList.remove("modal-order-show");
     close.classList.remove("modal-order-show");
+    }
   });
 
   window.addEventListener("keydown", function (evt) {
