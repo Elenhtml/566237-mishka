@@ -49,6 +49,12 @@ if (buttonsBuy) {
       close.classList.add("modal-order-show");
     });
   });
+  
+  close.addEventListener("click", function (evt) {
+    evt.preventDefault();
+    modalMessage.classList.remove("modal-order-show");
+    close.classList.remove("modal-order-show");
+  });
 
   window.addEventListener("keydown", function (evt) {
     if (evt.keyCode === 27) {
