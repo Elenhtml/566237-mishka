@@ -23,7 +23,7 @@ if (modalMessage) {
   window.addEventListener("keydown", function (evt) {
     if (evt.keyCode === 27) {
       if (modalMessage.classList.contains("modal-order-show")) {
-        modalMap.classList.remove("modal-order-show");
+        modalMessage.classList.remove("modal-order-show");
       }
     }
   });
@@ -31,15 +31,16 @@ if (modalMessage) {
 
 var buttonsBuy = document.querySelectorAll(".button-buy");
 var modalMessage = document.querySelector(".modal-order");
+var modalMessageClose = document.querySelector(".modal-overlay");
 if (modalMessage) {
-  buttons_buy.forEach(function(button) {
+  buttonsBuy.forEach(function(button) {
     button.addEventListener("click", function(evt) {
       evt.preventDefault();
       modalMessage.classList.add("modal-order-show");
     });
   });
 
-  modalMessage_close.addEventListener("click", function() {
+  modalMessageClose.addEventListener("click", function() {
     modalMessage.classList.remove("modal-order-show");
   });
 
