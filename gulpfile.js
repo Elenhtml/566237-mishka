@@ -18,6 +18,15 @@ gulp.task("style", function() {
     .pipe(server.stream());
 });
 
+gulp.task("sprite", function () {
+  return gulp.src("source/img/for-sprite/*.svg")
+    .pipe(svgstore({
+      inlineSvg: true
+    }))
+    .pipe(rename("sprite.svg"))
+    .pipe(gulp.dest("build/img"));
+});
+
 gulp.task("serve", ["style"], function() {
   server.init({
     server: "source/",
