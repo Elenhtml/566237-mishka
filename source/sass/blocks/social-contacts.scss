@@ -7,13 +7,17 @@
   margin: 0;
   padding: 0;
 
-  &:hover path {
+  &:hover .social-contacts__icon-button {
     fill: #63d1bb;
   }
 
-  &:focus path {
+  &:focus .social-contacts__icon-button {
     fill: rgba(99, 209, 187, 0.3);
   }
+}
+
+.social-contacts__icon-button {
+  fill: #231f20;
 }
 
 .social-contacts__button--insta {
