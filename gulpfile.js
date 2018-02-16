@@ -16,7 +16,6 @@ var include = require("posthtml-include");
 var svgstore = require("gulp-svgstore");
 var htmlmin = require("gulp-htmlmin");
 var uglify = require("gulp-uglify");
-var pump = require("pump");
 var server = require("browser-sync").create();
 
 gulp.task("copy", function()  {
@@ -87,14 +86,10 @@ gulp.task("minifyhtml", function()  {
     .pipe(gulp.dest("build"));
 });
 
-gulp.task("compress", function(cb)  {
-  pump([
-        gulp.src("source/js/*.js"),
-        uglify(),
-        gulp.dest("build/js")
-    ],
-    cb
-  );
+gulp.task("compress", function()  {
+  return gulp.src("source/js/*.js")
+    .pipe(uglify())
+    .pipe(gulp.dest("build/js"));
 });
 
 gulp.task("serve", function() {
