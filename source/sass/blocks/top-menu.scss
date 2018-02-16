@@ -42,18 +42,19 @@
 .top-menu__link-search {
   padding-left: 32px;
 
-  &:hover path {
+  &:hover .top-menu__link-icon-search {
     fill: #63d1bb;
   }
 
-  &:active path {
+  &:active .top-menu__link-icon-search {
     fill: rgba(99, 209, 187, 0.3);
   }
 }
 
-.top-menu__item--search svg {
+.top-menu__item--search .top-menu__link-icon-search {
   margin-right: 21px;
   margin-bottom: -5px;
+  fill: #d3d2d2;
 }
 
 .top-menu__item--basket {
@@ -64,16 +65,16 @@
 .top-menu__link-basket {
   padding-left: 45px;
 
-  &:hover path {
+  &:hover .top-menu__link-icon-basket {
     fill: #63d1bb;
   }
 
-  &:active path {
+  &:active .top-menu__link-icon-basket {
     fill: rgba(99, 209, 187, 0.3);
   }
 }
 
-.top-menu__item--basket svg {
+.top-menu__item--basket .top-menu__link-icon-basket {
   margin-right: 21px;
   margin-bottom: -5px;
 }
@@ -159,6 +160,7 @@
     font-size: 15px;
     font-weight: normal;
     color: #444444;
+    text-align: right;
     box-sizing: border-box;
     order: 6;
     z-index: 2;
@@ -227,7 +229,6 @@
     padding: 19px 0 21px 15px;
     flex-basis: 350px;
     font-size: 15px;
-    text-align: end;
     order: 8;
   }
 }
