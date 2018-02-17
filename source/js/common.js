@@ -23,15 +23,17 @@ if (buttonOrder) {
   });
 
   overlay.addEventListener("click", function (evt) {
-    evt.preventDefault();
-    modalMessage.classList.remove("modal-order-show");
-    overlay.classList.remove("modal-order-show");
+    if (evt.target === overlay) {
+      evt.preventDefault();
+      modalMessage.classList.remove("modal-order-show");
+      overlay.classList.remove("modal-order-show");
+    }
   });
 
   window.addEventListener("keydown", function (evt) {
     if (evt.keyCode === 27) {
       if (modalMessage.classList.contains("modal-order-show")) {
-        modalMap.classList.remove("modal-order-show");
+        modalMessage.classList.remove("modal-order-show");
         overlay.classList.remove("modal-order-show");
       }
     }
@@ -39,7 +41,7 @@ if (buttonOrder) {
 }
 
 var buttonsBuy = document.querySelectorAll(".button-buy");
-if (buttonsBuy) {
+if (buttonsBuy.length>0) {
   var modalMessage = document.querySelector(".modal-order");
   var overlay = document.querySelector(".modal-overlay");
   buttonsBuy.forEach(function(button) {
@@ -51,9 +53,11 @@ if (buttonsBuy) {
   });
 
   overlay.addEventListener("click", function (evt) {
-    evt.preventDefault();
-    modalMessage.classList.remove("modal-order-show");
-    overlay.classList.remove("modal-order-show");
+    if (evt.target === overlay) {
+      evt.preventDefault();
+      modalMessage.classList.remove("modal-order-show");
+      overlay.classList.remove("modal-order-show");
+    }
   });
 
   window.addEventListener("keydown", function (evt) {
