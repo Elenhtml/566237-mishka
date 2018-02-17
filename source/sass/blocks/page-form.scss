@@ -1,12 +1,12 @@
 .page-form {
   /*width: 320px;*/
-  max-width: 767px;/**/
-  width: 100%;/**/
+  max-width: 767px;/*new*/
+  width: 100%;/*new*/
   /*padding: 0 30px;*/
   box-sizing: border-box;
 }
 
-.page-form__title-wrapper {/**/
+.page-form__title-wrapper {/*new*/
   width: 100%;
   background-color: #f1f1f1;
 }
@@ -31,7 +31,7 @@
   .page-form__title-wrapper {
     position: relative;
     margin-bottom: 77px;
-   /* width: 100%;
+    /* width: 100%;
     background-color: #f1f1f1;*/
 
     &::after {

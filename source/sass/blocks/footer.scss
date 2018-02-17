@@ -7,7 +7,7 @@
 }
 
 .footer__wrapper {
-  margin: 0 auto; /**/
+  margin: 0 auto; /*new*/
   padding: 27px 30px 11px 30px;
   width: 320px;
   box-sizing: border-box;
@@ -112,7 +112,7 @@
 }
 
 @media (min-width: $desktop-width) {
-  .footer {/**/
+  .footer {/*new*/
     max-width: 1350px;
   }
 
