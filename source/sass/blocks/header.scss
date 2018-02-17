@@ -1,8 +1,16 @@
 .header {
   margin: 0;
   padding: 0;
-  width: 320px;
+  /*width: 320px;*/
+  max-width: 767px;/**/
+  width: 100%;/**/
+  border-bottom: 1px solid #ececec;
   box-sizing: border-box;
+}
+
+.header__top-wrapper {/**/
+  margin: 0 auto;
+  width: 320px;
 }
 
 .header__button {
@@ -12,12 +20,13 @@
 
 @media (min-width: $tablet-width) {
   .header {
-    /* margin-bottom: -65px;*/
-    width: 100%;
+    /*width: 100%;*/
+    max-width: 1149px;/**/
+    border: none;
   }
 
   .header__top-wrapper {
-    margin: 0 auto;
+    margin: 0 auto;/**/
     padding: 0 50px;
     width: 768px;
     box-sizing: border-box;
@@ -31,9 +40,9 @@
 }
 
 @media (min-width: $desktop-width) {
-  /*.header {
-    margin-bottom: -69px;
-  }*/
+  .header {
+    max-width: 1350px;
+  }
 
   .header__top-wrapper {
     width: 1150px;

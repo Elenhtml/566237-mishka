@@ -1,3 +1,8 @@
+.goods {/**/
+  margin: 0 auto;
+  width: 260px;
+}
+
 .goods__list {
   @include lists;
   margin-bottom: 30px;
@@ -91,6 +96,7 @@
 @media (min-width: $tablet-width) {
   .goods {
     padding-top: 25px;
+    width: 668px;
   }
 
   .goods__list {
@@ -168,6 +174,10 @@
 }
 
 @media (min-width: $desktop-width) {
+  .goods {
+    width: 1050px;
+  }
+
   .goods__list {
     display: flex;
     flex-wrap: wrap;
