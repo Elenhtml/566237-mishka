@@ -1,12 +1,19 @@
 .page-form {
-  width: 320px;
-  padding: 0 30px;
+  /*width: 320px;*/
+  max-width: 767px;/*new*/
+  width: 100%;/*new*/
+  /*padding: 0 30px;*/
   box-sizing: border-box;
 }
 
+.page-form__title-wrapper {/*new*/
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
 .page-form__main-title {
-  margin: 0;
-  margin-left: -30px;
+  margin: 0 auto;
+  /*margin-left: -30px;*/
   padding: 72px 38px 75px 30px;
   width: 320px;
   text-align: center;
@@ -17,14 +24,15 @@
 @media (min-width: $tablet-width) {
   .page-form {
     padding: 0;
-    width: 100%;
+    max-width: 1149px;
+    /*width: 100%;*/
   }
 
   .page-form__title-wrapper {
     position: relative;
     margin-bottom: 77px;
-    width: 100%;
-    background-color: #f1f1f1;
+    /* width: 100%;
+    background-color: #f1f1f1;*/
 
     &::after {
       content: "";
@@ -65,6 +73,10 @@
 }
 
 @media (min-width: $desktop-width) {
+  .page-form {
+    max-width: 1350px;
+  }
+
   .page-form__title-wrapper {
     margin-bottom: 124px;
 
