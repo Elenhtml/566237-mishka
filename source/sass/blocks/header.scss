@@ -1,14 +1,13 @@
 .header {
   margin: 0;
   padding: 0;
-  /*width: 320px;*/
-  max-width: 767px;/*new*/
-  width: 100%;/*new*/
+  max-width: 767px;
+  width: 100%;
   border-bottom: 1px solid #ececec;
   box-sizing: border-box;
 }
 
-.header__top-wrapper {/*new*/
+.header__top-wrapper {
   margin: 0 auto;
   width: 320px;
 }
@@ -20,13 +19,11 @@
 
 @media (min-width: $tablet-width) {
   .header {
-    /*width: 100%;*/
-    max-width: 1149px;/*new*/
+    max-width: 1149px;
     border: none;
   }
 
   .header__top-wrapper {
-    margin: 0 auto;/*new*/
     padding: 0 50px;
     width: 768px;
     box-sizing: border-box;

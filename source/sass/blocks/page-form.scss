@@ -1,19 +1,16 @@
 .page-form {
-  /*width: 320px;*/
-  max-width: 767px;/*new*/
-  width: 100%;/*new*/
-  /*padding: 0 30px;*/
+  max-width: 767px;
+  width: 100%;
   box-sizing: border-box;
 }
 
-.page-form__title-wrapper {/*new*/
+.page-form__title-wrapper {
   width: 100%;
   background-color: #f1f1f1;
 }
 
 .page-form__main-title {
   margin: 0 auto;
-  /*margin-left: -30px;*/
   padding: 72px 38px 75px 30px;
   width: 320px;
   text-align: center;
@@ -25,14 +22,11 @@
   .page-form {
     padding: 0;
     max-width: 1149px;
-    /*width: 100%;*/
   }
 
   .page-form__title-wrapper {
     position: relative;
     margin-bottom: 77px;
-    /* width: 100%;
-    background-color: #f1f1f1;*/
 
     &::after {
       content: "";

@@ -1,5 +1,4 @@
 .footer {
-  /*width: 320px;*/
   width: 100%;
   max-width: 767px;
   box-sizing: border-box;
@@ -7,7 +6,7 @@
 }
 
 .footer__wrapper {
-  margin: 0 auto; /*new*/
+  margin: 0 auto;
   padding: 27px 30px 11px 30px;
   width: 320px;
   box-sizing: border-box;
@@ -58,13 +57,11 @@
 
 @media (min-width: $tablet-width) {
   .footer {
-    /*width: 100%;*/
     max-width: 1149px;
   }
 
   .footer__wrapper {
     display: flex;
-    margin: 0 auto;
     padding: 50px 50px 56px 50px;
     width: 768px;
   }
@@ -112,7 +109,7 @@
 }
 
 @media (min-width: $desktop-width) {
-  .footer {/*new*/
+  .footer {
     max-width: 1350px;
   }
 
