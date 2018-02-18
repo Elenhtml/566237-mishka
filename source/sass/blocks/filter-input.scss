@@ -24,7 +24,7 @@
   margin-bottom: 0;
 }
 
-.filter-input--name + label {
+.filter-input--name /*+ /*label*/ {
   font-family: "Open Sans", "Arial", sans-serif;
   font-size: 17px;
   line-height: 18px;
@@ -61,7 +61,7 @@
     line-height: 22px;
   }
 
-  .filter-input--name + label {
+  .filter-input--name /*+ /*label*/ {
     font-size: 19px;
     line-height: 22px;
   }

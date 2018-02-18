@@ -110,7 +110,9 @@
 
 @media (min-width: $desktop-width) {
   .footer {
-    max-width: 1350px;
+    /*max-width: 1350px;*/
+    max-width: 100%;
+    width: 100%;
   }
 
   .footer__wrapper {

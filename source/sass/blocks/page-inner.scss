@@ -70,7 +70,9 @@
 
 @media (min-width: $desktop-width) {
   .page-inner {
-    max-width: 1350px;
+    /*max-width: 1350px;*/
+    max-width: 100%;
+    width: 100%;
   }
 
   .page-inner__title-wrapper {
@@ -88,7 +90,9 @@
   }
 
   .page-inner__wrapper {
-    max-width: 1350px;
+    /*max-width: 1350px;*/
+    max-width: 100%;
+    width: 100%;
   }
 
   .page-inner__main-title {
