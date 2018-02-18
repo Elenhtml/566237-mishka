@@ -68,7 +68,8 @@
 
   .footer__logo {
     display: block;
-    width: 260px;
+    margin-right: 157px;
+    width: 103px;/*260px;*/
     height: 34px;
 
     &[href]:hover .footer__icon-logo {
@@ -104,13 +105,12 @@
   }
 
   .footer__email svg {
-    margin-left: 2px;/*0;*/
+    margin-left: 2px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .footer {
-    /*max-width: 1350px;*/
     max-width: 100%;
     width: 100%;
   }
@@ -121,8 +121,8 @@
   }
 
   .footer__logo {
-    width: 450px;
-    height: 34px;
+    margin-right: 347px;
+    width: 103px;/*450px;*/
   }
 
   .footer__social-contacts {
