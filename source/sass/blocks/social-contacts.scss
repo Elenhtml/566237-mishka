@@ -2,6 +2,10 @@
   display: flex;
 }
 
+.social-contacts__icon-button {
+  fill: #231f20;
+}
+
 .social-contacts__button {
   display: block;
   margin: 0;
@@ -14,10 +18,6 @@
   &:focus .social-contacts__icon-button {
     fill: rgba(99, 209, 187, 0.3);
   }
-}
-
-.social-contacts__icon-button {
-  fill: #231f20;
 }
 
 .social-contacts__button--insta {
