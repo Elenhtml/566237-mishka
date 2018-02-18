@@ -12,13 +12,19 @@
   z-index: 20;
 }
 
-.modal-order-show {
+.modal-order--show {
   display: block;
 }
 
 .modal-order__modal-title {
   margin: 0;
   padding: 0 55px 0 58px;
+  width: 148px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
   text-align: center;
 }
 
@@ -68,7 +74,19 @@
 }
 
 .modal-order__button-order {
+  display: block;
   padding: 18px 10px 18px 10px;
+  width: 260px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #63d1bb;
+  border: none;
+  box-sizing: border-box;
 }
 
 @media (min-width: $tablet-width) {
@@ -83,6 +101,9 @@
 
   .modal-order__modal-title {
     padding: 0;
+    min-width: 360px;
+    font-size: 30px;
+    line-height: 57px;
   }
 
   .modal-order__choose-size {
@@ -95,5 +116,9 @@
   .modal-order__size {
     padding: 16px 46px 17px 45px;
     width: 112px;
+  }
+
+  .modal-order__button-order {
+    width: 350px;
   }
 }
