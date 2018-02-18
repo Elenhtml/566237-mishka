@@ -18,18 +18,22 @@
 
 .filter-input--name {
   margin-bottom: 15px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: bold;
 }
 
 .filter-input--name:last-child {
   margin-bottom: 0;
 }
 
-.filter-input--name /*+ /*label*/ {
-  font-family: "Open Sans", "Arial", sans-serif;
+/*.filter-input--name /*+ /*label {
+  /*font-family: "Open Sans", "Arial", sans-serif;
   font-size: 17px;
   line-height: 18px;
   font-weight: bold;
-}
+}*/
 
 .filter-input--phone {
   padding: 18px 29px 17px 0;
@@ -67,7 +71,12 @@
   }
 
   .filter-input--first-name {
+    margin-bottom: 18px;
     width: 427px;
+  }
+
+  .filter-input--first-surname {
+    margin-bottom: 20px;
   }
 
   .filter-input--phone {
