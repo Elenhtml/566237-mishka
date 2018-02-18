@@ -82,7 +82,7 @@ gulp.task("sprite", function() {
 });
 
 gulp.task("js", function()  {
-  return gulp.src("source/js/*.js")
+  return gulp.src("source/js/common.js")
     .pipe(uglify())
     .pipe(rename("common.min.js"))
     .pipe(gulp.dest("build/js"));

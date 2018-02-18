@@ -6,6 +6,10 @@
   border-top: 1px solid #63d1bb;
 }
 
+.form__filter--colors {
+  padding-bottom: 37px;
+}
+
 .form__filter--fullname {
   padding-bottom: 29px;
 }
@@ -69,6 +73,7 @@
   margin-top: 25px;
   padding: 18px 19px;
   width: 256px;
+  font-family: inherit;
   font-size: 17px;
   line-height: 18px;
   font-weight: bold;
@@ -106,7 +111,7 @@
   }
 
   .form__filter--fullname {
-    padding-bottom: 60px;
+    padding-bottom: 54px;
   }
 
   .form__filter--telephone {
@@ -164,7 +169,7 @@
   }
 
   .form__text {
-    margin-top: 14px;
+    margin-top: 10px;
     font-size: 17px;
     line-height: 30px;
   }

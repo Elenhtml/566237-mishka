@@ -18,6 +18,7 @@
 
 .goods__video-wrapper {
   position: relative;
+  margin-top: 95px;
   width: 258px;
 
   &::before {
@@ -51,10 +52,15 @@
 
 .goods__title {
   margin: 0;
-  margin-bottom: 25px;
+  margin-top: -243px;
+  margin-bottom: 200px;
   padding-top: 22px;
   padding-left: 90px;
   width: 131px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: bold;
 }
 
 .goods__title--view {
@@ -62,7 +68,6 @@
 }
 
 .goods__wrapper {
-  padding-top: 20px;
   padding-bottom: 31px;
 
   &:hover {
@@ -111,6 +116,7 @@
   }
 
   .goods__video-wrapper {
+    margin-top: 0;
     width: 668px;
 
     &::before {
@@ -142,20 +148,14 @@
     padding-bottom: 0;
   }
 
-  .goods__title--noview {
-    display: none;
-  }
-
-  .goods__title--view {
-    display: block;
-  }
-
   .goods__title {
     margin-top: 37px;
     margin-bottom: 0;
     padding-top: 0;
     padding-left: 106px;
     width: 353px;
+    font-size: 20px;
+    line-height: 24px;
   }
 
   .goods__video-description {
@@ -188,6 +188,8 @@
     margin-top: 98px;
     padding-left: 78px;
     width: 182px;
+    font-size: 20px;
+    line-height: 24px;
   }
 
   .goods__video {

@@ -18,23 +18,23 @@ if (buttonOrder) {
   var overlay = document.querySelector(".modal-overlay");
   buttonOrder.addEventListener("click", function (evt) {
     evt.preventDefault();
-    overlay.classList.add("modal-order-show");
-    modalMessage.classList.add("modal-order-show");
+    overlay.classList.add("modal-order--show");
+    modalMessage.classList.add("modal-order--show");
   });
 
   overlay.addEventListener("click", function (evt) {
     if (evt.target === overlay) {
       evt.preventDefault();
-      modalMessage.classList.remove("modal-order-show");
-      overlay.classList.remove("modal-order-show");
+      modalMessage.classList.remove("modal-order--show");
+      overlay.classList.remove("modal-order--show");
     }
   });
 
   window.addEventListener("keydown", function (evt) {
     if (evt.keyCode === 27) {
-      if (modalMessage.classList.contains("modal-order-show")) {
-        modalMessage.classList.remove("modal-order-show");
-        overlay.classList.remove("modal-order-show");
+      if (modalMessage.classList.contains("modal-order--show")) {
+        modalMessage.classList.remove("modal-order--show");
+        overlay.classList.remove("modal-order--show");
       }
     }
   });
@@ -47,24 +47,24 @@ if (buttonsBuy.length>0) {
   buttonsBuy.forEach(function(button) {
     button.addEventListener("click", function (evt) {
       evt.preventDefault();
-      modalMessage.classList.add("modal-order-show");
-      overlay.classList.add("modal-order-show");
+      modalMessage.classList.add("modal-order--show");
+      overlay.classList.add("modal-order--show");
     });
   });
 
   overlay.addEventListener("click", function (evt) {
     if (evt.target === overlay) {
       evt.preventDefault();
-      modalMessage.classList.remove("modal-order-show");
-      overlay.classList.remove("modal-order-show");
+      modalMessage.classList.remove("modal-order--show");
+      overlay.classList.remove("modal-order--show");
     }
   });
 
   window.addEventListener("keydown", function (evt) {
     if (evt.keyCode === 27) {
-      if (modalMessage.classList.contains("modal-order-show")) {
-        modalMessage.classList.remove("modal-order-show");
-        overlay.classList.remove("modal-order-show");
+      if (modalMessage.classList.contains("modal-order--show")) {
+        modalMessage.classList.remove("modal-order--show");
+        overlay.classList.remove("modal-order--show");
       }
     }
   });

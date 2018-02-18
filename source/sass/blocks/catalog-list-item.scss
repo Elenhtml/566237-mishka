@@ -24,7 +24,7 @@
 }
 
 .catalog-list-item__link--block-image {
-  margin-bottom: 16px;
+  margin-bottom: 25px;
 }
 
 .catalog-list-item__link-title {
@@ -33,8 +33,10 @@
   padding: 0;
   padding-left: 28px;
   width: 212px;
-  font-size: 18px;
-  line-height: 30px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: bold;
 
   &:hover {
     color: rgba(0, 0, 0, 0.6);
@@ -48,9 +50,9 @@
 .catalog-list-item__description {
   margin: 0;
   margin-left: 28px;
-  margin-bottom: 22px;
+  margin-bottom: 20px;
   padding: 0;
-  padding-bottom: 16px;
+  padding-bottom: 20px;
   width: 205px;
   font-size: 13px;
   line-height: 30px;
@@ -60,7 +62,7 @@
 .catalog-list-item__price {
   margin: 0;
   padding: 0;
-  padding-bottom: 26px;
+  padding-bottom: 28px;
   padding-left: 28px;
   font-family: "Open Sans", "Arial", sans-serif;
   font-weight: bold;
@@ -126,7 +128,7 @@
     margin-right: 48px;
   }
 
-  .catalog-list-item:nth-child(3) {
+  .catalog-list-item:nth-child(3n) {
     margin-right: 0;
   }
 

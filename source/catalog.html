@@ -10,7 +10,9 @@
     <header class="header">
       <div class="header__top-wrapper">
         <nav class="main-nav main-nav--closed main-nav--nojs">
-          <button class="button-menu header__button" type="button"><span class="visually-hidden">Показать/Скрыть меню</span></button>
+          <button class="button-menu header__button" type="button">
+            <span class="visually-hidden">Показать/Скрыть меню</span>
+          </button>
           <ul class="top-menu header__top-menu">
             <li class="top-menu__item top-menu__item--active top-menu__item--logo">
               <a class="logo" href="index.html">
@@ -21,11 +23,15 @@
                 </picture>
               </a>
             </li>
-            <li class="top-menu__item top-menu__item--catalog"><a>Каталог товаров</a></li>
-            <li class="top-menu__item top-menu__item--knitting-order"><a href="form.html">Вязание на заказ</a></li>
+            <li class="top-menu__item top-menu__item--catalog">
+              <a>Каталог товаров</a>
+            </li>
+            <li class="top-menu__item top-menu__item--knitting-order">
+              <a href="form.html">Вязание на заказ</a>
+            </li>
             <li class="top-menu__item top-menu__item--search">
               <a class="top-menu__link-search" href="#">
-                <svg class="top-menu__link-icon-search" xmlns="http://www.w3.org/2000/svg" width="17.6" height="17.6" viewBox="-0.8 -0.8 17.6 17.6">
+                <svg class="top-menu__link-icon-search" width="17.6" height="17.6" viewBox="-0.8 -0.8 17.6 17.6">
                   <use xlink:href="img/sprite.svg#icon-search-mobile"></use>
                 </svg>
                 <span class="top-menu__search-noview">Поиск по сайту</span>
@@ -33,26 +39,30 @@
             </li>
             <li class="top-menu__item top-menu__item--basket">
               <a class="top-menu__link-basket" href="#">
-                <svg class="top-menu__link-icon-basket" xmlns="http://www.w3.org/2000/svg" width="20.294" height="18.849" viewBox="264.205 370.961 20.294 18.849">
+                <svg class="top-menu__link-icon-basket" width="20.294" height="18.849" viewBox="264.205 370.961 20.294 18.849">
                   <use xlink:href="img/sprite.svg#icon-cart-mobile"></use>
                 </svg>
                 Корзина: пока пуста
               </a>
             </li>
-            <li class="top-menu__item top-menu__item--new"><a href="#">Новые поступления</a></li>
-            <li class="top-menu__item top-menu__item--sale"><a href="#">Распродажа</a></li>
+            <li class="top-menu__item top-menu__item--new">
+              <a href="#">Новые поступления</a>
+            </li>
+            <li class="top-menu__item top-menu__item--sale">
+              <a href="#">Распродажа</a>
+            </li>
             <li class="top-menu__item top-menu__item--delivery">Бесплатная доставка по России</li>
           </ul>
         </nav>
       </div>
     </header>
-    <main class="page-catalog">
-      <div class="page-catalog__title-wrapper">
-        <div class="page-catalog__wrapper">
-          <h2 class="main-title page-catalog__main-title">Каталог товаров</h2>
+    <main class="page-inner page-inner--catalog">
+      <div class="page-inner__title-wrapper">
+        <div class="page-inner__wrapper">
+          <h2 class="main-title page-inner__main-title">Каталог товаров</h2>
         </div>
       </div>
-      <div class="page-catalog__wrapper">
+      <div class="page-inner__wrapper">
         <section class="goods">
           <ul class="goods__list">
             <li class="catalog-list-item">
@@ -68,13 +78,13 @@
               </a>
               <div class="catalog-list-item__wrapper">
                 <a class="catalog-list-item__link" href="card-category.html">
-                  <h3 class="catalog-title catalog-list-item__link-title">Зайчик-попрыгайчик</h3>
+                  <h3 class="catalog-list-item__link-title">Зайчик-попрыгайчик</h3>
                 </a>
                 <p class="catalog-list-item__description">Рост 30 см, вес 200 г</p>
                 <p class="catalog-list-item__price">1 200 руб.</p>
                 <button class="catalog-list-item__button button-buy" type="button">
                   <span class="visually-hidden">Добавить в корзину</span>
-                  <svg class="button-buy__icon-basket" xmlns="http://www.w3.org/2000/svg" width="20.294" height="18.849" viewBox="264.205 370.961 20.294 18.849">
+                  <svg class="button-buy__icon-basket" width="20.294" height="18.849" viewBox="264.205 370.961 20.294 18.849">
                     <use xlink:href="img/sprite.svg#icon-cart-mobile"></use>
                   </svg>
                 </button>
@@ -93,13 +103,13 @@
               </a>
               <div class="catalog-list-item__wrapper">
                 <a class="catalog-list-item__link" href="card-category.html">
-                  <h3 class="catalog-title catalog-list-item__link-title">Корзинка для белья</h3>
+                  <h3 class="catalog-list-item__link-title">Корзинка для белья</h3>
                 </a>
                 <p class="catalog-list-item__description">Диаметр 15 см, высота 10 см</p>
                 <p class="catalog-list-item__price">690 руб.</p>
                 <button class="catalog-list-item__button button-buy" type="button">
                   <span class="visually-hidden">Добавить в корзину</span>
-                  <svg class="button-buy__icon-basket" xmlns="http://www.w3.org/2000/svg" width="20.294" height="18.849" viewBox="264.205 370.961 20.294 18.849">
+                  <svg class="button-buy__icon-basket" width="20.294" height="18.849" viewBox="264.205 370.961 20.294 18.849">
                     <use xlink:href="img/sprite.svg#icon-cart-mobile"></use>
                   </svg>
                 </button>
@@ -118,13 +128,13 @@
               </a>
               <div class="catalog-list-item__wrapper">
                 <a class="catalog-list-item__link" href="card-category.html">
-                  <h3 class="catalog-title catalog-list-item__link-title">Большая корзинка для игрушек</h3>
+                  <h3 class="catalog-list-item__link-title">Большая корзинка для игрушек</h3>
                 </a>
                 <p class="catalog-list-item__description catalog-list-item__description--toys">Диаметр 30 см, высота 30 см</p>
                 <p class="catalog-list-item__price">1 500 руб.</p>
                 <button class="catalog-list-item__button button-buy" type="button">
                   <span class="visually-hidden">Добавить в корзину</span>
-                  <svg class="button-buy__icon-basket" xmlns="http://www.w3.org/2000/svg" width="20.294" height="18.849" viewBox="264.205 370.961 20.294 18.849">
+                  <svg class="button-buy__icon-basket" width="20.294" height="18.849" viewBox="264.205 370.961 20.294 18.849">
                     <use xlink:href="img/sprite.svg#icon-cart-mobile"></use>
                   </svg>
                 </button>
@@ -132,12 +142,7 @@
             </li>
           </ul>
           <div class="goods__video">
-            <h3 class="title title--video goods__title goods__title--noview">Процесс производства</h3>
             <div class="goods__video-wrapper">
-              <video class="show" width="258" height="100" poster="#">
-                <source src="video.mp4" type="video/mp4">
-                <source src="video.webm" type="video/webm">
-              </video>
               <picture>
                 <source type="image/webp" media="(min-width: 1150px)" srcset="img/catalog/video-desktop@1x.webp 1x, img/catalog/video-desktop@2x.webp 2x">
                 <source type="image/webp" media="(min-width: 768px)" srcset="img/catalog/video-tablet@1x.webp 1x, img/catalog/video-tablet@2x.webp 2x">
@@ -148,7 +153,7 @@
               </picture>
             </div>
             <div class="goods__wrapper">
-              <h3 class="title title--video goods__title goods__title--view">Процесс производства</h3>
+              <h3 class="goods__title">Процесс производства</h3>
               <p class="goods__video-description">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
               <button class="button-order goods__button-order" type="button">Сделать заказ</button>
             </div>
@@ -162,9 +167,9 @@
           <ul class="modal-order__sizes">
             <li class="modal-order__size modal-order__size--active">S</li>
             <li class="modal-order__size">M</li>
-            <li class="modal-order__size modal-order__size--L">L</li>
+            <li class="modal-order__size">L</li>
           </ul>
-          <button class="modal-button-order modal-order__button-order"   type="button">Добавить</button>
+          <button class="modal-order__button-order" type="button">Добавить</button>
         </div>
       </div>
     </main>
@@ -172,7 +177,7 @@
       <div class="footer__wrapper">
         <a class="footer__logo" href="index.html">
           <span class="visually-hidden">Логотип магазина "Мишка"</span>
-          <svg class="footer__icon-logo" xmlns="http://www.w3.org/2000/svg" width="101.615" height="34.056">
+          <svg class="footer__icon-logo" width="101.615" height="34.056">
             <use xlink:href="img/sprite.svg#logo-footer"></use>
           </svg>
         </a>
@@ -180,7 +185,7 @@
           <li class="social-contacts__point">
             <a class="social-contacts__button social-contacts__button--insta" href="#">
               <span class="visually-hidden">Инстаграм</span>
-              <svg class="social-contacts__icon-button" xmlns="http://www.w3.org/2000/svg" width="21.769" height="21.334" viewBox="53.115 53.19 21.769 21.334">
+              <svg class="social-contacts__icon-button" width="21.769" height="21.334" viewBox="53.115 53.19 21.769 21.334">
                 <use xlink:href="img/sprite.svg#icon-insta"></use>
               </svg>
             </a>
@@ -188,7 +193,7 @@
           <li class="social-contacts__point">
             <a class="social-contacts__button social-contacts__button--fb" href="#">
               <span class="visually-hidden">Фейсбук</span>
-              <svg class="social-contacts__icon-button" xmlns="http://www.w3.org/2000/svg" width="14.962" height="27.718" viewBox="56.519 49.996 14.962 27.718">
+              <svg class="social-contacts__icon-button" width="14.962" height="27.718" viewBox="56.519 49.996 14.962 27.718">
                 <use xlink:href="img/sprite.svg#icon-fb"></use>
               </svg>
             </a>
@@ -196,7 +201,7 @@
           <li class="social-contacts__point">
             <a class="social-contacts__button social-contacts__button--tw" href="#">
               <span class="visually-hidden">Твиттер</span>
-              <svg class="social-contacts__icon-button" xmlns="http://www.w3.org/2000/svg" width="23.494" height="20.168" viewBox="52.253 53.771 23.494 20.168">
+              <svg class="social-contacts__icon-button" width="23.494" height="20.168" viewBox="52.253 53.771 23.494 20.168">
                 <use xlink:href="img/sprite.svg#icon-twitter"></use>
               </svg>
             </a>
@@ -211,9 +216,9 @@
         </div>
       </div>
     </footer>
-    <script src="./js/common.js"></script>
     <script src="./js/picturefill.min.js"></script>
     <script src="./js/svg4everybody.min.js"></script>
     <script>svg4everybody();</script>
+    <script src="./js/common.min.js"></script>
   </body>
 </html>

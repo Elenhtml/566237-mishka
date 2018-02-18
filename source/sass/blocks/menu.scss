@@ -2,13 +2,13 @@
   background-color: #f9f9f9;
   background-image: url("../img/index/hero-mobile@1x.jpg");
   background-repeat: no-repeat;
-  background-position: center 0;
+  background-position: center -15px/*0*/;
 }
 
 .menu__main-title {
   margin: 0;
   margin-bottom: 124px;
-  padding-top: 88px;
+  padding-top: 70px;/*88px;*/
   text-align: center;
 }
 
@@ -20,8 +20,8 @@
   .menu {
     position: relative;
     width: 100%;
-    background-color: #f9f9f9;
     background-image: url("../img/index/hero-tablet@1x.jpg");
+    background-position: center 0;
     background-size: cover;
     border-top: 1px solid #e7e7e7;
 
