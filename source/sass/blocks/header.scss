@@ -10,6 +10,7 @@
 .header__top-wrapper {
   margin: 0 auto;
   width: 320px;
+  box-sizing: border-box;
 }
 
 .header__button {
@@ -26,6 +27,7 @@
   .header__top-wrapper {
     padding: 0 50px;
     width: 768px;
+    box-sizing: border-box;
   }
 
   .header__top-menu {
@@ -37,7 +39,7 @@
 
 @media (min-width: $desktop-width) {
   .header {
-    /*max-width: 1350px;*/
+    max-width: 100%;
     width: 100%;
   }
 
