@@ -33,8 +33,10 @@
   padding: 0;
   padding-left: 28px;
   width: 212px;
-  font-size: 18px;
-  line-height: 30px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: bold;
 
   &:hover {
     color: rgba(0, 0, 0, 0.6);
