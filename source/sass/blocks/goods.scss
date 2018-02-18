@@ -18,6 +18,7 @@
 
 .goods__video-wrapper {
   position: relative;
+  margin-top: 95px;
   width: 258px;
 
   &::before {
@@ -51,7 +52,8 @@
 
 .goods__title {
   margin: 0;
-  margin-bottom: 25px;
+  margin-top: -248px;
+  margin-bottom: 233px;
   padding-top: 22px;
   padding-left: 90px;
   width: 131px;
@@ -66,7 +68,6 @@
 }
 
 .goods__wrapper {
-  padding-top: 20px;
   padding-bottom: 31px;
 
   &:hover {
@@ -115,6 +116,7 @@
   }
 
   .goods__video-wrapper {
+    margin-top: 0;
     width: 668px;
 
     &::before {
@@ -144,14 +146,6 @@
   .goods__wrapper {
     padding-top: 0;
     padding-bottom: 0;
-  }
-
-  .goods__title--noview {
-    display: none;
-  }
-
-  .goods__title--view {
-    display: block;
   }
 
   .goods__title {
